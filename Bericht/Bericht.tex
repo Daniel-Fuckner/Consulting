@@ -1,0 +1,33 @@
+\input{Bericht_Praeambel.tex} % Importiere die Einstellungen aus der Präambel
+
+% hier beginnt der eigentliche Inhalt
+\begin{document}
+
+% Deckblatt
+\input{deckblatt.tex}
+
+%\thispagestyle{plain}
+\pagenumbering{roman} %römische Seitennummerierung
+
+%Abstract
+\begin{abstract}
+	\noindent
+	\paragraph{Abstract:}
+	\paragraph{Background:} In patients with
+\end{abstract}
+
+%Inhaltsverzeichnis
+\newpage
+\tableofcontents
+
+\newpage
+\pagenumbering{arabic} %ab hier wieder normale Seitennummerierung
+
+% Hier beginnt der eigentliche Text
+\input{1_einleitung.tex} % Importiere die Einleitung
+
+%Literaturverzeichnis
+\newpage
+\printbibliography 
+
+\end{document}

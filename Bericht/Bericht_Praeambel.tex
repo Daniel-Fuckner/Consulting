@@ -1,0 +1,28 @@
+\documentclass[12pt,a4paper]{scrartcl} 
+
+%Deutsch:
+	\usepackage[ngerman]{babel} %Deutsches Datumformat, Umlaute m\"oglich,...
+	\usepackage[latin9]{inputenc} %Umlaute direkt eingebbar
+	
+%Quellenverzeichnis:
+	\usepackage[autocite=footnote,uniquename=full,uniquelist=true,backend=bibtex8]{biblatex}
+	\usepackage{csquotes} %Hilfspaket für Biblatex
+	\bibliography{bib_database.bib} %Datei mit bibliographischen Daten
+
+%Mathematik:
+	\usepackage{dsfont} %Symbole
+	\usepackage{amsmath} %Umgebung
+	\usepackage{amssymb} %Symbole
+	\usepackage{bbm} %doppelstreifen bei buchstaben (zb symbol für ganze zahlen \mathbbm{Z})
+	
+%Grafiken:
+	\usepackage{graphics}
+	\usepackage{graphicx}
+	\usepackage{picinpar} %bilder so einfügen, dass text um bilder weiterläuft
+	\usepackage{float} %\begin{figure}[H] => Grafik wird HIER eingefügt!
+
+%Quellcode:
+	%\usepackage[numbered,framed]{mcode} %Quellcode darstellen
+	
+%Englisch:
+	%\usepackage[ngerman,english]{babel} %automatisch erzeugte Überschriften etc. auf englisch
