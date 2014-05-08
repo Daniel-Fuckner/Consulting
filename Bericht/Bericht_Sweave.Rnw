@@ -1,0 +1,66 @@
+\input{Bericht_Praeambel.tex} % Importiere die Einstellungen aus der Pr?ambel
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% hier kommen die packages für Latex hin, falls sie nicht schon wo anders geladen werden
+% \usepackage{amssymb}
+% \usepackage{graphicx}
+% \usepackage[utf8]{inputenc}
+% \usepackage[ngerman]{babel}
+% \usepackage{tikz}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Hier können die Pakete, die benötigten Daten und Graphen für R geladen bzw erstellt werden.
+% echo=FALSE gibt keinen R Output wieder
+<<echo=FALSE>>=
+library(ggplot2) 
+ data(rock)
+  plot1 = qplot(x=area, y=log(perm), data=rock) + theme_bw() + geom_smooth(col="red")
+  # print(plot1)
+@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% hier beginnt der eigentliche Inhalt
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+% Deckblatt
+\input{deckblatt.tex}
+
+%\thispagestyle{plain}
+\pagenumbering{roman} %r?mische Seitennummerierung
+
+%Abstract
+\begin{abstract}
+  \noindent
+	\paragraph{Abstract:}
+	\paragraph{Background:} In patients with
+\end{abstract}
+
+%Inhaltsverzeichnis
+\newpage
+\tableofcontents
+
+\newpage
+\pagenumbering{arabic} %ab hier wieder normale Seitennummerierung
+
+% Hier beginnt der eigentliche Text
+\input{1_einleitung.tex} % Importiere die Einleitung
+
+Ab hier kann man dann wieder normal schreiben.Sweave test mit chunk1\\
+
+
+<<echo=FALSE, fig=TRUE>>=
+plot1
+@
+
+
+
+%Literaturverzeichnis
+\newpage
+\printbibliography 
+
+\end{document}
