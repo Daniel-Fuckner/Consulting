@@ -13,6 +13,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Hier können die Pakete, die benötigten Daten und Graphen für R geladen bzw erstellt werden.
 % echo=FALSE gibt keinen R Output wieder
+% warum wird der folgende chunk nicht übernommen?
 <<echo=FALSE>>=
 library(ggplot2) 
  data(rock)

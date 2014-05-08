@@ -1,35 +1,34 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.4.9)  29 APR 2014 11:23
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  8 MAY 2014 17:33
 entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
 **Bericht.tex
-(C:\Users\Markus\Desktop\Bericht\Bericht.tex
+(./Bericht.tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, arabic, armenian, assamese, basque, bengali
-, bokmal, bulgarian, catalan, coptic, croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, galic
-ian, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, icelandic, indonesian, interlingua, irish, italian,
- kannada, kurmanji, latin, latvian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, ngerman
--x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, romanian, russian, sanskrit, serbian, slovak, sloven
-ian, spanish, swedish, swissgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usenglishmax, w
-elsh, loaded.
-(C:\Users\Markus\Desktop\Bericht\Bericht_Praeambel.tex
-(C:\Users\Markus\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrartcl.cls
+Babel <3.9f> and hyphenation patterns for 78 languages loaded.
+(./Bericht_Praeambel.tex
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2012/07/29 v3.11b KOMA-Script document class (article)
-(C:\Users\Markus\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrkbase.sty
-Package: scrkbase 2012/07/29 v3.11b KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
 
-(C:\Users\Markus\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrbase.sty
-Package: scrbase 2012/07/29 v3.11b KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2012/07/29 v3.11b KOMA-Script package (KOMA-Script-dependent 
+basics and keyval usage)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2012/07/29 v3.11b KOMA-Script package (KOMA-Script-independent
+ basics and keyval usage)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(C:\Users\Markus\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrlfile.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrlfile.sty
 Package: scrlfile 2012/06/15 v3.12 KOMA-Script package (loading files)
 
 Package scrlfile, 2012/06/15 v3.12 KOMA-Script package (loading files)
                   Copyright (C) Markus Kohm
 
-))) (C:\Users\Markus\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\tocbasic.sty
+))) (/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/tocbasic.sty
 Package: tocbasic 2012/04/04 v3.10b KOMA-Script package (handling toc-files)
 )
 Package tocbasic Info: omitting babel extension for `toc'
@@ -46,12 +45,14 @@ Package scrartcl Info: You've used obsolete option `12pt'.
 (scrartcl)             used instead.
 (scrartcl)             You may simply replace `12pt'
 (scrartcl)             by `fontsize=12pt'.
-Class scrartcl Info: File `scrsize12pt.clo' used to setup font sizes on input line 1267.
+Class scrartcl Info: File `scrsize12pt.clo' used to setup font sizes on input l
+ine 1267.
 
-(C:\Users\Markus\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrsize12pt.clo
-File: scrsize12pt.clo 2012/07/29 v3.11b KOMA-Script font size class option (12pt)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrsize12pt.clo
+File: scrsize12pt.clo 2012/07/29 v3.11b KOMA-Script font size class option (12p
+t)
 )
-(C:\Users\Markus\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\typearea.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/typearea.sty
 Package: typearea 2012/07/29 v3.11b KOMA-Script package (type area)
 
 Package typearea, 2012/07/29 v3.11b KOMA-Script package (type area)
@@ -99,60 +100,55 @@ Package typearea Info: These are the values describing the layout:
 \c@figure=\count86
 \c@table=\count87
 \bibindent=\dimen102
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2008/07/08 v3.8m The Babel package
+) (/usr/local/texlive/2013/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2013/05/16 v3.9f The Babel package
 
-*************************************
-* Local config file bblopts.cfg used
-*
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
-File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\ngermanb.ldf"
+(/usr/local/texlive/2013/texmf-dist/tex/generic/babel-german/ngermanb.ldf
 Language: ngermanb 2008/07/06 v2.6n new German support from the babel system
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2008/07/08 v3.8m Babel common definitions
+(/usr/local/texlive/2013/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2013/05/16 v3.9f Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
 )
 \l@naustrian = a dialect from \language\l@ngerman 
 Package babel Info: Making " an active character on input line 92.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latin9.def"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/latin9.def
 File: latin9.def 2008/03/30 v1.1d Input encoding file
 ))
-(C:\Users\Markus\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.sty
-Package: biblatex 2013/01/10 v2.5 programmable bibliographies (PK/JW/AB)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2013/05/01 v2.6 programmable bibliographies (PK/JW/AB)
 
-(C:\Users\Markus\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex1.sty
-Package: biblatex1 2013/01/10 v2.5 programmable bibliographies (bibtex) (PK/JW/AB)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/biblatex/biblatex1.sty
+Package: biblatex1 2013/05/01 v2.6 programmable bibliographies (bibtex) (PK/JW/
+AB)
 
-(C:\Users\Markus\AppData\Roaming\MiKTeX\2.9\tex\latex\etoolbox\etoolbox.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\misc\etex.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/etex-pkg/etex.sty
 Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
 \et@xins=\count89
 )
 \etb@tempcnta=\count90
 )
-(C:\Users\Markus\AppData\Roaming\MiKTeX\2.9\tex\latex\logreq\logreq.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count91
 
-(C:\Users\Markus\AppData\Roaming\MiKTeX\2.9\tex\latex\logreq\logreq.def
+(/usr/local/texlive/2013/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
@@ -274,13 +270,13 @@ Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
-(C:\Users\Markus\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\blx-compat.def
-File: blx-compat.def 2013/01/10 v2.5 biblatex compatibility (PK/JW/AB)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2013/05/01 v2.6 biblatex compatibility (PK/JW/AB)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 
-(C:\Users\Markus\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.def
+(/usr/local/texlive/2013/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 
 \c@biburlnumpenalty=\count196
 \c@biburlucpenalty=\count197
@@ -290,21 +286,21 @@ File: biblatex.def
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
-(C:\Users\Markus\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\bbx\numeric.bbx
-File: numeric.bbx 2013/01/10 v2.5 biblatex bibliography style (PK/JW/AB)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2013/05/01 v2.6 biblatex bibliography style (PK/JW/AB)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
-(C:\Users\Markus\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\bbx\standard.bbx
-File: standard.bbx 2013/01/10 v2.5 biblatex bibliography style (PK/JW/AB)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2013/05/01 v2.6 biblatex bibliography style (PK/JW/AB)
 \c@bbx:relatedcount=\count200
 \c@bbx:relatedtotal=\count201
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
 
-(C:\Users\Markus\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\cbx\numeric.cbx
-File: numeric.cbx 2013/01/10 v2.5 biblatex citation style (PK/JW/AB)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2013/05/01 v2.6 biblatex citation style (PK/JW/AB)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -319,10 +315,10 @@ Package biblatex Info: Redefining '\smartcites'.
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
-(C:\Users\Markus\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.cfg
+(/usr/local/texlive/2013/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 )))
-(C:\Users\Markus\AppData\Roaming\MiKTeX\2.9\tex\latex\csquotes\csquotes.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2011/10/22 v5.1d context-sensitive quotations
 \csq@reset=\count202
 \csq@gtype=\count203
@@ -332,36 +328,36 @@ Package: csquotes 2011/10/22 v5.1d context-sensitive quotations
 \csq@tshold=\count207
 \csq@ltx@everypar=\toks17
 
-(C:\Users\Markus\AppData\Roaming\MiKTeX\2.9\tex\latex\csquotes\csquotes.def
+(/usr/local/texlive/2013/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2011/10/22 v5.1d csquotes generic definitions
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
 
-(C:\Users\Markus\AppData\Roaming\MiKTeX\2.9\tex\latex\csquotes\csquotes.cfg
+(/usr/local/texlive/2013/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
 ))
-(C:\Users\Markus\AppData\Roaming\MiKTeX\2.9\tex\latex\dstroke\dsfont.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/doublestroke/dsfont.sty
 Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip56
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks18
 \ex@=\dimen104
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen105
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count208
@@ -402,51 +398,51 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(C:\Users\Markus\AppData\Roaming\MiKTeX\2.9\tex\latex\bbm\bbm.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/bbm-macros/bbm.sty
 Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
 LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
 (Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
 (Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count220
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
 )
-(C:\Users\Markus\AppData\Roaming\MiKTeX\2.9\tex\latex\picinpar\picinpar.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/picinpar/picinpar.sty
 Pictures in Paragraphs. Version 1.2a, July 13, 1993
 \br=\count221
 \bl=\count222
@@ -488,7 +484,7 @@ Pictures in Paragraphs. Version 1.2a, July 13, 1993
 \waslice=\box39
 \wbslice=\box40
 \fslice=\box41
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count231
 \float@exts=\toks28
@@ -499,20 +495,22 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 Package biblatex Info: Trying to load language 'ngerman'...
 Package biblatex Info: ... file 'ngerman.lbx' found.
 
-(C:\Users\Markus\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\lbx\ngerman.lbx
-File: ngerman.lbx 2013/01/10 v2.5 biblatex localization (PK/JW/AB)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
+File: ngerman.lbx 2013/05/01 v2.6 biblatex localization (PK/JW/AB)
 Package biblatex Info: Trying to load language 'german'...
 Package biblatex Info: ... file 'german.lbx' found.
 
-(C:\Users\Markus\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\lbx\german.lbx
-File: german.lbx 2013/01/10 v2.5 biblatex localization (PK/JW/AB)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/biblatex/lbx/german.lbx
+File: german.lbx 2013/05/01 v2.6 biblatex localization (PK/JW/AB)
 ))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
 
-(C:\Users\Markus\Desktop\Bericht\Bericht.aux)
+(./Bericht.aux)
+\openout1 = `Bericht.aux'.
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
@@ -528,13 +526,19 @@ LaTeX Font Info:    ... okay on input line 4.
 Package biblatex Info: Input encoding 'latin9' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'latin9'.
+\openout3 = `Bericht-blx.bib'.
+
 Package biblatex Info: Trying to load bibliographic data...
+
+
+Package biblatex Warning: File 'Bericht.bbl' created by wrong version.
+
 Package biblatex Info: ... file 'Bericht.bbl' found.
- (C:\Users\Markus\Desktop\Bericht\Bericht.bbl)
+(./Bericht.bbl)
 Package biblatex Info: Reference section=0 on input line 4.
 Package biblatex Info: Reference segment=0 on input line 4.
 
-(C:\Users\Markus\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+(/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count232
 \scratchdimen=\dimen127
@@ -548,37 +552,91 @@ Normal \count register pool exhausted, switching to extended pool.
 \MPnumerator=\count279
 \makeMPintoPDFobject=\count280
 \everyMPtoPDFconversion=\toks31
-) (C:\Users\Markus\Desktop\Bericht\deckblatt.tex
+) (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+(./deckblatt.tex
 LaTeX Font Info:    Try loading font information for U+msa on input line 30.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 30.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{C:/Users/Markus/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]) [1] (C:\Users\Markus\Desktop\Bericht\Bericht.toc)
+{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) [1]
+(./Bericht.toc)
 \tf@toc=\write4
- [2] (C:\Users\Markus\Desktop\Bericht\1_einleitung.tex) [1] [2] (C:\Users\Markus\Desktop\Bericht\Bericht.aux)
+\openout4 = `Bericht.toc'.
+
+ [2] (./1_einleitung.tex) [1] [2] (./Bericht.aux)
 Package logreq Info: Writing requests to 'Bericht.run.xml'.
+\openout1 = `Bericht.run.xml'.
+
  ) 
 Here is how much of TeX's memory you used:
- 9039 strings out of 493921
- 143174 string characters out of 3144874
- 343436 words of memory out of 3000000
- 12201 multiletter control sequences out of 15000+200000
- 11935 words of font info for 44 fonts, out of 3000000 for 9000
- 845 hyphenation exceptions out of 8191
- 47i,6n,49p,923b,1401s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmti12.pfb>
-Output written on Bericht.pdf (5 pages, 71717 bytes).
+ 9539 strings out of 493315
+ 151354 string characters out of 6137904
+ 350986 words of memory out of 5000000
+ 12827 multiletter control sequences out of 15000+600000
+ 11935 words of font info for 44 fonts, out of 8000000 for 9000
+ 961 hyphenation exceptions out of 8191
+ 47i,6n,49p,923b,1409s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
+></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
+/usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Bericht.pdf (5 pages, 67378 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
+ 40 PDF objects out of 1000 (max. 8388607)
+ 27 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
