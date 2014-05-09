@@ -1,14 +1,5 @@
 \input{Bericht_Praeambel.tex} % Importiere die Einstellungen aus der Pr?ambel
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% hier kommen die packages für Latex hin, falls sie nicht schon wo anders geladen werden
-% \usepackage{amssymb}
-% \usepackage{graphicx}
-% \usepackage[utf8]{inputenc}
-% \usepackage[ngerman]{babel}
-% \usepackage{tikz}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Hier können die Pakete, die benötigten Daten und Graphen für R geladen bzw erstellt werden.
@@ -20,6 +11,10 @@ library(ggplot2)
   plot1 = qplot(x=area, y=log(perm), data=rock) + theme_bw() + geom_smooth(col="red")
   # print(plot1)
 @
+
+
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
