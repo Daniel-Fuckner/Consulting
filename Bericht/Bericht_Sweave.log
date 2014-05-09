@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  8 MAY 2014 17:57
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  9 MAY 2014 12:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -630,25 +630,25 @@ Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
 (./Bericht_Sweave.aux)
 \openout1 = `Bericht_Sweave.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 23.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    ... okay on input line 23.
 Package biblatex Info: Input encoding 'latin9' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'latin9'.
@@ -658,8 +658,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Bericht_Sweave.bbl' found.
 
 (./Bericht_Sweave.bbl)
-Package biblatex Info: Reference section=0 on input line 22.
-Package biblatex Info: Reference segment=0 on input line 22.
+Package biblatex Info: Reference section=0 on input line 23.
+Package biblatex Info: Reference segment=0 on input line 23.
 
 (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -735,7 +735,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
-LaTeX Font Info:    Try loading font information for T1+aess on input line 35.
+LaTeX Font Info:    Try loading font information for T1+aess on input line 36.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/ae/t1aess.fd
 File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
@@ -745,7 +745,7 @@ File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
 \openout5 = `Bericht_Sweave.toc'.
 
  [2] (./1_einleitung.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
@@ -753,7 +753,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--49
 File: Bericht_Sweave-002.pdf Graphic file (type pdf)
 
 <use Bericht_Sweave-002.pdf>
-Package pdftex.def Info: Bericht_Sweave-002.pdf used on input line 51.
+Package pdftex.def Info: Bericht_Sweave-002.pdf used on input line 52.
 (pdftex.def)             Requested size: 358.50612pt x 358.52167pt.
  [1 <./Bericht_Sweave-002.pdf>] [2]
 (./Bericht_Sweave.aux)
