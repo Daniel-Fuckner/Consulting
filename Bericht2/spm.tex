@@ -1,0 +1,11 @@
+\section{Sequential Pattern Mining}\label{spm}
+
+\subsection{Überblick}
+
+\textit{Sequential pattern mining} entdeckt häufige \textit{subsequences} (dt. Teilfolgen) in Datenbanken. Sogenannte \textit{sequence databases} bestehen aus Transaktionen, die jeweils \textit{items} enthalten, welche der Zeit nach geordnet sind. Die Daten lassen sich also mit dem Schema [Transaction/ID, <Ordered Sequence Items>] darstellen.\\
+Ein Anwendungsfeld ist die Warenkorbanalyse. Angenommen es wird das Kaufverhalten in einem Supermarkt einen Monat lang beobachtet, dann könnte [Kunde 1, <(Brot, Milch), (Brot, Milch, Tee), (Zucker), (Milch, Salz)>]; [Kunde 2, <(Brot), (Milch, Tee)>] eine Beispiel-Datenbank sein. Kunde 1 war vier mal im beobachteten Monat im Supermarkt einkaufen, wobei Kunde 2 nur zweimal einkaufen war. Der Kunde kann nur eins oder auch mehrere \textit{items} pro Besuch einkaufen. Im Falle von mehreren \textit{items} spricht man von \textit{itemsets}.\\
+\textit{Web usage mining} ist das am weitesten verbreitete Anwendungsfeld von \textit{sequential pattern mining} in der Literatur (\cite{lu_ezeife,wang_han,goethals}). Unter der Annahme, dass ein Internetnutzer nur eine Webseite an einem Zeitpunkt aufrufen kann, besteht die Folge von geordneten \textit{items} nur aus einzelnen \textit{items} und nicht aus \textit{itemsets}. Ist also eine Menge von \textit{items I = \{a, b, c, d, e\}} gegeben, die beispielsweise verschiedene Webseiten repräsentieren, so könnte eine Datenbank mit zwei Nutzern folgendermaßen aussehen: [Nutzer 1, <abedcab>]; [Nutzer 2, <edcaa>] (\cite[3:1-3:2]{taxonomy}).
+
+\subsection{Auswahl geeigneter Algorithmen}
+
+In den letzten zwei Jahrzehnten wurden im Forschungsfeld des \textit{sequential pattern mining} eine Vielzahl von Algorithmen entwickelt (\cite{hvsm,lapin,aprioriall,gsp,psp,spam,freespan,prefixspan,wapmine,fsminer,discall,spade,plwap}; \textbf{die die an anderer stelle zitiert werden, hier später löschen}). Im Folgenden sollen die besten Algorithmen für die gegebene Datenlage ausgewählt werden.
