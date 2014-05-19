@@ -1,0 +1,382 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{entry}{nty}
+    \entry{aprioriall}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=eaa70eb424dc5a3d2f3d773b8ee22ebe}{Agrawal}{A\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=73171c0d25982c1233eaf11598276e9e}{Srikant}{S\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=eaa70eb424dc5a3d2f3d773b8ee22ebe}{Agrawal}{A\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=73171c0d25982c1233eaf11598276e9e}{Srikant}{S\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{1088f5274fb50a14cc4bc1512985d30e}
+      \strng{fullhash}{1088f5274fb50a14cc4bc1512985d30e}
+      \field{sortinit}{A}
+      \field{labeltitle}{Mining sequential patterns}
+      \field{journaltitle}{Proceedings of the 11th Conference on Data Engineering (ICDE'95)}
+      \field{title}{Mining sequential patterns}
+      \field{year}{1995}
+      \field{pages}{3\bibrangedash 14}
+    \endentry
+    \entry{spam}{article}{}
+      \name{labelname}{4}{}{%
+        {{uniquename=0,hash=d7b5326c837f25e7868630610900da04}{Ayres}{A\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ba4ba6543d6e85e07cf55116a6e012b6}{Flannick}{F\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ea7aaa0cd428c2a5cbbb7e36e069a70b}{Gehrke}{G\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8739aa92f251c400e725a87964b780d1}{Yiu}{Y\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=d7b5326c837f25e7868630610900da04}{Ayres}{A\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ba4ba6543d6e85e07cf55116a6e012b6}{Flannick}{F\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ea7aaa0cd428c2a5cbbb7e36e069a70b}{Gehrke}{G\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8739aa92f251c400e725a87964b780d1}{Yiu}{Y\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{6583b264b1abe29539255be24e2d2962}
+      \strng{fullhash}{7f99e402ca019bf30b805560c7e05e8f}
+      \field{sortinit}{A}
+      \field{labeltitle}{Sequential pattern mining using a bitmap representation}
+      \field{journaltitle}{Proceedings of the 8th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining}
+      \field{title}{Sequential pattern mining using a bitmap representation}
+      \field{year}{2002}
+      \field{pages}{429\bibrangedash 435}
+    \endentry
+    \entry{discall}{article}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=33a706b6c7626691e516e742cbf7c366}{Chiu}{C\bibinitperiod}{D.-Y.}{D\bibinithyphendelim Y\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=488f3bbddf1cf19e3483d1df1e69774a}{Wu}{W\bibinitperiod}{Y.-H.}{Y\bibinithyphendelim H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=5c7b5a08ba7a6b302ec469ace1143d8a}{Chen}{C\bibinitperiod}{A.\bibnamedelimi L.\bibnamedelimi P.}{A\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=33a706b6c7626691e516e742cbf7c366}{Chiu}{C\bibinitperiod}{D.-Y.}{D\bibinithyphendelim Y\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=488f3bbddf1cf19e3483d1df1e69774a}{Wu}{W\bibinitperiod}{Y.-H.}{Y\bibinithyphendelim H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=5c7b5a08ba7a6b302ec469ace1143d8a}{Chen}{C\bibinitperiod}{A.\bibnamedelimi L.\bibnamedelimi P.}{A\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ee76ea3428ca51241fb1e7bbd4c6857c}
+      \strng{fullhash}{115e805c063500e581ff245c0e2430c5}
+      \field{sortinit}{C}
+      \field{labeltitle}{An efficient algorithm for mining frequent sequences by a new strategy without support counting}
+      \field{journaltitle}{Proceedings of the 20th International Conference on Data Engineering}
+      \field{title}{An efficient algorithm for mining frequent sequences by a new strategy without support counting}
+      \field{year}{2004}
+      \field{pages}{375\bibrangedash 386}
+    \endentry
+    \entry{fsminer}{article}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=9ad5f9eb543238c3fce232bdcef97026}{El-Sayed}{E\bibinithyphendelim S\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=114099e04a33bfa65ec617a47f08be8c}{Ruiz}{R\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d18711a535ad5be170189883e5f2e53f}{Rundensteiner}{R\bibinitperiod}{E.\bibnamedelimi A.}{E\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=9ad5f9eb543238c3fce232bdcef97026}{El-Sayed}{E\bibinithyphendelim S\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=114099e04a33bfa65ec617a47f08be8c}{Ruiz}{R\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d18711a535ad5be170189883e5f2e53f}{Rundensteiner}{R\bibinitperiod}{E.\bibnamedelimi A.}{E\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{8714aeb86a555510e24fb6d70f008003}
+      \strng{fullhash}{51c99f9f925bd44bd8051378473b60c7}
+      \field{sortinit}{E}
+      \field{labeltitle}{FS-Miner: Efficient and incremental mining of frequent sequence patterns in web logs}
+      \field{journaltitle}{Proceedings of the 6th Annual ACM International Workshop on Web Information and Data Management}
+      \field{title}{FS-Miner: Efficient and incremental mining of frequent sequence patterns in web logs}
+      \field{year}{2004}
+      \field{pages}{128\bibrangedash 135}
+    \endentry
+    \entry{plwap}{article}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=deec8dc723461202146d343d451ed492}{Ezeife}{E\bibinitperiod}{C.\bibnamedelimi I.}{C\bibinitperiod\bibinitdelim I\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=66b38f33aa2ed63e81a07a297c7f9815}{Lu}{L\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=29bdd03a757ee4168cad6d145c3f26ac}{Liu}{L\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=deec8dc723461202146d343d451ed492}{Ezeife}{E\bibinitperiod}{C.\bibnamedelimi I.}{C\bibinitperiod\bibinitdelim I\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=66b38f33aa2ed63e81a07a297c7f9815}{Lu}{L\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=29bdd03a757ee4168cad6d145c3f26ac}{Liu}{L\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{6c6fe7b3f216c94de1950cf339771ce6}
+      \strng{fullhash}{6173dfd3e44e85c147cbe584c9fb55d8}
+      \field{sortinit}{E}
+      \field{labeltitle}{PLWAP sequential mining: Open source code}
+      \field{journaltitle}{Proceedings of the 1st International Workshop on Open Source Data Mining: Frequent Pattern Mining Implementation}
+      \field{title}{PLWAP sequential mining: Open source code}
+      \field{year}{2005}
+      \field{pages}{26\bibrangedash 35}
+    \endentry
+    \entry{goethals}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=e327d748d84de5bcd733f4a7c1b5b16e}{Goethals}{G\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=e327d748d84de5bcd733f4a7c1b5b16e}{Goethals}{G\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{e327d748d84de5bcd733f4a7c1b5b16e}
+      \strng{fullhash}{e327d748d84de5bcd733f4a7c1b5b16e}
+      \field{sortinit}{G}
+      \field{labeltitle}{Frequent set mining}
+      \field{journaltitle}{The Data Mining and Knowledge Discovery Handbook}
+      \field{title}{Frequent set mining}
+      \field{year}{2005}
+      \field{pages}{377\bibrangedash 397}
+    \endentry
+    \entry{freespan}{article}{}
+      \name{labelname}{6}{}{%
+        {{uniquename=0,hash=16f0e4c71b57d032be7b7049903f5fc1}{Han}{H\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e888c5c516c8e66fcb690a366486b08b}{Pei}{P\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=5b77a4677a541df9e3e485029af0f797}{Mortazavi-Asl}{M\bibinithyphendelim A\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b813bde724fed9a8815bd0658237f2ed}{Chen}{C\bibinitperiod}{Q.}{Q\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b663cf28aa26bf7e94da2cb0984cea6b}{Dayal}{D\bibinitperiod}{U.}{U\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=126b5b72e6d555a327759324a18d3aff}{Hsu}{H\bibinitperiod}{M.-C.}{M\bibinithyphendelim C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{6}{}{%
+        {{uniquename=0,hash=16f0e4c71b57d032be7b7049903f5fc1}{Han}{H\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e888c5c516c8e66fcb690a366486b08b}{Pei}{P\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=5b77a4677a541df9e3e485029af0f797}{Mortazavi-Asl}{M\bibinithyphendelim A\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b813bde724fed9a8815bd0658237f2ed}{Chen}{C\bibinitperiod}{Q.}{Q\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b663cf28aa26bf7e94da2cb0984cea6b}{Dayal}{D\bibinitperiod}{U.}{U\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=126b5b72e6d555a327759324a18d3aff}{Hsu}{H\bibinitperiod}{M.-C.}{M\bibinithyphendelim C\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{6ea16c26219c31baacd25d6764617304}
+      \strng{fullhash}{48abf0bc9db5d6aeaf2df91abfb4688d}
+      \field{sortinit}{H}
+      \field{labeltitle}{Freespan: Frequent pattern projected sequential pattern mining}
+      \field{journaltitle}{Proceedings of the 6th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining}
+      \field{title}{Freespan: Frequent pattern projected sequential pattern mining}
+      \field{year}{2000}
+      \field{pages}{355\bibrangedash 359}
+    \endentry
+    \entry{lu_ezeife}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=66b38f33aa2ed63e81a07a297c7f9815}{Lu}{L\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=deec8dc723461202146d343d451ed492}{Ezeife}{E\bibinitperiod}{C.\bibnamedelimi I.}{C\bibinitperiod\bibinitdelim I\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=66b38f33aa2ed63e81a07a297c7f9815}{Lu}{L\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=deec8dc723461202146d343d451ed492}{Ezeife}{E\bibinitperiod}{C.\bibnamedelimi I.}{C\bibinitperiod\bibinitdelim I\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{d5650e2222f3893b8cbf06133b634e1e}
+      \strng{fullhash}{d5650e2222f3893b8cbf06133b634e1e}
+      \field{sortinit}{L}
+      \field{labeltitle}{Position coded pre-order linked WAP-tree for web log sequential pattern minings}
+      \field{journaltitle}{Proceedings of the 7th Pacific-Asia Conference on Knowledge Discovery and Data Mining}
+      \field{title}{Position coded pre-order linked WAP-tree for web log sequential pattern minings}
+      \field{year}{2003}
+      \field{pages}{337\bibrangedash 349}
+    \endentry
+    \entry{taxonomy}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=b75ed442da355881d5ea393ef818771b}{Mabroukeh}{M\bibinitperiod}{Nizar\bibnamedelima R.}{N\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=deec8dc723461202146d343d451ed492}{Ezeife}{E\bibinitperiod}{C.\bibnamedelimi I.}{C\bibinitperiod\bibinitdelim I\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=b75ed442da355881d5ea393ef818771b}{Mabroukeh}{M\bibinitperiod}{Nizar\bibnamedelima R.}{N\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=deec8dc723461202146d343d451ed492}{Ezeife}{E\bibinitperiod}{C.\bibnamedelimi I.}{C\bibinitperiod\bibinitdelim I\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{a6db078c6b3e124cb22e7960695407d2}
+      \strng{fullhash}{a6db078c6b3e124cb22e7960695407d2}
+      \field{sortinit}{M}
+      \field{labeltitle}{A Taxonomy of Sequential Pattern Mining Algorithms}
+      \field{journaltitle}{ACM Computing Surveys}
+      \field{number}{1}
+      \field{title}{A Taxonomy of Sequential Pattern Mining Algorithms}
+      \field{volume}{43}
+      \field{year}{2010}
+      \field{pages}{3:1\bibrangedash 3:41}
+    \endentry
+    \entry{psp}{article}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=b96051d144314625a0427bd81ab76be6}{Masseglia}{M\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f01de19ff60c1fe052e558764532f82a}{Poncelet}{P\bibinitperiod}{O.}{O\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=229e82deff604929be99811ef5c215ab}{Cicchetti}{C\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=b96051d144314625a0427bd81ab76be6}{Masseglia}{M\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f01de19ff60c1fe052e558764532f82a}{Poncelet}{P\bibinitperiod}{O.}{O\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=229e82deff604929be99811ef5c215ab}{Cicchetti}{C\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{2006242defdd1eb5883d585212abe9a0}
+      \strng{fullhash}{7f71bff976ce49f4cfd986d8ee6dc26a}
+      \field{sortinit}{M}
+      \field{labeltitle}{An efficient algorithm for web usage mining}
+      \field{journaltitle}{Network Inform. Syst. J. 2}
+      \field{title}{An efficient algorithm for web usage mining}
+      \field{year}{1999}
+      \field{pages}{571\bibrangedash 603}
+    \endentry
+    \entry{wapmine}{article}{}
+      \name{labelname}{4}{uniquelist=4}{%
+        {{uniquename=0,hash=e888c5c516c8e66fcb690a366486b08b}{Pei}{P\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=21c3943a47f438652d50c78ff5692d27}{Hani}{H\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=5b77a4677a541df9e3e485029af0f797}{Mortazavi-Asl}{M\bibinithyphendelim A\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=fbcf4cde24cfba8d0c5ae7b7bb55b731}{Zhu}{Z\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{uniquelist=4}{%
+        {{uniquename=0,hash=e888c5c516c8e66fcb690a366486b08b}{Pei}{P\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=21c3943a47f438652d50c78ff5692d27}{Hani}{H\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=5b77a4677a541df9e3e485029af0f797}{Mortazavi-Asl}{M\bibinithyphendelim A\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=fbcf4cde24cfba8d0c5ae7b7bb55b731}{Zhu}{Z\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{81cec9e1fc6da761c621bc47898dd823}
+      \strng{fullhash}{81cec9e1fc6da761c621bc47898dd823}
+      \field{sortinit}{P}
+      \field{labeltitle}{Mining access patterns efficiently from web logs}
+      \field{journaltitle}{Knowledge Discovery and Data Mining. Current Issues and New Applications. Lecture Notes Computer Science}
+      \field{title}{Mining access patterns efficiently from web logs}
+      \field{volume}{1805}
+      \field{year}{2000}
+      \field{pages}{396\bibrangedash 407}
+    \endentry
+    \entry{prefixspan}{article}{}
+      \name{labelname}{4}{uniquelist=4}{%
+        {{uniquename=0,hash=e888c5c516c8e66fcb690a366486b08b}{Pei}{P\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=21c3943a47f438652d50c78ff5692d27}{Hani}{H\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=5b77a4677a541df9e3e485029af0f797}{Mortazavi-Asl}{M\bibinithyphendelim A\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d6ab8bc87689a3b2c7caaf2dd345550d}{PINTO}{P\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{uniquelist=4}{%
+        {{uniquename=0,hash=e888c5c516c8e66fcb690a366486b08b}{Pei}{P\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=21c3943a47f438652d50c78ff5692d27}{Hani}{H\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=5b77a4677a541df9e3e485029af0f797}{Mortazavi-Asl}{M\bibinithyphendelim A\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d6ab8bc87689a3b2c7caaf2dd345550d}{PINTO}{P\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{84a081b17f4d9d0aab668dbc8778705e}
+      \strng{fullhash}{84a081b17f4d9d0aab668dbc8778705e}
+      \field{sortinit}{P}
+      \field{labeltitle}{PrefixSpan: Mining sequential patterns efficiently by prefix-projected pattern growth}
+      \field{journaltitle}{Proceedings of the International Conference on Data Engineering}
+      \field{title}{PrefixSpan: Mining sequential patterns efficiently by prefix-projected pattern growth}
+      \field{year}{2001}
+      \field{pages}{215\bibrangedash 224}
+    \endentry
+    \entry{lexico}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=df323399882d1a9a835bca224ebc3770}{Rymon}{R\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=df323399882d1a9a835bca224ebc3770}{Rymon}{R\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{df323399882d1a9a835bca224ebc3770}
+      \strng{fullhash}{df323399882d1a9a835bca224ebc3770}
+      \field{sortinit}{R}
+      \field{labeltitle}{Search through systematic set enumeration}
+      \field{journaltitle}{Proceedings of the 3rd International Conference on Principles of Knowledge Representation and Reasoning}
+      \field{title}{Search through systematic set enumeration}
+      \field{year}{1992}
+      \field{pages}{539\bibrangedash 550}
+    \endentry
+    \entry{hvsm}{article}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=81436b7212179eece8c62e95f5a8ec91}{Song}{S\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8f54e14a61456cbfc8e4463d7bab9552}{Hu}{H\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=9b03b1cdd6aec22584e4c93d4bc21fb7}{Jin}{J\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=81436b7212179eece8c62e95f5a8ec91}{Song}{S\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=8f54e14a61456cbfc8e4463d7bab9552}{Hu}{H\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=9b03b1cdd6aec22584e4c93d4bc21fb7}{Jin}{J\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7193dc884c5b17fd8be3e284dcf9e36b}
+      \strng{fullhash}{916b40633f0bd84b7187858f1470f1b1}
+      \field{sortinit}{S}
+      \field{labeltitle}{HVSM: A new sequential pattern mining algorithm using bitmap representation}
+      \field{journaltitle}{Advanced Data Mining and Applications}
+      \field{title}{HVSM: A new sequential pattern mining algorithm using bitmap representation}
+      \field{volume}{3584}
+      \field{year}{2005}
+      \field{pages}{455\bibrangedash 463}
+    \endentry
+    \entry{gsp}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=73171c0d25982c1233eaf11598276e9e}{Srikant}{S\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=eaa70eb424dc5a3d2f3d773b8ee22ebe}{Agrawal}{A\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=73171c0d25982c1233eaf11598276e9e}{Srikant}{S\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=eaa70eb424dc5a3d2f3d773b8ee22ebe}{Agrawal}{A\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{5e147f0e5f6ad74b3002f01cac036778}
+      \strng{fullhash}{5e147f0e5f6ad74b3002f01cac036778}
+      \field{sortinit}{S}
+      \field{labeltitle}{Mining sequential patterns: Generalizations and performance improvements}
+      \field{journaltitle}{Proceedings of the 5th International Conference on Extending Database Technology: Advances in Database Technology}
+      \field{title}{Mining sequential patterns: Generalizations and performance improvements}
+      \field{volume}{1057}
+      \field{year}{1996}
+      \field{pages}{3\bibrangedash 17}
+    \endentry
+    \entry{wang_han}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=8845475b32556b4a8eb724ec4cb86611}{Wang}{W\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=16f0e4c71b57d032be7b7049903f5fc1}{Han}{H\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=8845475b32556b4a8eb724ec4cb86611}{Wang}{W\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=16f0e4c71b57d032be7b7049903f5fc1}{Han}{H\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{a5b753ce072bd4e191093a4a190caea9}
+      \strng{fullhash}{a5b753ce072bd4e191093a4a190caea9}
+      \field{sortinit}{W}
+      \field{labeltitle}{BIDE: Efficient mining of frequent closed sequences}
+      \field{journaltitle}{Proceedings of the 20th International Conference on Data Engineering}
+      \field{title}{BIDE: Efficient mining of frequent closed sequences}
+      \field{year}{2004}
+      \field{pages}{79\bibrangedash 90}
+    \endentry
+    \entry{lapin}{article}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=cf27413bc23396c7c00d356f5fa84c10}{Yang}{Y\bibinitperiod}{Z.}{Z\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a2af46eff4389524fe951572da657010}{Wang}{W\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b04cee827ddc9ddae996e163a4c6cf40}{Kitsuregawa}{K\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=cf27413bc23396c7c00d356f5fa84c10}{Yang}{Y\bibinitperiod}{Z.}{Z\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a2af46eff4389524fe951572da657010}{Wang}{W\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b04cee827ddc9ddae996e163a4c6cf40}{Kitsuregawa}{K\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{09439b9ca87252a51b29a2bc02f003be}
+      \strng{fullhash}{c1368eb5f60cc4eecd2546dcc45f96cd}
+      \field{sortinit}{Y}
+      \field{labeltitle}{LAPIN: Effective sequential pattern mining algorithms by last position induction for dense databases}
+      \field{journaltitle}{Advances in Databases: Concepts, Systems and Applications}
+      \field{title}{LAPIN: Effective sequential pattern mining algorithms by last position induction for dense databases}
+      \field{volume}{4443}
+      \field{year}{2007}
+      \field{pages}{1020\bibrangedash 1023}
+    \endentry
+    \entry{spade}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=49a392bbc25f479318e3af88716b15d0}{Zaki}{Z\bibinitperiod}{M.\bibnamedelimi J.}{M\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=49a392bbc25f479318e3af88716b15d0}{Zaki}{Z\bibinitperiod}{M.\bibnamedelimi J.}{M\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{49a392bbc25f479318e3af88716b15d0}
+      \strng{fullhash}{49a392bbc25f479318e3af88716b15d0}
+      \field{sortinit}{Z}
+      \field{labeltitle}{SPADE: An efficient algorithm for mining frequent sequences}
+      \field{journaltitle}{Mach. Learn.}
+      \field{title}{SPADE: An efficient algorithm for mining frequent sequences}
+      \field{volume}{42}
+      \field{year}{2001}
+      \field{pages}{31\bibrangedash 60}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
