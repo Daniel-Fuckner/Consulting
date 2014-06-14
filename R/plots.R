@@ -1,3 +1,6 @@
+# so müsste der command gehen für die means
+#testMean <- succ[, mean(clickCount), by="Position"]
+
 rm(list=ls())
 
 #load packages
@@ -6,17 +9,17 @@ library(scales)
 
 #load data
 #C:/Users/Markus/Desktop/processed data/
-success = read.csv("/zpool1/s10859017/Seminar/processed data/Success.csv")
-#success = read.csv("C:/Users/Markus/Desktop/processed data/Success.csv")
-fail = read.csv("/zpool1/s10859017/Seminar/processed data/fail.csv")
-#fail = read.csv("C:/Users/Markus/Desktop/processed data/fail.csv")
+#success = read.csv("/zpool1/s10859017/Seminar/processed data/Success.csv")
+success = read.csv("C:/Users/Markus/Desktop/processed data/Success.csv")
+#fail = read.csv("/zpool1/s10859017/Seminar/processed data/fail.csv")
+fail = read.csv("C:/Users/Markus/Desktop/processed data/fail.csv")
 
 data = rbind(cbind(success, success = 1), cbind(fail, success = 0))
 
 #remove and make subset of data as it is too big (let it run on the server with full data set)
-#rm(success)
-#rm(fail)
-#data = data[c(1:1000, (nrow(data)-1000):nrow(data)), ]
+rm(success)
+rm(fail)
+data = data[c(1:1000, (nrow(data)-1000):nrow(data)), ]
 
 pdf(file="/zpool1/s10859017/plots.pdf")
 #timeSinceFirst: nur mit Last=1 => Dauer vom ersten bis letzten
@@ -90,10 +93,17 @@ for(j in 0:1){ #success and fail
   }
 }
 save(clickCountMean, file = "/zpool1/s10859017/clickCountMean.RData")
+
 p = ggplot(data=clickCountMean, mapping = aes(x = position, y = mean, color = factor(success)))
+
 p + geom_line() +
-  labs(x = "Position", y = "Haeufigkeit der Clicks im Mittel") +
-  scale_color_discrete(name="Konvertiert?", labels=c("ja", "nein")) +
+  labs(x = "Position", y = "Haeufigkeit der Clicks im Mittel") + xlim(0,2000) + ylim(0,2000) +
+  scale_color_discrete(name="Konvertiert?", labels=c("nein", "ja")) +
+  geom_abline(aes(intercept=0, slope=1))
+
+p + geom_line() +
+  labs(x = "Position", y = "Haeufigkeit der Clicks im Mittel") + xlim(0,250) + ylim(0,250) +
+  scale_color_discrete(name="Konvertiert?", labels=c("nein", "ja")) +
   geom_abline(aes(intercept=0, slope=1))
 
 #hasClicked:
@@ -110,9 +120,18 @@ for(j in 0:1){ #success and fail
 }
 save(hasClickedProb, file = "/zpool1/s10859017/hasClickedProb.RData")
 p = ggplot(data=hasClickedProb, mapping = aes(x = position, y = prob, color = factor(success)))
+
 p + geom_line() +
   labs(x = "Position", y = "Anteil mit hasClicked=1") +
-  scale_fill_discrete(name="Konvertiert?", labels=c("ja", "nein"))
+  scale_color_discrete(name="Konvertiert?", labels=c("nein", "ja"))
+
+p + geom_line() +
+  labs(x = "Position", y = "Anteil mit hasClicked=1") + xlim(0,750) +
+  scale_color_discrete(name="Konvertiert?", labels=c("nein", "ja"))
+
+p + geom_line() +
+  labs(x = "Position", y = "Anteil mit hasClicked=1") + xlim(0,250) +
+  scale_color_discrete(name="Konvertiert?", labels=c("nein", "ja"))
 
 #plots with First=1 only
 p = ggplot(data=subset(data, data$First==1), mapping = aes(x = factor(touchpointType), fill = factor(success)))
