@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.4.9)  22 MAY 2014 17:28
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.4.9)  17 JUN 2014 17:54
 entering extended mode
 **Bericht.tex
 (C:\Users\Markus\Documents\Git\Consulting\Bericht\Bericht.tex
@@ -822,23 +822,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--1
 
  []
 
-) (C:\Users\Markus\Documents\Git\Consulting\Bericht\survival.tex)
-(C:\Users\Markus\Documents\Git\Consulting\Bericht\spm.tex [1] [2]
+) (C:\Users\Markus\Documents\Git\Consulting\Bericht\survival.tex [1]
+Overfull \hbox (1.43678pt too wide) in paragraph at lines 11--14
+\T1/cmr/m/n/12 Das Proportional-Hazards-Modell von Cox [4] ist ein mul-ti-pli-ka-ti-ves Hazardraten-Modell. 
+ []
+
+[2] [3]) (C:\Users\Markus\Documents\Git\Consulting\Bericht\spm.tex [4]
 Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
 
-[3]) [4] [5] [6] (C:\Users\Markus\Documents\Git\Consulting\Bericht\Bericht.aux)
+[5]) [6] [7] [8] (C:\Users\Markus\Documents\Git\Consulting\Bericht\Bericht.aux)
 Package logreq Info: Writing requests to 'Bericht.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 10014 strings out of 493921
- 159070 string characters out of 3144874
- 584287 words of memory out of 3000000
- 13120 multiletter control sequences out of 15000+200000
- 19574 words of font info for 48 fonts, out of 3000000 for 9000
+ 10027 strings out of 493921
+ 159180 string characters out of 3144874
+ 586366 words of memory out of 3000000
+ 13131 multiletter control sequences out of 15000+200000
+ 20219 words of font info for 51 fonts, out of 3000000 for 9000
  845 hyphenation exceptions out of 8191
- 58i,10n,49p,1049b,1403s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 58i,19n,49p,1049b,1403s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Markus\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Users\Markus\AppData\Lo
 cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1440.pk> <C:\Users\Markus\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
 \jknappen\ec\dpi600\ecsx1728.pk> <C:\Users\Markus\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1200.p
@@ -852,10 +856,11 @@ MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files (x86)/MiKT
 mi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Pr
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
-blic/eurosym/feymr10.pfb>
-Output written on Bericht.pdf (9 pages, 238759 bytes).
+blic/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/eurosym/feymr10.pfb>
+Output written on Bericht.pdf (11 pages, 281836 bytes).
 PDF statistics:
- 482 PDF objects out of 1000 (max. 8388607)
+ 508 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

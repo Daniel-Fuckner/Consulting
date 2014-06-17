@@ -1952,24 +1952,27 @@
     <bcf:datasource type="file" datatype="bibtex">bib_database.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">lu_ezeife</bcf:citekey>
-    <bcf:citekey order="1">wang_han</bcf:citekey>
-    <bcf:citekey order="1">goethals</bcf:citekey>
-    <bcf:citekey order="2">taxonomy</bcf:citekey>
-    <bcf:citekey order="3">aprioriall</bcf:citekey>
-    <bcf:citekey order="4">hvsm</bcf:citekey>
-    <bcf:citekey order="4">lapin</bcf:citekey>
-    <bcf:citekey order="4">aprioriall</bcf:citekey>
-    <bcf:citekey order="4">gsp</bcf:citekey>
-    <bcf:citekey order="4">psp</bcf:citekey>
-    <bcf:citekey order="4">spam</bcf:citekey>
-    <bcf:citekey order="4">freespan</bcf:citekey>
-    <bcf:citekey order="4">prefixspan</bcf:citekey>
-    <bcf:citekey order="4">wapmine</bcf:citekey>
-    <bcf:citekey order="4">fsminer</bcf:citekey>
-    <bcf:citekey order="4">discall</bcf:citekey>
-    <bcf:citekey order="4">spade</bcf:citekey>
-    <bcf:citekey order="4">plwap</bcf:citekey>
+    <bcf:citekey order="1">cox</bcf:citekey>
+    <bcf:citekey order="2">fried_stoch</bcf:citekey>
+    <bcf:citekey order="3">lu_ezeife</bcf:citekey>
+    <bcf:citekey order="3">wang_han</bcf:citekey>
+    <bcf:citekey order="3">goethals</bcf:citekey>
+    <bcf:citekey order="4">taxonomy</bcf:citekey>
+    <bcf:citekey order="5">aprioriall</bcf:citekey>
+    <bcf:citekey order="6">hvsm</bcf:citekey>
+    <bcf:citekey order="6">lapin</bcf:citekey>
+    <bcf:citekey order="6">aprioriall</bcf:citekey>
+    <bcf:citekey order="6">gsp</bcf:citekey>
+    <bcf:citekey order="6">psp</bcf:citekey>
+    <bcf:citekey order="6">spam</bcf:citekey>
+    <bcf:citekey order="6">freespan</bcf:citekey>
+    <bcf:citekey order="6">prefixspan</bcf:citekey>
+    <bcf:citekey order="6">wapmine</bcf:citekey>
+    <bcf:citekey order="6">fsminer</bcf:citekey>
+    <bcf:citekey order="6">discall</bcf:citekey>
+    <bcf:citekey order="6">spade</bcf:citekey>
+    <bcf:citekey order="6">plwap</bcf:citekey>
+    <bcf:citekey order="7">plwap</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" type="entry" label="nty">
   <bcf:sorting>

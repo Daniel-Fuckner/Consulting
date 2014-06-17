@@ -1,3 +1,65 @@
 \section{Zeitdiskretes Proportional-Hazards-Modell von Cox}
 
-Aufgrund der  in Kapitel \ref{datenlage} beschriebenen Datenlage erscheint die Anwendung eines Modells aus dem Feld der Lebensdaueranalyse intuitiv. Für solch ein Regressionsmodell müssen die Daten in der Form $(t_i, \delta_i, x_i(t))$, $i = 1,..,n$ vorliegen.  
+\subsection{Lebensdauer-Modell}
+
+Aufgrund der  in Kapitel \ref{datenlage} beschriebenen Datenlage erscheint die Anwendung eines Modells aus dem Feld der Lebensdaueranalyse intuitiv. Es wird die Zeit $T$ bis zu einem Ereignis betrachtet, welches in diesem Fall das Ausfüllen eines Online-Antrages ist. Der Kunde befindet sich während der Beobachtungsspanne im transienten Zustand bis er durch die Konvertierung in den absorbierenden Zustand wechselt, an dem die Beobachtung endet. Wenn nach 255 Kontaktpunkten noch keine Konvertierung eingetreten ist, so endet die Beobachtung. In diesem Fall spricht man von Rechtszensierung.\\
+Die Verteilung der nicht-negativen, stetigen Zufallsvariable $T$ lässt sich durch die Dichte $f_T(t)$, die Verteilungsfunktion $F_T(t)$, die Survivorfunktion $S_T(t)$, die Hazardrate $\lambda_T(t)$ und die kumulierte Hazardrate $\Lambda_T(t)$ beschreiben.
+\begin{align}
+	S_T(t) = P(T \geq t) = 1 - F_T(t)\\
+	\lambda_T(t) = \lim\limits_{\Delta t \rightarrow 0}{\frac{1}{\Delta t}P(t\leq T < t + \Delta t |T \geq t} \\
+	\Lambda_T(t) = \int_0^t \! \lambda(u) \, \mathrm{d}u. 
+\end{align}
+Die Hazardrate $\lambda_T(t)$ ist also das infinitesimale Risiko im nächsten Moment zu konvertieren, vorausgesetzt man ist bis zum Zeitpunkt $t$ noch nicht konvertiert.\\
+Das Proportional-Hazards-Modell von Cox \cite{cox} ist ein multiplikatives Hazardraten-Modell.
+\begin{align}
+	\lambda(t,x(t)) = \lambda_0(t)\exp(x(t)'\beta) = \lambda_0(t)\exp(\beta_1 x_1(t))...\exp(\beta_p x_n(t))
+\end{align}
+Der Nuisance-Parameter $\lambda_0(t)$, auch Baseline-Hazardrate genannt, ist individuenunabhängig. $x(t)'\beta$ enthält die zeitabhängigen Features $x_i(t)$ und die Effekte $\beta_i$.\\
+Die Positionen bilden die Zeitachse $T \in \{1,...,P=250\}$. Es handelt sich somit um ein zeitdiskretes Modell. Folglich ist auch die Hazardfunktion nicht stetig, sondern diskret.
+\begin{align}
+	\lambda(t|x(t)) = P(T=t|T\geq t, x(t)), t=1,...,250
+\end{align}
+Sie gibt in diesem Fall das Risiko für die Konvertierung zwischen der letzten und der aktuellen Position an, gegeben die aktuelle Position wurde erreicht. Die rechtzensierten Daten müssen in der Form $(t, \delta_i, x_i(t))$, $i = 1,..,n$, $t=1,...,t_i$ vorliegen, wobei $\delta_i$ der Zensierungsindikator ist. Zudem wird der Ereignisindikator $y_{it}$ definiert, der angibt, ob im Zeitpunkt $t_i$ eine Konvertierung stattfindet. Die Risikomenge $R_t$ ist die Anzahl der Individuen, die in den vorherigen Positionen noch nicht konvertiert oder zensiert sind.
+\begin{align}
+	\delta_i &= \begin{cases} 1 & \text{Konvertierung in } t_i\\
+														 0 & \text{Zensierung oder noch keine Konvertierung in } t_i
+	\end{cases}\\
+	y_{it} &= \begin{cases} 1 & \text{für $t=t_i$ und $\delta_i=1$}\\
+														 0 & \text{sonst}
+	\end{cases} \text{ für } i \in R_t
+\end{align}
+Damit lässt sich die diskrete Hazarfunktion zu
+\begin{align}
+	\lambda_i(t,x_i(t)) = P(y_{it}=1|x_i(t)), t=1,...,250 \label{hazard}
+\end{align}
+umschreiben. Für (\ref{hazard}) wird ein Logit-Modell angenommen. Es wird also für jede Position die Wahrscheinlichkeit für die Konvertierung geschätzt.
+\begin{align}
+	\pi_{it}&=P(y_{it}=1|x_i(t)) = \frac{\exp(\eta_{it})}{1+\exp(\eta_{it})}\\
+	\eta_{it} &= \beta_{0t} + x_{it}'\beta\\
+	\Leftrightarrow \frac{\pi_{it}}{1-\pi_{it}} &= \exp(\beta_{0t})\exp(x_{it}'\beta)
+\end{align}
+$\eta_{it}$ ist der Prädiktor und $\exp(\beta_{0t})$ die Baseline-Hazardfunktion. Da für jede Position der Parametervektor $\beta$ berechnet werden muss, ist die parametrische Maximum Likelihood-Inferenz instabil. \textbf{Treppenfunktionen, blablabla, siehe Bericht von Felix und Sebastian}
+
+\subsection{Stochastic Gradient Boosting}
+Stochastic Gradient Boosting ist eine Ensemble-Methoden, die durch mehrfache Anwendung des sogenannten base learners ein Ensemble von Schätzern für eine Prognosefunktion liefert. Durch Aggregation der Schätzer erhält man die endgültige Prognosefunktion. In diesem Fall ist der base learner das zeitdiskrete Cox-Modell.\\
+Gegeben sind die Zielvariable $y$ und die erklärenden Variablen $x=(x_1,...,x_n)$. Anhand der Trainingsdaten soll eine Prognosefunktion $F^*(x)$ gefunden werden, die $x$ auf $y$ abbildet, so dass der Erwartungswert einer Verlustfunktion $L(y,F(x))$ minimiert wird.
+\begin{align}
+	F^*(x) = \argmin\limits_{F(x)} E_{y,x}(y,F(x))
+\end{align}
+$F^*(x)$ wird mit Hilfe eines additiven Modells der Form
+\begin{align}
+	F(x) = \sum\limits_{m=0}^M \beta_m h(x,a_m)
+\end{align}
+geschätzt, wobei $h(x,a_m)$ der base learner ist und die Koeffizienten $\beta_m$ und die Parameter $a_m$ anhand des Prinzips des forward stagewise additive modeling an die Trainingsdaten gefittet werden. Ausgehend von einem Startwert $F_0(x)$ wird für $m=1,...,M$ (\ref{gbm1}) und (\ref{gbm2}) iteriert.
+\begin{align}
+	(\beta_m,a_m) &= \argmin\limits_{\beta,a} \sum\limits_{i=1}^N L(y_i,F_{m-1}(x_i)+\beta h(x_i,a)) \label{gbm1} \\
+	F_m(x) &= F_{m-1}(x) + \beta_m h(x,a_m) \label{gbm2}
+\end{align}
+Die Optimierung in (\ref{gbm1}) erfolgt durch fitten des base learners $h(x,a)$ an die Pseudo-Residuen $\tilde{y}$ mittels der Methode der kleinsten Quadrate in (\ref{gbm3}) und der Optimierung des leicht lösbaren Problems in (\ref{gbm4}) mit nur einem reellen Parameter.
+\begin{align}
+	a_m = \argmin\limits_{a,\rho} \sum\limits_{i=1}^N (\tilde{y}_{im} - \rho h(x_i,a))^2 \label{gbm3} \\
+	\tilde{y}_{im} = - \left(\frac{\delta L(y_i,F(x_i))}{\delta F(x_i)}\right)_{F(x)=F_{m-1}(x)} \\
+	\beta_m = \argmin\limits_{\beta} \sum\limits_{i=1}^N L(y_i,F_{m-1}(x_i)+\beta h(x_i,a_m)) \label{gbm4}
+\end{align}
+Zudem wird der base learner in jeder Iteration nur auf einer Stichprobe der Trainingsdaten angewendet \cite{fried_stoch}.
+

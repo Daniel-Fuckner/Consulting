@@ -12,14 +12,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}Zeitdiskretes Proportional-Hazards-Modell von Cox}{2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Sequential Pattern Mining}{2}
+\contentsline {subsection}{\numberline {3.1}Lebensdauer-Modell}{2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}\IeC {\"U}berblick}{2}
+\contentsline {subsection}{\numberline {3.2}Stochastic Gradient Boosting}{3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Problemstellung}{2}
+\contentsline {section}{\numberline {4}Sequential Pattern Mining}{4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}Auswahl geeigneter Algorithmen}{3}
+\contentsline {subsection}{\numberline {4.1}\IeC {\"U}berblick}{4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.3.1}Apriori-Based}{3}
+\contentsline {subsection}{\numberline {4.2}Problemstellung}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4}Pattern-Growth}{4}
+\contentsline {subsection}{\numberline {4.3}Auswahl geeigneter Algorithmen}{5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.3.1}Apriori-Based}{6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}SPADE}{6}

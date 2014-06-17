@@ -79,6 +79,24 @@
       \field{year}{2004}
       \field{pages}{375\bibrangedash 386}
     \endentry
+    \entry{cox}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=67a6e76c3d7d2f500bcde768585e3738}{Cox}{C\bibinitperiod}{D.\bibnamedelimi R.}{D\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=67a6e76c3d7d2f500bcde768585e3738}{Cox}{C\bibinitperiod}{D.\bibnamedelimi R.}{D\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{67a6e76c3d7d2f500bcde768585e3738}
+      \strng{fullhash}{67a6e76c3d7d2f500bcde768585e3738}
+      \field{sortinit}{C}
+      \field{labeltitle}{Regression Models and Life-Tables}
+      \field{journaltitle}{Journals of the Royal Statistical Society}
+      \field{number}{2}
+      \field{title}{Regression Models and Life-Tables}
+      \field{volume}{34}
+      \field{year}{1972}
+      \field{pages}{187\bibrangedash 220}
+    \endentry
     \entry{fsminer}{article}{}
       \name{labelname}{3}{}{%
         {{uniquename=0,hash=9ad5f9eb543238c3fce232bdcef97026}{El-Sayed}{E\bibinithyphendelim S\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
@@ -118,6 +136,24 @@
       \field{title}{PLWAP sequential mining: Open source code}
       \field{year}{2005}
       \field{pages}{26\bibrangedash 35}
+    \endentry
+    \entry{fried_stoch}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=737f06ec463b4ce942a547e57d0bf857}{Friedman}{F\bibinitperiod}{J.\bibnamedelimi H.}{J\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=737f06ec463b4ce942a547e57d0bf857}{Friedman}{F\bibinitperiod}{J.\bibnamedelimi H.}{J\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{737f06ec463b4ce942a547e57d0bf857}
+      \strng{fullhash}{737f06ec463b4ce942a547e57d0bf857}
+      \field{sortinit}{F}
+      \field{labeltitle}{Stochastic Gradient Boosting}
+      \field{journaltitle}{Computational Statistics and Data Analysis}
+      \field{number}{4}
+      \field{title}{Stochastic Gradient Boosting}
+      \field{volume}{38}
+      \field{year}{2002}
+      \field{pages}{367\bibrangedash 378}
     \endentry
     \entry{goethals}{article}{}
       \name{labelname}{1}{}{%
@@ -263,22 +299,6 @@
       \field{title}{PrefixSpan: Mining sequential patterns efficiently by prefix-projected pattern growth}
       \field{year}{2001}
       \field{pages}{215\bibrangedash 224}
-    \endentry
-    \entry{lexico}{article}{}
-      \name{labelname}{1}{}{%
-        {{uniquename=0,hash=df323399882d1a9a835bca224ebc3770}{Rymon}{R\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=df323399882d1a9a835bca224ebc3770}{Rymon}{R\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{df323399882d1a9a835bca224ebc3770}
-      \strng{fullhash}{df323399882d1a9a835bca224ebc3770}
-      \field{sortinit}{R}
-      \field{labeltitle}{Search through systematic set enumeration}
-      \field{journaltitle}{Proceedings of the 3rd International Conference on Principles of Knowledge Representation and Reasoning}
-      \field{title}{Search through systematic set enumeration}
-      \field{year}{1992}
-      \field{pages}{539\bibrangedash 550}
     \endentry
     \entry{hvsm}{article}{}
       \name{labelname}{3}{}{%
