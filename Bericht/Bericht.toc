@@ -26,4 +26,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.3.1}Apriori-Based}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}SPADE}{6}
+\contentsline {subsection}{\numberline {4.4}SPADE}{6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.4.1}Berechnung des Supports}{6}

@@ -1972,7 +1972,8 @@
     <bcf:citekey order="6">discall</bcf:citekey>
     <bcf:citekey order="6">spade</bcf:citekey>
     <bcf:citekey order="6">plwap</bcf:citekey>
-    <bcf:citekey order="7">plwap</bcf:citekey>
+    <bcf:citekey order="7">spade</bcf:citekey>
+    <bcf:citekey order="8">arulesSequences</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" type="entry" label="nty">
   <bcf:sorting>

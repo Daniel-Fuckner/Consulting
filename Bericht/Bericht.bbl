@@ -59,6 +59,28 @@
       \field{year}{2002}
       \field{pages}{429\bibrangedash 435}
     \endentry
+    \entry{arulesSequences}{manual}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=88d1394b8eebbc965cdcabe79640584b}{Buchta}{B\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f716088fee65c44eb5f91611c5cb4a92}{Hahsler}{H\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=936ee2fad862604a07e0d971ca8134a5}{Daniel\bibnamedelima Diaz}{D\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{with\bibnamedelimb contributions\bibnamedelima from}{w\bibinitperiod\bibinitdelim c\bibinitperiod\bibinitdelim f\bibinitperiod}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=88d1394b8eebbc965cdcabe79640584b}{Buchta}{B\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f716088fee65c44eb5f91611c5cb4a92}{Hahsler}{H\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=936ee2fad862604a07e0d971ca8134a5}{Daniel\bibnamedelima Diaz}{D\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{with\bibnamedelimb contributions\bibnamedelima from}{w\bibinitperiod\bibinitdelim c\bibinitperiod\bibinitdelim f\bibinitperiod}{}{}}%
+      }
+      \strng{namehash}{dd42e2bf10fee3c21b99a61b64031ae9}
+      \strng{fullhash}{211f425ffba8bdbe0ca360eaea936f87}
+      \field{sortinit}{B}
+      \field{labeltitle}{arulesSequences: Mining frequent sequences}
+      \field{note}{R package version 0.2-6}
+      \field{title}{arulesSequences: Mining frequent sequences}
+      \field{year}{2014}
+      \verb{url}
+      \verb http://CRAN.R-project.org/package=arulesSequences
+      \endverb
+    \endentry
     \entry{discall}{article}{}
       \name{labelname}{3}{}{%
         {{uniquename=0,hash=33a706b6c7626691e516e742cbf7c366}{Chiu}{C\bibinitperiod}{D.-Y.}{D\bibinithyphendelim Y\bibinitperiod}{}{}{}{}}%

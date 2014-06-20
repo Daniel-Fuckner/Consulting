@@ -11,14 +11,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1419
-NormalPos.bottom=381
+NormalPos.right=603
+NormalPos.bottom=365
 Class=LaTeXView
 Document=spm.tex
 
 [Frame0_View0,0]
-TopLine=34
-Cursor=5339
+TopLine=142
+Cursor=7970
 
 [Frame1]
 Flags=0
@@ -29,13 +29,13 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1419
-NormalPos.bottom=381
+NormalPos.right=603
+NormalPos.bottom=365
 Class=LaTeXView
 Document=survival.tex
 
 [Frame1_View0,0]
-TopLine=54
+TopLine=88
 Cursor=4549
 
 [Frame2]
@@ -47,14 +47,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1419
-NormalPos.bottom=381
+NormalPos.right=603
+NormalPos.bottom=365
 Class=LaTeXView
-Document=Bericht_Praeambel.tex
+Document=einleitung.tex
 
 [Frame2_View0,0]
-TopLine=5
-Cursor=719
+TopLine=0
+Cursor=1695
 
 [Frame3]
 Flags=0
@@ -65,14 +65,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1419
-NormalPos.bottom=381
+NormalPos.right=603
+NormalPos.bottom=365
 Class=LaTeXView
-Document=Bericht.tex
+Document=Bericht_Praeambel.tex
 
 [Frame3_View0,0]
-TopLine=0
-Cursor=321
+TopLine=6
+Cursor=391
 
 [Frame4]
 Flags=0
@@ -83,14 +83,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1419
-NormalPos.bottom=381
+NormalPos.right=603
+NormalPos.bottom=365
 Class=LaTeXView
-Document=einleitung.tex
+Document=Bericht.tex
 
 [Frame4_View0,0]
 TopLine=0
-Cursor=1695
+Cursor=321
 
 [Frame5]
 Flags=0
@@ -101,8 +101,8 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1419
-NormalPos.bottom=381
+NormalPos.right=603
+NormalPos.bottom=365
 Class=LaTeXView
 Document=datenlage.tex
 

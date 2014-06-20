@@ -21,13 +21,51 @@ In den letzten zwei Jahrzehnten wurden im Forschungsfeld des sequential pattern 
 \subsubsection{Apriori-Based}
 
 Apriori-basierte Algorithmen waren Mitter der neunziger Jahre die ersten auf dem Feld des sequential pattern mining und hängen vor allem von der apriori Eigenschaft ab. Diese besagt, dass alle nichtleeren Teilmengen eines häufigen itemsets ebenfalls häufig sein müssen. Sie können als monoton fallend verstanden werden da für jede Sequenz, die den minimalen support $min\_sup$ $\xi$ nicht erfüllt auch all deren Übermengen diesen nicht erfüllen. Das bedeutet, es gilt Gleichung (\ref{supInEquation}).
-
 \begin{align}
 	X \subseteq Y \Rightarrow support(Y) \leq support(X) \text{  für  } X,Y \subseteq J, J: \text{  Menge aller items in  } D \label{supInEquation}
 \end{align}
 
-Damit sind für eine nicht häufige Sequenz auch alle Übermengen nicht häufig und für eine häufige Sequenz alle Untermengen ebenfalls häufig. Apriori-Algorithmen sind durch drei Hauptmerkmale gekennzeichnet.
+Dmit sind für eine nicht häufige Sequenz auch alle Übermengen nicht häufig und für eine häufige Sequenz alle Untermengen ebenfalls häufig. Apriori-Algorithmen sind durch drei Hauptmerkmale gekennzeichnet.
 Ein Nachteil ist die \textit{generate-and-test}-Eigenschaft. Sie bringt mit sich, dass ausgiebige join-Operatoren verwendet werden, die die Sequenzen in jedem Schritt um nur ein item vergrößern und gegen den minimalen support testen. Dadurch ensteht eine enorme Anzahl von Kandidat-Sequenzen, die bereits zu Beginn des Algorithmus viel Speicher aufbrauchen. Sind beispielsweise $n$ häufige 1-Sequenzen und $min\_sup=1$ gegeben. Dann werden $n^2+\binom{n}{2}$  Kandidat-2-Sequenzen und $\binom{n}{m}$ Kandidat-m-Sequenzen erzeugt.
 
-\section{SPADE}
-Im Folgenden wird der PLWAP Algorithmus \cite{plwap} vorgestellt.
+\subsection{SPADE}
+Im Folgenden wird der SPADE Algorithmus \cite{spade} vorgestellt, der in dem R-Paket \textit{arulesSequences} \cite{arulesSequences} implementiert ist. Dieser sucht häufige Sequenzen von itemsets, das heißt er kann auch mit Daten umgehen, die mehrere items pro Zeitpunkt enthalten. Da ein Benutzer nur eine Webseite zum exakt selben Zeitpunkt besucht werden kann, ist diese Eigenschaft in diesem Fall nicht relevant. Die Daten werden vertikal bezüglich der IDs angeordnet. Die zweite Spalte enthält die Zeit des Kontaktes, die dritte Spalte die Anzahl der items zu diesem Zeitpunkt und die vierte Spalte die eigentlichen items. Bei den gegebenen Daten sind die Zeitpunkte die Positionen und damit pro ID von eins bis zur Anzahl der Positionen für die ID durchnummeriert. Die Anzahl der items in der dritten Spalte ist immer gleich eins und die vierte Spalte enthält pro Zeile nur ein item (Tabelle \ref{input}).\\
+\begin{table}[hbt]\label{input}
+\centering
+\begin{tabular}{c|c|c|c}
+ID & Zeitpunkt & Anzahl Items & Items \\ \hline
+1  & 1				 & 1						& A \\
+1  & 2				 & 1						& C \\
+1  & 3				 & 1						& A \\
+1  & 4				 & 1						& B \\
+2  & 1				 & 1						& C \\
+3  & 1				 & 1						& D \\
+3  & 2				 & 1						& A 
+\end{tabular}
+\caption{Beispiel für eine Input-Datenbank für den SPADE-Algorithmus}
+\end{table}
+
+
+%ÜBERFLÜSSIG:
+%\subsubsection{Verbandstheorie}
+%Eine gute Einführung zur Verbandstheorie findet man in \cite{lattices}. Eine Menge $P$ heißt geordnete Menge, wenn für alle $X,Y,Z \in P$ die binäre Relation $\leq$ reflexiv (\ref{refl}), asymmetrisch (\ref{asym}) und transitiv (\ref{trans}) ist. Für $S \subseteq P$ heißt $X \in P$ obere (untere) Schranke von $S$, wenn $s \leq X$ ($s \geq X$) für alle $s \in S$.
+%\begin{align}
+%	X\leq X \label{refl} \\
+%	X \leq Y, Y \leq X \Rightarrow X = Y \label{asym} \\
+%	X \leq Y, Y \leq Z \Rightarrow X \leq Z \label{trans}
+%\end{align}
+%\cite{spade}
+
+\subsubsection{Berechnung des Supports}
+In diesem Abschnitt wird beschrieben, wie der Support einer Sequenz berechnet wird.
+\begin{table}[hbt]\label{idlist}
+\centering
+\begin{tabular}{c|c|c|c|c|c|c|c}
+\multicolumn{2}{c|}{A} & \multicolumn{2}{c|}{B} & \multicolumn{2}{c|}{C} & \multicolumn{2}{c}{D} \\ \hline
+ID & Zeitpunkt & ID & Zeitpunkt & ID & Zeitpunkt & ID & Zeitpunkt \\
+1	 & 1				 & 1  & 4				  & 1  & 2				 & 3  & 1 \\
+1  & 3				 &    &				    & 2  & 1				 &    & \\
+3  & 2				 &    &				    &    &  				 &    & \\
+\end{tabular}
+\caption{ID-Listen für die items}
+\end{table}
