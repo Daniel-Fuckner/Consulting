@@ -33,14 +33,17 @@ Im Folgenden wird der SPADE Algorithmus \cite{spade} vorgestellt, der in dem R-P
 \begin{table}[hbt]\label{input}
 \centering
 \begin{tabular}{c|c|c|c}
-ID & Zeitpunkt & Anzahl Items & Items \\ \hline
+ID & Position  & Anzahl Items & Items \\ \hline
 1  & 1				 & 1						& A \\
-1  & 2				 & 1						& C \\
+1  & 2				 & 1						& D \\
 1  & 3				 & 1						& A \\
 1  & 4				 & 1						& B \\
 2  & 1				 & 1						& C \\
+2  & 2				 & 1						& B \\
 3  & 1				 & 1						& D \\
-3  & 2				 & 1						& A 
+4  & 1				 & 1						& A \\
+4  & 2				 & 1						& D \\
+4  & 3				 & 1						& B \\
 \end{tabular}
 \caption{Beispiel für eine Input-Datenbank für den SPADE-Algorithmus}
 \end{table}
@@ -57,15 +60,27 @@ ID & Zeitpunkt & Anzahl Items & Items \\ \hline
 %\cite{spade}
 
 \subsubsection{Berechnung des Supports}
-In diesem Abschnitt wird beschrieben, wie der Support einer Sequenz berechnet wird.
+In diesem Abschnitt wird beschrieben, wie der Support einer Sequenz berechnet wird. Tabelle \ref{idlist} enthält die ID-Listen der items aus den Daten aus Tabelle \ref{input}. Item $C$ beispielsweise, tritt für ID $1$ an Position $2$ und für ID $2$ an Position $1$ auf.
 \begin{table}[hbt]\label{idlist}
 \centering
 \begin{tabular}{c|c|c|c|c|c|c|c}
 \multicolumn{2}{c|}{A} & \multicolumn{2}{c|}{B} & \multicolumn{2}{c|}{C} & \multicolumn{2}{c}{D} \\ \hline
-ID & Zeitpunkt & ID & Zeitpunkt & ID & Zeitpunkt & ID & Zeitpunkt \\
-1	 & 1				 & 1  & 4				  & 1  & 2				 & 3  & 1 \\
-1  & 3				 &    &				    & 2  & 1				 &    & \\
-3  & 2				 &    &				    &    &  				 &    & \\
+ID & Position  & ID & Position  & ID & Position  & ID & Position  \\ \hline
+1	 & 1				 & 1  & 4				  & 2  & 1				 & 1  & 2 \\
+1  & 3				 & 2  &	2			    &    &  				 & 3  & 1 \\
+4  & 1				 & 4  &	3			    &    &  				 & 4  & 2 
 \end{tabular}
 \caption{ID-Listen für die items}
+\end{table}
+Jede Sequenz ist eine zeitabhängige Verknüpfung von items und der Support der Sequenz kann mittels einer zeitabhängigen Verknüpfung der ID-Listen jedes items in der Sequenz berechnet werden. In Tabelle \ref{tempjoin} ist diese Vorgehen beispielhaft für die Sequenz ADB dargestellt. Den Support erhält man dann, indem die Anzahl der einzigartigen IDs, die die Sequenz enthalten durch die Anzahl aller IDs in den Daten teilt.
+\begin{table}[hbt]\label{tempjoin}
+\centering
+\begin{tabular}{c|c||c|c|c||c|c|c|c}
+\multicolumn{2}{c||}{A} & \multicolumn{3}{c||}{AD} & \multicolumn{4}{c}{ADB} \\ \hline \hline
+ID & Pos(A) 	    		  & ID & Pos(A) & Pos(D) 		 & ID & Pos(A) & Pos(D) & Pos(B) \\ \hline
+1  & 1									& 1  & 1			& 2          & 1  & 1			 & 2      & 4 \\
+1  & 3									& 4  & 1      & 2          & 4  & 1      & 2      & 3 \\
+4  & 1									& 	 & 				&            & 	  & 			 &        &	
+\end{tabular}
+\caption{Temporale Verknüpfung}
 \end{table}

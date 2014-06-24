@@ -1,165 +1,217 @@
-# so mÃ¼sste der command gehen fÃ¼r die means
-#testMean <- succ[, mean(clickCount), by="Position"]
-
 rm(list=ls())
 
 #load packages
 library(ggplot2)
 library(scales)
+library(data.table)
+library(plyr)
+library(reshape)
 
 #load data
-#C:/Users/Markus/Desktop/processed data/
-#success = read.csv("/zpool1/s10859017/Seminar/processed data/Success.csv")
-success = read.csv("C:/Users/Markus/Desktop/processed data/Success.csv")
-#fail = read.csv("/zpool1/s10859017/Seminar/processed data/fail.csv")
-fail = read.csv("C:/Users/Markus/Desktop/processed data/fail.csv")
+load("/zpool1/s10859017/consulting/r_data/succWithViews.RData")
+load("/zpool1/s10859017/consulting/r_data/succ.RData")
 
-data = rbind(cbind(success, success = 1), cbind(fail, success = 0))
+succWithViews = succWithViews[, c("touchpointType", "hasClicked", "clickCount") := NULL]
+data = rbind(cbind(succWithViews, Views = "Ja"), cbind(succ, Views = "Nein"), use.names = TRUE)
 
-#remove and make subset of data as it is too big (let it run on the server with full data set)
-rm(success)
-rm(fail)
-data = data[c(1:1000, (nrow(data)-1000):nrow(data)), ]
+pdf(file="/zpool1/s10859017/consulting/r_results/plotsSuccWithViewsAndSucc.pdf")
 
-pdf(file="/zpool1/s10859017/plots.pdf")
 #timeSinceFirst: nur mit Last=1 => Dauer vom ersten bis letzten
-p = ggplot(data=subset(data, data$Last==1), mapping = aes(x = timeSinceFirstDay, fill = factor(success)))
-
-p + geom_bar(aes(y = (..count..)/sum(..count..)), stat = "bin", position = "dodge", binwidth=5) +
+p1 = ddply(data[Last == 1], .(Views), summarise, prop=prop.table(table(timeSinceFirstDay)), timeSinceFirstDay=names(table(timeSinceFirstDay)))
+p1$timeSinceFirstDay = floor(as.numeric(p1$timeSinceFirstDay))
+p1 = aggregate(prop ~ Views + timeSinceFirstDay, data = p1, FUN = sum)
+p2 = p1[p1$timeSinceFirstDay == 0, ]
+p2$prop = round(p2$prop, 2)
+ggplot(p1, aes(x = timeSinceFirstDay, y = prop, fill = Views)) +
+  geom_bar(stat="identity", position='dodge') + 
+  scale_fill_discrete(name="Views?", labels=c("ja", "nein")) +
   labs(x = "Beobachtungsdauer in Tagen", y = "Relative Haeufigkeit") +
-  scale_fill_discrete(name="Konvertiert?", labels=c("ja", "nein")) +
-  scale_y_continuous(limits = c(0,.05), oob=squish) #squish => beob. mit groesseren werten werden NICHT gelöscht
+  facet_wrap(~Views, nrow=2, ncol=1) +
+  scale_x_continuous(limits = c(0,50), oob=squish) + 
+  scale_y_continuous(limits = c(0,.05), oob=squish) +
+  geom_text(data = p2, aes(x=5, y=.045, label=prop))
+  
+#timeSinceLast: Frequenz der Kontaktpunkte
+p1 = ddply(data, .(Views), summarise, prop=prop.table(table(timeSinceLastDay)), timeSinceLastDay=names(table(timeSinceLastDay)))
+p1$timeSinceLastDay = floor(as.numeric(p1$timeSinceLastDay))
+p1 = aggregate(prop ~ Views + timeSinceLastDay, data = p1, FUN = sum)
+p2 = p1[p1$timeSinceLastDay == 0, ]
+p2$prop = round(p2$prop, 2)
+ggplot(p1, aes(x = timeSinceLastDay, y = prop, fill = Views)) +
+  geom_bar(stat="identity", position='dodge') + 
+  scale_fill_discrete(name="Views?", labels=c("ja", "nein")) +
+  labs(x = "Dauer zwischen Kontaktpunkten in Tagen", y = "Relative Haeufigkeit") + 
+  facet_wrap(~Views, nrow=2, ncol=1) +
+  scale_y_continuous(limits = c(0,.25), oob=squish) +
+  scale_x_continuous(limits = c(0,50), oob=squish) +
+  geom_text(data = p2, aes(x=5, y=.225, label=prop))
 
-p + geom_bar(aes(y = (..count..)/sum(..count..)), stat = "bin", position = "dodge", binwidth=1) +
-  labs(x = "Beobachtungsdauer in Tagen", y = "Relative Haeufigkeit") + xlim(c(0,50)) +
-  scale_fill_discrete(name="Konvertiert?", labels=c("ja", "nein")) +
-  scale_y_continuous(limits = c(0,.05), oob=squish) #squish => beob. mit groesseren werten werden NICHT gelöscht
-
-#timeSinceLast und timeSinceLast2: Frequenz der Kontaktpunkte
-#"-1"-er auf 0 setzten; muss beim preprocessing noch angepasst werden
-data$timeSinceLastDay[data$timeSinceLastDay<0]=0
-data$timeSinceLast2Day[data$timeSinceLast2Day<0]=0
-
-p = ggplot(data=data, mapping = aes(x = timeSinceLastDay, fill = factor(success)))
-
-p + geom_bar(aes(y = (..count..)/sum(..count..)), stat = "bin", position = "dodge", binwidth = 5) +
-  labs(x = "Dauer zwischen Kontaktpunkten in Tagen", y = "Relative Haeufigkeit") +
-  scale_fill_discrete(name="Konvertiert?", labels=c("ja", "nein")) +
-  scale_y_continuous(limits = c(0,.1), oob=squish) 
-
-p + geom_bar(aes(y = (..count..)/sum(..count..)), stat = "bin", position = "dodge", binwidth = 1) +
-  labs(x = "Dauer zwischen Kontaktpunkten in Tagen", y = "Relative Haeufigkeit") + xlim(0,50) +
-  scale_fill_discrete(name="Konvertiert?", labels=c("ja", "nein")) +
-  scale_y_continuous(limits = c(0,.1), oob=squish) 
-
-p = ggplot(data=data, mapping = aes(x = timeSinceLast2Day, fill = factor(success)))
-
-p + geom_bar(aes(y = (..count..)/sum(..count..)), stat = "bin", position = "dodge", binwidth = 5) +
-  labs(x = "Dauer zwischen drei Kontaktpunkten in Tagen", y = "Relative Haeufigkeit") +
-  scale_fill_discrete(name="Konvertiert?", labels=c("ja", "nein")) +
-  scale_y_continuous(limits = c(0,.1), oob=squish) 
-
-p + geom_bar(aes(y = (..count..)/sum(..count..)), stat = "bin", position = "dodge", binwidth = 1) +
-  labs(x = "Dauer zwischen drei Kontaktpunkten in Tagen", y = "Relative Haeufigkeit") + xlim(0,50) +
-  scale_fill_discrete(name="Konvertiert?", labels=c("ja", "nein")) +
-  scale_y_continuous(limits = c(0,.1), oob=squish) 
-
-#hour und weekday
-p = ggplot(data=data, mapping = aes(x = hour, fill = factor(success)))
-p + geom_bar(aes(y = (..count..)/sum(..count..)), stat = "bin", position = "dodge", binwidth = 1) +
+#hour
+p1 = ddply(data, .(Views), summarise, prop=prop.table(table(hour)), hour=names(table(hour)))
+p1$hour = as.integer(p1$hour)
+ggplot(p1, aes(x = hour, y = prop, fill = Views)) +
+  geom_bar(stat="identity", position='dodge') + 
+  scale_fill_discrete(name="Views?", labels=c("ja", "nein")) +
   labs(x = "Uhrzeit", y = "Relative Haeufigkeit") +
-  scale_fill_discrete(name="Konvertiert?", labels=c("ja", "nein"))
+  facet_wrap(~Views, nrow=2, ncol=1)
 
-p = ggplot(data=data, mapping = aes(x = weekday, fill = factor(success)))
-p + geom_bar(aes(y = (..count..)/sum(..count..)), stat = "bin", position = "dodge", binwidth = 1) +
+#weekday
+p1 = ddply(data, .(Views), summarise, prop=prop.table(table(weekday)), weekday=names(table(weekday)))
+p1$weekday <- (factor(p1$weekday, levels=c("Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag","Sonntag")))
+ggplot(p1, aes(x = weekday, y = prop, fill = Views)) +
+  geom_bar(stat="identity", position='dodge') + 
   labs(x = "Wochentag", y = "Relative Haeufigkeit") +
-  scale_fill_discrete(name="Konvertiert?", labels=c("ja", "nein"))
+  scale_fill_discrete(name="Views?", labels=c("ja", "nein")) +
+  facet_wrap(~Views, nrow=2, ncol=1)
 
 #touchPointType
-p = ggplot(data=data, mapping = aes(x = factor(touchpointType), fill = factor(success)))
+load("/zpool1/s10859017/consulting/r_data/succWithViews.RData")
+p = ggplot(data = succWithViews, mapping = aes(x = factor(touchpointType)))
 p + geom_bar(aes(y = (..count..)/sum(..count..)), stat = "bin", position = "dodge") +
-  labs(x = "Click oder View", y = "Relative Haeufigkeit") +
-  scale_fill_discrete(name="Konvertiert?", labels=c("ja", "nein"))
+  labs(x = "Art des Kontakts", y = "Relative Haeufigkeit") +
+  scale_x_discrete(labels=c("Click", "View"))
 
-#clickCount: nur mit Last=1
-maxPosition = cbind(max(subset(data, data$success==0)$Position), max(subset(data, data$success==1)$Position))
-clickCountMean = data.frame(position = c(1:maxPosition[1], 1:maxPosition[2]), 
-                            success = c(rep(0, maxPosition[1]), rep(1, maxPosition[2])),
-                            mean = numeric(sum(maxPosition)))
-for(j in 0:1){ #success and fail
-  for(i in 1:maxPosition[j+1]){ #for each position
-    idx = (j * maxPosition[1]) + i
-    clickCountMean$mean[idx] = mean(subset(data, (data$Position==clickCountMean$position[i] & data$success==j))$clickCount)
-  }
-}
-save(clickCountMean, file = "/zpool1/s10859017/clickCountMean.RData")
+#touchPointType with First=1 only
+p = ggplot(data = succWithViews[First==1], mapping = aes(x = factor(touchpointType)))
+p + geom_bar(aes(y = (..count..)/sum(..count..)), stat = "bin", position = "dodge") +
+  labs(x = "Art des ersten Kontakts", y = "Relative Haeufigkeit") +
+  scale_x_discrete(labels=c("Click", "View"))
 
-p = ggplot(data=clickCountMean, mapping = aes(x = position, y = mean, color = factor(success)))
+#touchPointType with Last=1 only
+p = ggplot(data = succWithViews[Last==1], mapping = aes(x = factor(touchpointType)))
+p + geom_bar(aes(y = (..count..)/sum(..count..)), stat = "bin", position = "dodge") +
+  labs(x = "Art des letzten Kontakts", y = "Relative Haeufigkeit") +
+  scale_x_discrete(labels=c("Click", "View"))
 
+#clickCount:
+clickCountMean = succWithViews[, mean(clickCount), by="Position"]
+
+p = ggplot(data = clickCountMean, mapping = aes(x = Position, y = V1))
 p + geom_line() +
-  labs(x = "Position", y = "Haeufigkeit der Clicks im Mittel") + xlim(0,2000) + ylim(0,2000) +
-  scale_color_discrete(name="Konvertiert?", labels=c("nein", "ja")) +
-  geom_abline(aes(intercept=0, slope=1))
-
-p + geom_line() +
-  labs(x = "Position", y = "Haeufigkeit der Clicks im Mittel") + xlim(0,250) + ylim(0,250) +
-  scale_color_discrete(name="Konvertiert?", labels=c("nein", "ja")) +
-  geom_abline(aes(intercept=0, slope=1))
+  labs(x = "Position", y = "Haeufigkeit der Clicks im Mittel") +
+  geom_abline(aes(intercept=0, slope=1), color = "red") +
+  scale_y_continuous(limits = c(0,250), oob=squish) +
+  scale_x_continuous(limits = c(0,250), oob=squish)
 
 #hasClicked:
-maxPosition = cbind(max(subset(data, data$success==0)$Position), max(subset(data, data$success==1)$Position))
-hasClickedProb = data.frame(position = c(1:maxPosition[1], 1:maxPosition[2]), 
-                            success = c(rep(0, maxPosition[1]), rep(1, maxPosition[2])),
-                            prob = numeric(sum(maxPosition)))
-for(j in 0:1){ #success and fail
-  for(i in 1:maxPosition[j+1]){ #for each position
-    idx = (j * maxPosition[1]) + i
-    hasClickedProb$prob[idx] = mean(subset(data, 
-            (data$Position==hasClickedProb$position[i] & data$success==j))$hasClicked)
-  }
-}
-save(hasClickedProb, file = "/zpool1/s10859017/hasClickedProb.RData")
-p = ggplot(data=hasClickedProb, mapping = aes(x = position, y = prob, color = factor(success)))
+hasClickedProb = succWithViews[, mean(hasClicked), by="Position"]
 
+p = ggplot(data = hasClickedProb, mapping = aes(x = Position, y = V1))
 p + geom_line() +
-  labs(x = "Position", y = "Anteil mit hasClicked=1") +
-  scale_color_discrete(name="Konvertiert?", labels=c("nein", "ja"))
-
-p + geom_line() +
-  labs(x = "Position", y = "Anteil mit hasClicked=1") + xlim(0,750) +
-  scale_color_discrete(name="Konvertiert?", labels=c("nein", "ja"))
-
-p + geom_line() +
-  labs(x = "Position", y = "Anteil mit hasClicked=1") + xlim(0,250) +
-  scale_color_discrete(name="Konvertiert?", labels=c("nein", "ja"))
-
-#plots with First=1 only
-p = ggplot(data=subset(data, data$First==1), mapping = aes(x = factor(touchpointType), fill = factor(success)))
-p + geom_bar(aes(y = (..count..)/sum(..count..)), stat = "bin", position = "dodge") +
-  labs(x = "Click oder View (erster Kontakt)", y = "Relative Haeufigkeit") +
-  scale_fill_discrete(name="Konvertiert?", labels=c("ja", "nein"))
-
-#plots with Last=1 only
-p = ggplot(data=subset(data, data$Last==1), mapping = aes(x = factor(touchpointType), fill = factor(success)))
-p + geom_bar(aes(y = (..count..)/sum(..count..)), stat = "bin", position = "dodge") +
-  labs(x = "Click oder View (letzter Kontakt)", y = "Relative Haeufigkeit") +
-  scale_fill_discrete(name="Konvertiert?", labels=c("ja", "nein"))
+  labs(x = "Position", y = "Anteil mit mindestens einem Click") +
+  scale_y_continuous(limits = c(0,1), oob=squish)
 
 #funnel length
-p = ggplot(data=subset(data, data$Last==1), mapping = aes(x = funnelLength, fill = factor(success)))
-p + geom_bar(aes(y = (..count..)/sum(..count..)), stat = "bin", position = "dodge", binwidth = 5) +
+p1 = ddply(data[First==1], .(Views), summarise, prop=prop.table(table(funnelLength)), funnelLength=names(table(funnelLength)))
+p1$funnelLength = as.integer(p1$funnelLength)
+p2 = p1[p1$funnelLength == 1, ]
+p2$prop = round(p2$prop, 2)
+p2[1,2] = "" #fuer Views=ja ist keine Anzeige noetig, da Wert <= ylim=.25
+ggplot(p1, aes(x = funnelLength, y = prop, fill = Views)) +
+  geom_bar(stat="identity", position='dodge') + 
   labs(x = "Funnel Length", y = "Relative Haeufigkeit") +
-  scale_fill_discrete(name="Konvertiert?", labels=c("ja", "nein"))
+  scale_fill_discrete(name="Views?", labels=c("ja", "nein")) +
+  facet_wrap(~Views, nrow=2, ncol=1) +
+  scale_y_continuous(limits = c(0,.25), oob=squish) +
+  scale_x_continuous(limits = c(0,20), oob=squish) +
+  geom_text(data = p2, aes(x=5, y=.225, label=prop))
 
-p + geom_bar(aes(y = (..count..)/sum(..count..)), stat = "bin", position = "dodge", binwidth=1) +
-  labs(x = "Funnel Length", y = "Relative Haeufigkeit") + xlim(0,50) +
-  scale_fill_discrete(name="Konvertiert?", labels=c("ja", "nein")) +
-  scale_y_continuous(limits = c(0,.1), oob=squish)
+#campaign
+p1 = ddply(data, .(Views), summarise, prop=prop.table(table(campaign)), campaign=names(table(campaign)))
+p2 = p1[p1$campaign == "Display", ]
+p2$prop = round(p2$prop, 2)
+p2[2,2] = ""
+ggplot(p1, aes(x = campaign, y = prop, fill = Views)) +
+  geom_bar(stat="identity", position='dodge') + 
+  labs(x = "Kampagnen", y = "Relative Haeufigkeit") +
+  coord_flip() +
+  scale_fill_discrete(name="Views?", labels=c("ja", "nein")) +
+  facet_wrap(~Views, nrow=2, ncol=1) +
+  scale_y_continuous(limits = c(0,.4), oob=squish) +
+  geom_text(data = p2, aes(x=5, y=.35, label=prop))
+  
+dev.off()
+rm(list=ls())
 
-p + geom_bar(aes(y = (..count..)/sum(..count..)), stat = "bin", position = "dodge", binwidth=1) +
-  labs(x = "Funnel Length", y = "Relative Haeufigkeit") + xlim(0,50) +
+#load data
+load("/zpool1/s10859017/consulting/r_data/succ.RData")
+load("/zpool1/s10859017/consulting/r_data/fail.RData")
+
+data = rbind(cbind(succ, success = "Ja"), cbind(fail, success = "Nein"))
+rm(succ, fail)
+
+pdf(file="/zpool1/s10859017/consulting/r_results/plotsSuccAndFail.pdf")
+
+#timeSinceFirst: nur mit Last=1 => Dauer vom ersten bis letzten
+p1 = ddply(data[Last == 1], .(success), summarise, prop=prop.table(table(timeSinceFirstDay)), timeSinceFirstDay=names(table(timeSinceFirstDay)))
+p1$timeSinceFirstDay = floor(as.numeric(p1$timeSinceFirstDay))
+p1 = aggregate(prop ~ success + timeSinceFirstDay, data = p1, FUN = sum)
+p2 = p1[p1$timeSinceFirstDay == 0, ]
+p2$prop = round(p2$prop, 2)
+ggplot(p1, aes(x = timeSinceFirstDay, y = prop, fill = success)) +
+  geom_bar(stat="identity", position='dodge') + 
+  labs(x = "Beobachtungsdauer in Tagen", y = "Relative Haeufigkeit") +
   scale_fill_discrete(name="Konvertiert?", labels=c("ja", "nein")) +
-  scale_y_continuous(limits = c(0,.05), oob=squish)
+  facet_wrap(~success, nrow=2, ncol=1) +
+  scale_y_continuous(limits = c(0,.05), oob=squish) + 
+  scale_x_continuous(limits = c(0,50), oob=squish) +
+  geom_text(data = p2, aes(x=5, y=.045, label=prop))
+
+#timeSinceLast: Frequenz der Kontaktpunkte
+p1 = ddply(data, .(success), summarise, prop=prop.table(table(timeSinceLastDay)), timeSinceLastDay=names(table(timeSinceLastDay)))
+p1$timeSinceLastDay = floor(as.numeric(p1$timeSinceLastDay))
+p1 = aggregate(prop ~ success + timeSinceLastDay, data = p1, FUN = sum)
+p2 = p1[p1$timeSinceLastDay == 0, ]
+p2$prop = round(p2$prop, 2)
+ggplot(p1, aes(x = timeSinceLastDay, y = prop, fill = success)) +
+  geom_bar(stat="identity", position='dodge') + 
+  scale_fill_discrete(name="Konvertiert?", labels=c("ja", "nein")) +
+  labs(x = "Dauer zwischen Kontaktpunkten in Tagen", y = "Relative Haeufigkeit") + 
+  facet_wrap(~success, nrow=2, ncol=1) +
+  scale_y_continuous(limits = c(0,.1), oob=squish) + 
+  scale_x_continuous(limits = c(0,50), oob=squish) +
+  geom_text(data = p2, aes(x=5, y=.09, label=prop))
+
+#hour
+p1 = ddply(data, .(success), summarise, prop=prop.table(table(hour)), hour=names(table(hour)))
+p1$hour = as.integer(p1$hour)
+ggplot(p1, aes(x = hour, y = prop, fill = success)) +
+  geom_bar(stat="identity", position='dodge') + 
+  scale_fill_discrete(name="Konvertiert?", labels=c("ja", "nein")) +
+  labs(x = "Uhrzeit", y = "Relative Haeufigkeit") +
+  facet_wrap(~success, nrow=2, ncol=1)
+
+#weekday
+p1 = ddply(data, .(success), summarise, prop=prop.table(table(weekday)), weekday=names(table(weekday)))
+p1$weekday <- (factor(p1$weekday, levels=c("Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag","Sonntag")))
+ggplot(p1, aes(x = weekday, y = prop, fill = success)) +
+  geom_bar(stat="identity", position='dodge') + 
+  labs(x = "Wochentag", y = "Relative Haeufigkeit") +
+  scale_fill_discrete(name="Konvertiert?", labels=c("ja", "nein")) +
+  facet_wrap(~success, nrow=2, ncol=1)
+
+#funnel length
+p1 = ddply(data[First==1], .(success), summarise, prop=prop.table(table(funnelLength)), funnelLength=names(table(funnelLength)))
+p1$funnelLength = as.integer(p1$funnelLength)
+p2 = p1[p1$funnelLength == 1, ]
+p2$prop = round(p2$prop, 2)
+ggplot(p1, aes(x = funnelLength, y = prop, fill = success)) +
+  geom_bar(stat="identity", position='dodge') + 
+  labs(x = "Funnel Length", y = "Relative Haeufigkeit") +
+  scale_fill_discrete(name="Konvertiert?", labels=c("ja", "nein")) +
+  facet_wrap(~success, nrow=2, ncol=1) +
+  scale_y_continuous(limits = c(0,.3), oob=squish) +
+  scale_x_continuous(limits = c(0,20), oob=squish) +
+  geom_text(data = p2, aes(x=5, y=.275, label=prop))
+
+#campaign
+p1 = ddply(data, .(success), summarise, prop=prop.table(table(campaign)), campaign=names(table(campaign)))
+ggplot(p1, aes(x = campaign, y = prop, fill = success)) +
+  geom_bar(stat="identity", position='dodge') + 
+  labs(x = "Kampagnen", y = "Relative Haeufigkeit") +
+  coord_flip() +
+  scale_fill_discrete(name="Konvertiert?", labels=c("ja", "nein")) +
+  facet_wrap(~success, nrow=2, ncol=1) 
+  #scale_y_continuous(limits = c(0,.1), oob=squish) +
 
 dev.off()
-#projectType fehlt noch
