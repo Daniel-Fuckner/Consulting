@@ -11,9 +11,10 @@
 
 %Abstract
 \begin{abstract}
-	\noindent
-	\paragraph{Abstract:}
-	\paragraph{Background:} In patients with
+\noindent\subsubsection*{Abstract}
+Die Interhyp AG ist Vermittler für private Baufinanzierungen. Das primäre Ziel des Marketing der Interhyp AG ist die Kundenakquise. Da etwa 80\% aller Kundenanträge online abgeschickt werden, liegt der Fokus auf dem Online-Marketing, das über verschiedene Kampagnen verfügt. Beispiele sind Kooperationen mit anderen Unternehmen, bezahlte Anzeigen bei Suchmaschinen oder Bannerschaltungen.\\
+Die Refined Labs GmbH ist verantwortlich für das Online-Tracking der Werbekampagnen der Interhyp AG. Durch Online-Tracking werden die Werbekontakte eines potentiellen Kunden zu einem sogenannten Funnel zusammengefasst. Am Ende eines jeden Funnels steht das Ausfüllen eines Onlineantrages oder der Abbruch. Man spricht von konvertierten beziehungsweise nicht-konvertierten Funnels.\\
+In dieser Arbeit werden die Daten zunächst anhand deskriptiver Analysen vorgestellt. Außerdem werden Methodik und Ergebnisse eines Sequential Pattern Mining-Algorithmus sowie eines zeitdiskreten Survival-Modells, welches mittels Stochastic Gradient Boosting geschätzt wurde, beschrieben. Zudem wurden die konvertierten und nicht-konvertierten Funnels in Form eines Netzwerkes visualisiert. Die Daten für dieses Netzwerk und ein Programm, dass die interaktive Betrachtung ermöglicht, ist im elektronischen Anhang enthalten.
 \end{abstract}
 
 %Inhaltsverzeichnis
@@ -26,11 +27,18 @@
 % Hier beginnt der eigentliche Text
 \input{einleitung.tex} % Importiere die Einleitung
 \input{datenlage.tex}
-\input{survival.tex}
+\input{deskriptiv.tex}
 \input{spm.tex}
+\input{survival.tex}
+\input{visual.tex}
+\input{ergebnisse.tex}
+\input{zusammenfassung.tex}
+\input{elektronischer_anhang.tex}
 
-%Literaturverzeichnis
 \newpage
-\printbibliography 
+\listoftables
+\listoffigures
+\newpage
+\printbibliography
 
 \end{document}

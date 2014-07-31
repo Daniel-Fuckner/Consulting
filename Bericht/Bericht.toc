@@ -2,30 +2,42 @@
 \defcounter {refsection}{0}\relax 
 \select@language {ngerman}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Abstract:}{i}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Background:}{i}
-\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}Einleitung}{1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2}Datenlage}{2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Zeitdiskretes Proportional-Hazards-Modell von Cox}{2}
+\contentsline {section}{\numberline {3}Deskriptive Analyse}{2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Lebensdauer-Modell}{2}
+\contentsline {subsection}{\numberline {3.1}Views in den konvertierten Funnels}{3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Stochastic Gradient Boosting}{3}
+\contentsline {subsection}{\numberline {3.2}Vergleich von konvertierten und nicht-konvertierten Funnels}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Sequential Pattern Mining}{4}
+\contentsline {section}{\numberline {4}Sequential Pattern Mining}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}\IeC {\"U}berblick}{4}
+\contentsline {subsection}{\numberline {4.1}\IeC {\"U}berblick}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Problemstellung}{5}
+\contentsline {subsection}{\numberline {4.2}Problemstellung}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}Auswahl geeigneter Algorithmen}{5}
+\contentsline {subsection}{\numberline {4.3}SPADE}{16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.3.1}Apriori-Based}{6}
+\contentsline {section}{\numberline {5}Zeitdiskretes Survival-Modell}{20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4}SPADE}{6}
+\contentsline {subsection}{\numberline {5.1}Lebensdauer-Modell}{20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.4.1}Berechnung des Supports}{6}
+\contentsline {subsection}{\numberline {5.2}Stochastic Gradient Boosting}{22}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Visualisierung SPM}{27}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1}Idee und Erkl\IeC {\"a}rung}{27}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2}Graphen}{28}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7}Ergebnisse}{28}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.1}Zeitdiskretes Survival-Modell}{28}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2}Sequential Pattern Mining}{37}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8}Zusammenfassung}{40}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9}Elektronischer Anhang}{40}

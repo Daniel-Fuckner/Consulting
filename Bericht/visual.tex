@@ -1,0 +1,15 @@
+\section{Visualisierung SPM}\label{Gephi}
+\subsection{Idee und Erklärung}
+-- bessere Einleitung/Überleitung\\
+SPM versucht die Muster in den Abfolgen von Kampagnen zu erkennen.\\
+
+Wenn man die Kampagnen für jeden Funnel und allen touchpoint aneinanderreiht bekommt man viele Ketten bzw. Abfolgen an Kampagnen. Viele Funnels haben die gleiche Kampagne an der gleichen Position und haben sogar identische Abschnitte. Betrachtet man nun die Kampagnen an einer bestimmten Position als Knotenpunkt und die Reihenfolge als Verbindungen zwischen diesen Knotenpunkt, ergibt sich ein Netzwerk mit Nodes und Edges. Mit dem rgexf Paket in R können wir dieses Netzwerk als .gexf format beschreiben, welches im Prinzip ein XML Format ist. Durch das Tool Gephi, lesen wir diese Datei ein un erzeugen so einen Graphen der unsere Nodes und Edges darstellt. Dabei werden auch einige Parameter übergeben, wie z.B. ein relative Edge weight, dass uns aus welchen anteilen sich eine Node zusammensetzt. Die nullte Ebene beschreibt den Startpunkt, die erste Ebene sind dann alle Werbeformen der ersten Position. Zusätlich wurden noch ab der ersten Ebene zwei neue Nodes, Success und Fails, erzeugt die die Konvertierung bzw nicht Konvertierung darstellt. Da die räumliche Anordnung nach dem ersten einlesen der .gexf Datei noch willkürlich ist, wenden wir eineßn Algorithmus an der die Nodes räumlich anordnet mit Bezug auf den Parametern die wir übergeben haben. Dieser Algorithmus heißt Force Atlas 2 und berechnet die Position der Nodes aufgrund der Abstoßungskraft der Nodes und der Anziehungskraft der Edges. Das bedeutet die genau Position der Nodes sind immer noch ohne Aussagekraft, dafür aber die relative Anordnung untereinander. Das heißt stärker verbundene Nodes liegen näher beieinander als schwach verbundene. Die logische Konsequenz daraus ist, dass der Startpunkt näher an der ersten Ebene liegt, weil er ja nur an dieser verknüpft ist. Somit ergibt sich eine lineare Struktur, die auch Sinn macht, weil es keine Verbindungen zwischen Ebenen gibt die mehr als zwei Schritte voneinander entfernt sind. 
+
+
+\subsection{Graphen}
+% Hier fehlen noch die Grafiken, noch ein genaues Format festlegen
+% Interpretion
+% Bezug zu SPM herstellen
+ 
+
+

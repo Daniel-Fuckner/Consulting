@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.4.9)  22 JUN 2014 12:35
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.4.9)  31 JUL 2014 18:10
 entering extended mode
 **Bericht.tex
-(C:\Users\Markus\Documents\Git\Consulting\Bericht\Bericht.tex
+(C:\Users\Markus\Desktop\Bericht\Bericht.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, arabic, armenian, assamese, basque, bengali
 , bokmal, bulgarian, catalan, coptic, croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, galic
@@ -10,7 +10,7 @@ ian, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, icelandic, 
 -x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, romanian, russian, sanskrit, serbian, slovak, sloven
 ian, spanish, swedish, swissgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usenglishmax, w
 elsh, loaded.
-(C:\Users\Markus\Documents\Git\Consulting\Bericht\Bericht_Praeambel.tex
+(C:\Users\Markus\Desktop\Bericht\Bericht_Praeambel.tex
 (C:\Users\Markus\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrartcl.cls
 Document Class: scrartcl 2012/07/29 v3.11b KOMA-Script document class (article)
 (C:\Users\Markus\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrkbase.sty
@@ -740,6 +740,44 @@ Normal \count register pool exhausted, switching to extended pool.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\eurosym\eurosym.sty"
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 \@eurobox=\box44
+)
+(C:\Users\Markus\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithms\algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count278
+\c@ALC@line=\count279
+\c@ALC@rem=\count280
+\c@ALC@depth=\count281
+\ALC@tlm=\skip59
+\algorithmicindent=\skip60
+)
+(C:\Users\Markus\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithms\algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
+\@float@every@algorithm=\toks30
+\c@algorithm=\count282
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\dirtree\dirtree.sty"
+Package: dirtree 2012/12/11 v0.32 package wrapper for dirtree
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\dirtree\dirtree.tex" `dirtree' v0.32, 2012/12/11 (jcc)
+\DT@offset=\dimen127
+\DT@width=\dimen128
+\DT@sep=\dimen129
+\DT@all=\dimen130
+\DT@rulewidth=\dimen131
+\DT@dotwidth=\dimen132
+\DTbaselineskip=\dimen133
+\DT@counti=\count283
+\DT@countii=\count284
+\DT@countiii=\count285
+\DT@countiv=\count286
+\DT@indent=\dimen134
+\DT@parskip=\dimen135
+\DT@baselineskip=\dimen136
+)
+File: dirtree.tex 2012/12/11 v0.32 `dirtree' (jcc)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+\bigstrutjot=\dimen137
 ))
 Package biblatex Info: Trying to load language 'ngerman'...
 Package biblatex Info: ... file 'ngerman.lbx' found.
@@ -757,7 +795,11 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
 
-(C:\Users\Markus\Documents\Git\Consulting\Bericht\Bericht.aux)
+(C:\Users\Markus\Desktop\Bericht\Bericht.aux
+
+LaTeX Warning: Label `campaignSucc' multiply defined.
+
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
@@ -779,27 +821,25 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Warning: File 'Bericht.bbl' is wrong format version - expected 2.1.
 
 Package biblatex Info: ... file 'Bericht.bbl' found.
-(C:\Users\Markus\Documents\Git\Consulting\Bericht\Bericht.bbl)
+(C:\Users\Markus\Desktop\Bericht\Bericht.bbl)
 Package biblatex Info: Reference section=0 on input line 4.
 Package biblatex Info: Reference segment=0 on input line 4.
-
-(C:\Users\Markus\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+ (C:\Users\Markus\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count278
-\scratchdimen=\dimen127
+\scratchcounter=\count287
+\scratchdimen=\dimen138
 \scratchbox=\box45
-\nofMPsegments=\count279
-\nofMParguments=\count280
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count281
-\MPscratchDim=\dimen128
-\MPnumerator=\count282
-\makeMPintoPDFobject=\count283
-\everyMPtoPDFconversion=\toks31
-) (C:\Users\Markus\Documents\Git\Consulting\Bericht\deckblatt.tex
+\nofMPsegments=\count288
+\nofMParguments=\count289
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count290
+\MPscratchDim=\dimen139
+\MPnumerator=\count291
+\makeMPintoPDFobject=\count292
+\everyMPtoPDFconversion=\toks32
+) (C:\Users\Markus\Desktop\Bericht\deckblatt.tex
 LaTeX Font Info:    Try loading font information for U+msa on input line 30.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 30.
@@ -809,64 +849,236 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {C:/Users/Markus/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}])
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 16.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 14.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
 File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 ) [1]
-(C:\Users\Markus\Documents\Git\Consulting\Bericht\Bericht.toc)
+(C:\Users\Markus\Desktop\Bericht\Bericht.toc)
 \tf@toc=\write4
- [2]
-(C:\Users\Markus\Documents\Git\Consulting\Bericht\einleitung.tex)
-(C:\Users\Markus\Documents\Git\Consulting\Bericht\datenlage.tex
-Underfull \hbox (badness 10000) in paragraph at lines 14--1
+ [2] (C:\Users\Markus\Desktop\Bericht\einleitung.tex)
+(C:\Users\Markus\Desktop\Bericht\datenlage.tex [1]) (C:\Users\Markus\Desktop\Bericht\deskriptiv.tex
+Overfull \hbox (22.24611pt too wide) in paragraph at lines 6--23
+ [] 
+ []
+
+[2] <clickCountSucc.pdf, id=28, 505.89pt x 505.89pt>
+File: clickCountSucc.pdf Graphic file (type pdf)
+ <use clickCountSucc.pdf>
+Package pdftex.def Info: clickCountSucc.pdf used on input line 33.
+(pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
+ [3]
+<hasClickedSucc.pdf, id=36, 505.89pt x 505.89pt>
+File: hasClickedSucc.pdf Graphic file (type pdf)
+ <use hasClickedSucc.pdf>
+Package pdftex.def Info: hasClickedSucc.pdf used on input line 42.
+(pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
+ [4 <C:/Users/Markus/Desktop/Bericht/clickCountSucc.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+[]\T1/cmr/m/n/12 Potentieller Kun-de gibt im Brow-ser di-rekt
+ []
+
+
+Overfull \hbox (15.77666pt too wide) in paragraph at lines 51--72
+ [] 
+ []
+
+[5 <C:/Users/Markus/Desktop/Bericht/hasClickedSucc.pdf>] <campaignSucc.pdf, id=54, 505.89pt x 505.89pt>
+File: campaignSucc.pdf Graphic file (type pdf)
+
+<use campaignSucc.pdf>
+Package pdftex.def Info: campaignSucc.pdf used on input line 78.
+(pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
+ [6] <weekday.pdf, id=58, 505.89pt x 505.89pt>
+File: weekday.pdf Graphic file (type pdf)
+ <use weekday.pdf>
+Package pdftex.def Info: weekday.pdf used on input line 90.
+(pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
+ [7 <C:/Users/Markus/Desktop/Bericht/campaignSucc.pdf>] <hour.pdf, id=68, 505.89pt x 505.89pt>
+File: hour.pdf Graphic file (type pdf)
+ <use hour.pdf>
+Package pdftex.def Info: hour.pdf used on input line 99.
+(pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
+ [8 <C:/Users/Markus/Desktop/Bericht/weekday.pdf>] <campaign.pdf, id=78, 505.89pt x 505.89pt>
+File: campaign.pdf Graphic file (type pdf)
+ <use campaign.pdf>
+Package pdftex.def Info: campaign.pdf used on input line 112.
+(pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
+ [9 <C:/Users/Markus/Desktop/Bericht/hour.pdf>]
+<funnelLength_First.pdf, id=88, 505.89pt x 505.89pt>
+File: funnelLength_First.pdf Graphic file (type pdf)
+ <use funnelLength_First.pdf>
+Package pdftex.def Info: funnelLength_First.pdf used on input line 126.
+(pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
+ [10 <C:/Users/Markus/Desktop/Bericht/campaign.pdf>] <timeSinceFirst_Last.pdf, id=99, 505.89pt x 505.89pt>
+File: timeSinceFirst_Last.pdf Graphic file (type pdf)
+ <use timeSinceFirst_Last.pdf>
+Package pdftex.def Info: timeSinceFirst_Last.pdf used on input line 144.
+(pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
+ [11 <C:/Users/Markus/Desktop/Bericht/funnelLength_First.pdf>] <timeSinceLast.pdf, id=109, 505.89pt x 505.89pt>
+File: timeSinceLast.pdf Graphic file (type pdf)
+ <use timeSinceLast.pdf>
+Package pdftex.def Info: timeSinceLast.pdf used on input line 157.
+(pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
+
+[12 <C:/Users/Markus/Desktop/Bericht/timeSinceFirst_Last.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 164--167
 
  []
 
-) (C:\Users\Markus\Documents\Git\Consulting\Bericht\survival.tex [1]
-Overfull \hbox (1.43678pt too wide) in paragraph at lines 11--14
-\T1/cmr/m/n/12 Das Proportional-Hazards-Modell von Cox [5] ist ein mul-ti-pli-ka-ti-ves Hazardraten-Modell. 
+<freq.pdf, id=119, 505.89pt x 505.89pt>
+File: freq.pdf Graphic file (type pdf)
+ <use freq.pdf>
+Package pdftex.def Info: freq.pdf used on input line 172.
+(pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
+ [13 <C:/Users/Markus/Desktop/Bericht/timeSinceLast.pdf>])
+(C:\Users\Markus\Desktop\Bericht\spm.tex [14 <C:/Users/Markus/Desktop/Bericht/freq.pdf>] [15] [16] [17] [18]
+Underfull \hbox (badness 10000) in paragraph at lines 102--131
+
  []
 
-[2] [3]) (C:\Users\Markus\Documents\Git\Consulting\Bericht\spm.tex [4]
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
+[19]) (C:\Users\Markus\Desktop\Bericht\survival.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
  []
 
-[5]) [6]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 34.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+[20] [21] [22]
+Overfull \hbox (3.03453pt too wide) in paragraph at lines 51--75
+\T1/cmr/m/n/12 Residuen $\OML/cmm/m/it/12 r[]$ \T1/cmr/m/n/12 be-rech-net, die die Rich-tung des ne-ga-ti-ven Gra-di-en-
+ten an-ge-ben. Die Pseudo-
+ []
+
+[23] [24] [25] [26]) (C:\Users\Markus\Desktop\Bericht\visual.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
+
+ []
+
+[27]) (C:\Users\Markus\Desktop\Bericht\ergebnisse.tex <bestIter.pdf, id=188, 505.89pt x 505.89pt>
+File: bestIter.pdf Graphic file (type pdf)
+ <use bestIter.pdf>
+Package pdftex.def Info: bestIter.pdf used on input line 7.
+(pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
+
+<variableImportance.pdf, id=189, 505.89pt x 505.89pt>
+File: variableImportance.pdf Graphic file (type pdf)
+ <use variableImportance.pdf>
+Package pdftex.def Info: variableImportance.pdf used on input line 12.
+(pdftex.def)             Requested size: 455.29678pt x 455.29678pt.
+
+Overfull \hbox (7.16583pt too wide) in paragraph at lines 12--12
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--13
+
+ []
+
+[28 <C:/Users/Markus/Desktop/Bericht/bestIter.pdf>] [29] <marg_eff_campaign.pdf, id=202, 505.89pt x 505.89pt>
+File: marg_eff_campaign.pdf Graphic file (type pdf)
+
+<use marg_eff_campaign.pdf>
+Package pdftex.def Info: marg_eff_campaign.pdf used on input line 22.
+(pdftex.def)             Requested size: 379.41655pt x 379.41655pt.
+ [30 <C:/Users/Markus/Desktop/Bericht/variableImportance.pdf>] [31]
+<marg_eff_campaignLast.pdf, id=215, 505.89pt x 505.89pt>
+File: marg_eff_campaignLast.pdf Graphic file (type pdf)
+ <use marg_eff_campaignLast.pdf>
+Package pdftex.def Info: marg_eff_campaignLast.pdf used on input line 26.
+(pdftex.def)             Requested size: 379.41655pt x 379.41655pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--27
+
+ []
+
+[32 <C:/Users/Markus/Desktop/Bericht/marg_eff_campaign.pdf>] <marg_eff_time.pdf, id=225, 505.89pt x 505.89pt>
+File: marg_eff_time.pdf Graphic file (type pdf)
+
+<use marg_eff_time.pdf>
+Package pdftex.def Info: marg_eff_time.pdf used on input line 31.
+(pdftex.def)             Requested size: 379.41655pt x 379.41655pt.
+ [33 <C:/Users/Markus/Desktop/Bericht/marg_eff_campaignLast.pdf>]
+<roc.png, id=235, 481.8pt x 481.8pt>
+File: roc.png Graphic file (type png)
+ <use roc.png>
+Package pdftex.def Info: roc.png used on input line 38.
+(pdftex.def)             Requested size: 361.3491pt x 361.3491pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--39
+
+ []
+
+[34 <C:/Users/Markus/Desktop/Bericht/marg_eff_time.pdf>] [35] <auc.pdf, id=249, 505.89pt x 505.89pt>
+File: auc.pdf Graphic file (type pdf)
+ <use auc.pdf>
+Package pdftex.def Info: auc.pdf used on input line 42.
+(pdftex.def)             Requested size: 379.41655pt x 379.41655pt.
+
+[36 <C:/Users/Markus/Desktop/Bericht/roc.png (PNG copy)>] <spm_all.pdf, id=253, 722.7pt x 722.7pt>
+File: spm_all.pdf Graphic file (type pdf)
+ <use spm_all.pdf>
+Package pdftex.def Info: spm_all.pdf used on input line 50.
+(pdftex.def)             Requested size: 433.62334pt x 433.62334pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--51
+
+ []
+
+[37 <C:/Users/Markus/Desktop/Bericht/auc.pdf>] <spm_min15.pdf, id=262, 722.7pt x 722.7pt>
+File: spm_min15.pdf Graphic file (type pdf)
+ <use spm_min15.pdf>
+Package pdftex.def Info: spm_min15.pdf used on input line 54.
+(pdftex.def)             Requested size: 433.62334pt x 433.62334pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--55
+
+ []
+
+[38 <C:/Users/Markus/Desktop/Bericht/spm_all.pdf>]) (C:\Users\Markus\Desktop\Bericht\zusammenfassung.tex [39 <C:/Users/M
+arkus/Desktop/Bericht/spm_min15.pdf>]) (C:\Users\Markus\Desktop\Bericht\elektronischer_anhang.tex
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 7.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-) [7] [8] [9]
-(C:\Users\Markus\Documents\Git\Consulting\Bericht\Bericht.aux)
+)) [40] (C:\Users\Markus\Desktop\Bericht\Bericht.lot)
+\tf@lot=\write5
+
+(C:\Users\Markus\Desktop\Bericht\Bericht.lof)
+\tf@lof=\write6
+ [41] [42] [43] (C:\Users\Markus\Desktop\Bericht\Bericht.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package logreq Info: Writing requests to 'Bericht.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 10059 strings out of 493921
- 159972 string characters out of 3144874
- 591416 words of memory out of 3000000
- 13159 multiletter control sequences out of 15000+200000
- 20532 words of font info for 52 fonts, out of 3000000 for 9000
+ 10519 strings out of 493921
+ 167308 string characters out of 3144874
+ 596373 words of memory out of 3000000
+ 13560 multiletter control sequences out of 15000+200000
+ 21260 words of font info for 51 fonts, out of 3000000 for 9000
  845 hyphenation exceptions out of 8191
- 58i,19n,49p,1049b,1403s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Markus\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk> <C:\Users\Markus\AppData\Lo
-cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1200.pk> <C:\Users\Markus\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
-\jknappen\ec\dpi600\ecti1200.pk> <C:\Users\Markus\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1440.p
-k> <C:\Users\Markus\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1728.pk> <C:\Users\Markus\AppData\Lo
-cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1200.pk> <C:\Users\Markus\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
-\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\Markus\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.p
-k> <C:\Users\Markus\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Markus\AppData\Lo
-cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\Markus\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
-\jknappen\ec\dpi600\eccc1440.pk> <C:\Users\Markus\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc2074.p
-k><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/eurosym/feymr10.pfb>
-Output written on Bericht.pdf (12 pages, 295380 bytes).
+ 58i,16n,49p,1972b,1403s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Markus\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1200.pk> <C:\Users\Markus\AppData\Lo
+cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk> <C:\Users\Markus\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
+\jknappen\ec\dpi600\ecrm0800.pk> <C:\Users\Markus\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1440.p
+k> <C:\Users\Markus\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Users\Markus\AppData\Lo
+cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1728.pk> <C:\Users\Markus\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
+\jknappen\ec\dpi600\ecsx1200.pk> <C:\Users\Markus\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.p
+k> <C:\Users\Markus\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Markus\AppData\Lo
+cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Markus\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
+\jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\Markus\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1440.p
+k> <C:\Users\Markus\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc2074.pk><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi1
+2.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/eurosym/feymr10.pfb><C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Bericht.pdf (46 pages, 548091 bytes).
 PDF statistics:
- 547 PDF objects out of 1000 (max. 8388607)
+ 843 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

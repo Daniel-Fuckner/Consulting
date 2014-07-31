@@ -37,27 +37,45 @@
       \field{year}{1995}
       \field{pages}{3\bibrangedash 14}
     \endentry
-    \entry{spam}{article}{}
-      \name{labelname}{4}{}{%
-        {{uniquename=0,hash=d7b5326c837f25e7868630610900da04}{Ayres}{A\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=ba4ba6543d6e85e07cf55116a6e012b6}{Flannick}{F\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=ea7aaa0cd428c2a5cbbb7e36e069a70b}{Gehrke}{G\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=8739aa92f251c400e725a87964b780d1}{Yiu}{Y\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+    \entry{dosnow}{manual}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=98af271d1ab31cb91a5161dafa188ca1}{Analytics}{A\bibinitperiod}{Revolution}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=71558f6c95c26f241f839821c70baae9}{Weston}{W\bibinitperiod}{Steve}{S\bibinitperiod}{}{}{}{}}%
       }
-      \name{author}{4}{}{%
-        {{uniquename=0,hash=d7b5326c837f25e7868630610900da04}{Ayres}{A\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=ba4ba6543d6e85e07cf55116a6e012b6}{Flannick}{F\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=ea7aaa0cd428c2a5cbbb7e36e069a70b}{Gehrke}{G\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=8739aa92f251c400e725a87964b780d1}{Yiu}{Y\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=98af271d1ab31cb91a5161dafa188ca1}{Analytics}{A\bibinitperiod}{Revolution}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=71558f6c95c26f241f839821c70baae9}{Weston}{W\bibinitperiod}{Steve}{S\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{6583b264b1abe29539255be24e2d2962}
-      \strng{fullhash}{7f99e402ca019bf30b805560c7e05e8f}
+      \strng{namehash}{9f56b3d5e1eb03e812f4ccf86d127035}
+      \strng{fullhash}{9f56b3d5e1eb03e812f4ccf86d127035}
       \field{sortinit}{A}
-      \field{labeltitle}{Sequential pattern mining using a bitmap representation}
-      \field{journaltitle}{Proceedings of the 8th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining}
-      \field{title}{Sequential pattern mining using a bitmap representation}
-      \field{year}{2002}
-      \field{pages}{429\bibrangedash 435}
+      \field{labeltitle}{doSNOW: Foreach parallel adaptor for the snow package}
+      \field{note}{R package version 1.0.12}
+      \field{title}{doSNOW: Foreach parallel adaptor for the snow package}
+      \field{year}{2014}
+      \verb{url}
+      \verb http://CRAN.R-project.org/package=doSNOW
+      \endverb
+    \endentry
+    \entry{foreach}{manual}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=98af271d1ab31cb91a5161dafa188ca1}{Analytics}{A\bibinitperiod}{Revolution}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=71558f6c95c26f241f839821c70baae9}{Weston}{W\bibinitperiod}{Steve}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=98af271d1ab31cb91a5161dafa188ca1}{Analytics}{A\bibinitperiod}{Revolution}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=71558f6c95c26f241f839821c70baae9}{Weston}{W\bibinitperiod}{Steve}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{9f56b3d5e1eb03e812f4ccf86d127035}
+      \strng{fullhash}{9f56b3d5e1eb03e812f4ccf86d127035}
+      \field{sortinit}{A}
+      \field{labeltitle}{foreach: Foreach looping construct for R}
+      \field{note}{R package version 1.4.2}
+      \field{title}{foreach: Foreach looping construct for R}
+      \field{year}{2014}
+      \verb{url}
+      \verb http://CRAN.R-project.org/package=foreach
+      \endverb
     \endentry
     \entry{arulesSequences}{manual}{}
       \name{labelname}{3}{}{%
@@ -80,44 +98,6 @@
       \verb{url}
       \verb http://CRAN.R-project.org/package=arulesSequences
       \endverb
-    \endentry
-    \entry{discall}{article}{}
-      \name{labelname}{3}{}{%
-        {{uniquename=0,hash=33a706b6c7626691e516e742cbf7c366}{Chiu}{C\bibinitperiod}{D.-Y.}{D\bibinithyphendelim Y\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=488f3bbddf1cf19e3483d1df1e69774a}{Wu}{W\bibinitperiod}{Y.-H.}{Y\bibinithyphendelim H\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=5c7b5a08ba7a6b302ec469ace1143d8a}{Chen}{C\bibinitperiod}{A.\bibnamedelimi L.\bibnamedelimi P.}{A\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{3}{}{%
-        {{uniquename=0,hash=33a706b6c7626691e516e742cbf7c366}{Chiu}{C\bibinitperiod}{D.-Y.}{D\bibinithyphendelim Y\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=488f3bbddf1cf19e3483d1df1e69774a}{Wu}{W\bibinitperiod}{Y.-H.}{Y\bibinithyphendelim H\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=5c7b5a08ba7a6b302ec469ace1143d8a}{Chen}{C\bibinitperiod}{A.\bibnamedelimi L.\bibnamedelimi P.}{A\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{ee76ea3428ca51241fb1e7bbd4c6857c}
-      \strng{fullhash}{115e805c063500e581ff245c0e2430c5}
-      \field{sortinit}{C}
-      \field{labeltitle}{An efficient algorithm for mining frequent sequences by a new strategy without support counting}
-      \field{journaltitle}{Proceedings of the 20th International Conference on Data Engineering}
-      \field{title}{An efficient algorithm for mining frequent sequences by a new strategy without support counting}
-      \field{year}{2004}
-      \field{pages}{375\bibrangedash 386}
-    \endentry
-    \entry{cox}{article}{}
-      \name{labelname}{1}{}{%
-        {{uniquename=0,hash=67a6e76c3d7d2f500bcde768585e3738}{Cox}{C\bibinitperiod}{D.\bibnamedelimi R.}{D\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=67a6e76c3d7d2f500bcde768585e3738}{Cox}{C\bibinitperiod}{D.\bibnamedelimi R.}{D\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{67a6e76c3d7d2f500bcde768585e3738}
-      \strng{fullhash}{67a6e76c3d7d2f500bcde768585e3738}
-      \field{sortinit}{C}
-      \field{labeltitle}{Regression Models and Life-Tables}
-      \field{journaltitle}{Journals of the Royal Statistical Society}
-      \field{number}{2}
-      \field{title}{Regression Models and Life-Tables}
-      \field{volume}{34}
-      \field{year}{1972}
-      \field{pages}{187\bibrangedash 220}
     \endentry
     \entry{fsminer}{article}{}
       \name{labelname}{3}{}{%
@@ -159,7 +139,46 @@
       \field{year}{2005}
       \field{pages}{26\bibrangedash 35}
     \endentry
-    \entry{fried_stoch}{article}{}
+    \entry{spm_taxonomy2}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=289234971c015c6dc8022081433ced5f}{Facca}{F\bibinitperiod}{F.\bibnamedelimi M.}{F\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=7a9c2d51eaa0ccf9f257b331030b16d6}{Lanzi}{L\bibinitperiod}{P.\bibnamedelimi L.}{P\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=289234971c015c6dc8022081433ced5f}{Facca}{F\bibinitperiod}{F.\bibnamedelimi M.}{F\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=7a9c2d51eaa0ccf9f257b331030b16d6}{Lanzi}{L\bibinitperiod}{P.\bibnamedelimi L.}{P\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7d14461e907e6ec336c7ec5040fe4e69}
+      \strng{fullhash}{7d14461e907e6ec336c7ec5040fe4e69}
+      \field{sortinit}{F}
+      \field{labeltitle}{Recent developments in web usage mining research}
+      \field{journaltitle}{Proceedings of the 5th International Conference on Data Warehousing and Knowledge Discovery}
+      \field{title}{Recent developments in web usage mining research}
+      \field{year}{2003}
+    \endentry
+    \entry{fried_additive}{article}{}
+      \name{labelname}{3}{uniquelist=2}{%
+        {{uniquename=0,hash=737f06ec463b4ce942a547e57d0bf857}{Friedman}{F\bibinitperiod}{J.\bibnamedelimi H.}{J\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f62ba077cb7ab155bad8c8547d164b4e}{Hastie}{H\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4117945339081933eb914268a132be74}{Tibshirani}{T\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{uniquelist=2}{%
+        {{uniquename=0,hash=737f06ec463b4ce942a547e57d0bf857}{Friedman}{F\bibinitperiod}{J.\bibnamedelimi H.}{J\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f62ba077cb7ab155bad8c8547d164b4e}{Hastie}{H\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=4117945339081933eb914268a132be74}{Tibshirani}{T\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7d516edc9431780b9b8ac9899113f042}
+      \strng{fullhash}{1f22efeafb0dfe68b91523667c54353e}
+      \field{sortinit}{F}
+      \field{labeltitle}{Additive Logistic Regression: a Statistical View of Boosting}
+      \field{journaltitle}{Annals of Statistics}
+      \field{number}{2}
+      \field{title}{Additive Logistic Regression: a Statistical View of Boosting}
+      \field{volume}{28}
+      \field{year}{2000}
+      \field{pages}{337\bibrangedash 374}
+    \endentry
+    \entry{fried_greedy}{article}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=737f06ec463b4ce942a547e57d0bf857}{Friedman}{F\bibinitperiod}{J.\bibnamedelimi H.}{J\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
       }
@@ -169,13 +188,33 @@
       \strng{namehash}{737f06ec463b4ce942a547e57d0bf857}
       \strng{fullhash}{737f06ec463b4ce942a547e57d0bf857}
       \field{sortinit}{F}
-      \field{labeltitle}{Stochastic Gradient Boosting}
-      \field{journaltitle}{Computational Statistics and Data Analysis}
-      \field{number}{4}
-      \field{title}{Stochastic Gradient Boosting}
-      \field{volume}{38}
-      \field{year}{2002}
-      \field{pages}{367\bibrangedash 378}
+      \field{labeltitle}{Greedy Function Approximation: A Gradient Boosting Machine}
+      \field{journaltitle}{Annals of Statistics}
+      \field{number}{5}
+      \field{title}{Greedy Function Approximation: A Gradient Boosting Machine}
+      \field{volume}{29}
+      \field{year}{2001}
+      \field{pages}{1189\bibrangedash 1232}
+    \endentry
+    \entry{friedman_h}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=737f06ec463b4ce942a547e57d0bf857}{Friedman}{F\bibinitperiod}{J.\bibnamedelimi H.}{J\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=86a8c69345837525670b707ac25a936f}{Popescu}{P\bibinitperiod}{B.\bibnamedelimi E.}{B\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=737f06ec463b4ce942a547e57d0bf857}{Friedman}{F\bibinitperiod}{J.\bibnamedelimi H.}{J\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=86a8c69345837525670b707ac25a936f}{Popescu}{P\bibinitperiod}{B.\bibnamedelimi E.}{B\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{37caa94b64ff7b5c0446351f489c4190}
+      \strng{fullhash}{37caa94b64ff7b5c0446351f489c4190}
+      \field{sortinit}{F}
+      \field{labeltitle}{Predictive Learning via Rule Ensembles}
+      \field{journaltitle}{The Annals of Applied Statistics}
+      \field{number}{3}
+      \field{title}{Predictive Learning via Rule Ensembles}
+      \field{volume}{2}
+      \field{year}{2008}
+      \field{pages}{916\bibrangedash 954}
     \endentry
     \entry{goethals}{article}{}
       \name{labelname}{1}{}{%
@@ -193,31 +232,25 @@
       \field{year}{2005}
       \field{pages}{377\bibrangedash 397}
     \endentry
-    \entry{freespan}{article}{}
-      \name{labelname}{6}{}{%
-        {{uniquename=0,hash=16f0e4c71b57d032be7b7049903f5fc1}{Han}{H\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=e888c5c516c8e66fcb690a366486b08b}{Pei}{P\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=5b77a4677a541df9e3e485029af0f797}{Mortazavi-Asl}{M\bibinithyphendelim A\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=b813bde724fed9a8815bd0658237f2ed}{Chen}{C\bibinitperiod}{Q.}{Q\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=b663cf28aa26bf7e94da2cb0984cea6b}{Dayal}{D\bibinitperiod}{U.}{U\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=126b5b72e6d555a327759324a18d3aff}{Hsu}{H\bibinitperiod}{M.-C.}{M\bibinithyphendelim C\bibinitperiod}{}{}{}{}}%
+    \entry{spm_taxonomy4}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=2b6480bd8c1952619a6fbf89593d0736}{Iváncsy}{I\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e3bf80b4db336c88fc846e066884dbf0}{Vajk}{V\bibinitperiod}{I.}{I\bibinitperiod}{}{}{}{}}%
       }
-      \name{author}{6}{}{%
-        {{uniquename=0,hash=16f0e4c71b57d032be7b7049903f5fc1}{Han}{H\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=e888c5c516c8e66fcb690a366486b08b}{Pei}{P\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=5b77a4677a541df9e3e485029af0f797}{Mortazavi-Asl}{M\bibinithyphendelim A\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=b813bde724fed9a8815bd0658237f2ed}{Chen}{C\bibinitperiod}{Q.}{Q\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=b663cf28aa26bf7e94da2cb0984cea6b}{Dayal}{D\bibinitperiod}{U.}{U\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=126b5b72e6d555a327759324a18d3aff}{Hsu}{H\bibinitperiod}{M.-C.}{M\bibinithyphendelim C\bibinitperiod}{}{}{}{}}%
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=2b6480bd8c1952619a6fbf89593d0736}{Iváncsy}{I\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e3bf80b4db336c88fc846e066884dbf0}{Vajk}{V\bibinitperiod}{I.}{I\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{6ea16c26219c31baacd25d6764617304}
-      \strng{fullhash}{48abf0bc9db5d6aeaf2df91abfb4688d}
-      \field{sortinit}{H}
-      \field{labeltitle}{Freespan: Frequent pattern projected sequential pattern mining}
-      \field{journaltitle}{Proceedings of the 6th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining}
-      \field{title}{Freespan: Frequent pattern projected sequential pattern mining}
-      \field{year}{2000}
-      \field{pages}{355\bibrangedash 359}
+      \strng{namehash}{ae939c26fad5f1098636e020b81f8c05}
+      \strng{fullhash}{ae939c26fad5f1098636e020b81f8c05}
+      \field{sortinit}{I}
+      \field{labeltitle}{Frequent pattern mining in web log data}
+      \field{journaltitle}{Acta Polytech. Hungarica}
+      \field{number}{1}
+      \field{title}{Frequent pattern mining in web log data}
+      \field{volume}{3}
+      \field{year}{2006}
+      \field{pages}{77\bibrangedash 90}
     \endentry
     \entry{lu_ezeife}{article}{}
       \name{labelname}{2}{}{%
@@ -257,63 +290,58 @@
       \field{year}{2010}
       \field{pages}{3:1\bibrangedash 3:41}
     \endentry
-    \entry{psp}{article}{}
+    \entry{spm_taxonomy3}{article}{}
       \name{labelname}{3}{}{%
         {{uniquename=0,hash=b96051d144314625a0427bd81ab76be6}{Masseglia}{M\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=f01de19ff60c1fe052e558764532f82a}{Poncelet}{P\bibinitperiod}{O.}{O\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=229e82deff604929be99811ef5c215ab}{Cicchetti}{C\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3a3215d650da0db91197e8ae974f2d1d}{Teisseire}{T\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b7aa8566cf7e75addd4b5cd464f069eb}{Poncelet}{P\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
       }
       \name{author}{3}{}{%
         {{uniquename=0,hash=b96051d144314625a0427bd81ab76be6}{Masseglia}{M\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=f01de19ff60c1fe052e558764532f82a}{Poncelet}{P\bibinitperiod}{O.}{O\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=229e82deff604929be99811ef5c215ab}{Cicchetti}{C\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3a3215d650da0db91197e8ae974f2d1d}{Teisseire}{T\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b7aa8566cf7e75addd4b5cd464f069eb}{Poncelet}{P\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
       }
       \strng{namehash}{2006242defdd1eb5883d585212abe9a0}
-      \strng{fullhash}{7f71bff976ce49f4cfd986d8ee6dc26a}
+      \strng{fullhash}{852d4b5c5abc2acfbe2ec9f89b9187f3}
       \field{sortinit}{M}
-      \field{labeltitle}{An efficient algorithm for web usage mining}
-      \field{journaltitle}{Network Inform. Syst. J. 2}
-      \field{title}{An efficient algorithm for web usage mining}
-      \field{year}{1999}
-      \field{pages}{571\bibrangedash 603}
+      \field{labeltitle}{Sequential pattern mining: A survey on issues and approaches}
+      \field{journaltitle}{Encyclopedia of Data Warehousing and Mining}
+      \field{title}{Sequential pattern mining: A survey on issues and approaches}
+      \field{year}{2005}
+      \field{pages}{1\bibrangedash 14}
     \endentry
-    \entry{wapmine}{article}{}
-      \name{labelname}{4}{uniquelist=4}{%
-        {{uniquename=0,hash=e888c5c516c8e66fcb690a366486b08b}{Pei}{P\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=21c3943a47f438652d50c78ff5692d27}{Hani}{H\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=5b77a4677a541df9e3e485029af0f797}{Mortazavi-Asl}{M\bibinithyphendelim A\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=fbcf4cde24cfba8d0c5ae7b7bb55b731}{Zhu}{Z\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+    \entry{gbm}{manual}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=1e07cd4557da7889b3dc4edd989ad24d}{others}{o\bibinitperiod}{Greg\bibnamedelima Ridgeway}{G\bibinitperiod\bibinitdelim R\bibinitperiod}{with\bibnamedelimb contributions\bibnamedelima from}{w\bibinitperiod\bibinitdelim c\bibinitperiod\bibinitdelim f\bibinitperiod}{}{}}%
       }
-      \name{author}{4}{uniquelist=4}{%
-        {{uniquename=0,hash=e888c5c516c8e66fcb690a366486b08b}{Pei}{P\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=21c3943a47f438652d50c78ff5692d27}{Hani}{H\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=5b77a4677a541df9e3e485029af0f797}{Mortazavi-Asl}{M\bibinithyphendelim A\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=fbcf4cde24cfba8d0c5ae7b7bb55b731}{Zhu}{Z\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=1e07cd4557da7889b3dc4edd989ad24d}{others}{o\bibinitperiod}{Greg\bibnamedelima Ridgeway}{G\bibinitperiod\bibinitdelim R\bibinitperiod}{with\bibnamedelimb contributions\bibnamedelima from}{w\bibinitperiod\bibinitdelim c\bibinitperiod\bibinitdelim f\bibinitperiod}{}{}}%
       }
-      \strng{namehash}{81cec9e1fc6da761c621bc47898dd823}
-      \strng{fullhash}{81cec9e1fc6da761c621bc47898dd823}
-      \field{sortinit}{P}
-      \field{labeltitle}{Mining access patterns efficiently from web logs}
-      \field{journaltitle}{Knowledge Discovery and Data Mining. Current Issues and New Applications. Lecture Notes Computer Science}
-      \field{title}{Mining access patterns efficiently from web logs}
-      \field{volume}{1805}
-      \field{year}{2000}
-      \field{pages}{396\bibrangedash 407}
+      \strng{namehash}{1e07cd4557da7889b3dc4edd989ad24d}
+      \strng{fullhash}{1e07cd4557da7889b3dc4edd989ad24d}
+      \field{sortinit}{o}
+      \field{labeltitle}{gbm: Generalized Boosted Regression Models}
+      \field{note}{R package version 2.1}
+      \field{title}{gbm: Generalized Boosted Regression Models}
+      \field{year}{2013}
+      \verb{url}
+      \verb http://CRAN.R-project.org/package=gbm
+      \endverb
     \endentry
     \entry{prefixspan}{article}{}
-      \name{labelname}{4}{uniquelist=4}{%
+      \name{labelname}{4}{}{%
         {{uniquename=0,hash=e888c5c516c8e66fcb690a366486b08b}{Pei}{P\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
         {{uniquename=0,hash=21c3943a47f438652d50c78ff5692d27}{Hani}{H\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
         {{uniquename=0,hash=5b77a4677a541df9e3e485029af0f797}{Mortazavi-Asl}{M\bibinithyphendelim A\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
         {{uniquename=0,hash=d6ab8bc87689a3b2c7caaf2dd345550d}{PINTO}{P\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
       }
-      \name{author}{4}{uniquelist=4}{%
+      \name{author}{4}{}{%
         {{uniquename=0,hash=e888c5c516c8e66fcb690a366486b08b}{Pei}{P\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
         {{uniquename=0,hash=21c3943a47f438652d50c78ff5692d27}{Hani}{H\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
         {{uniquename=0,hash=5b77a4677a541df9e3e485029af0f797}{Mortazavi-Asl}{M\bibinithyphendelim A\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
         {{uniquename=0,hash=d6ab8bc87689a3b2c7caaf2dd345550d}{PINTO}{P\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{84a081b17f4d9d0aab668dbc8778705e}
+      \strng{namehash}{6667bd21805f7c6215e1d7d250bc934e}
       \strng{fullhash}{84a081b17f4d9d0aab668dbc8778705e}
       \field{sortinit}{P}
       \field{labeltitle}{PrefixSpan: Mining sequential patterns efficiently by prefix-projected pattern growth}
@@ -321,6 +349,30 @@
       \field{title}{PrefixSpan: Mining sequential patterns efficiently by prefix-projected pattern growth}
       \field{year}{2001}
       \field{pages}{215\bibrangedash 224}
+    \endentry
+    \entry{r}{manual}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=616983f2ba14a1f8c933006442711e25}{Team}{T\bibinitperiod}{R\bibnamedelima Development\bibnamedelima Core}{R\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=616983f2ba14a1f8c933006442711e25}{Team}{T\bibinitperiod}{R\bibnamedelima Development\bibnamedelima Core}{R\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Vienna, Austria}%
+      }
+      \list{organization}{1}{%
+        {R Foundation for Statistical Computing}%
+      }
+      \strng{namehash}{616983f2ba14a1f8c933006442711e25}
+      \strng{fullhash}{616983f2ba14a1f8c933006442711e25}
+      \field{sortinit}{R}
+      \field{labeltitle}{R: A Language and Environment for Statistical Computing}
+      \field{note}{{ISBN} 3-900051-07-0}
+      \field{title}{R: A Language and Environment for Statistical Computing}
+      \field{year}{2012}
+      \verb{url}
+      \verb http://www.R-project.org/
+      \endverb
     \endentry
     \entry{hvsm}{article}{}
       \name{labelname}{3}{}{%
@@ -343,24 +395,29 @@
       \field{year}{2005}
       \field{pages}{455\bibrangedash 463}
     \endentry
-    \entry{gsp}{article}{}
-      \name{labelname}{2}{}{%
-        {{uniquename=0,hash=73171c0d25982c1233eaf11598276e9e}{Srikant}{S\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=eaa70eb424dc5a3d2f3d773b8ee22ebe}{Agrawal}{A\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+    \entry{spm_taxonomy1}{article}{}
+      \name{labelname}{4}{}{%
+        {{uniquename=0,hash=84475b9ee1c45ed025fdcd5deb43d156}{Srivastava}{S\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ccbec655c34c79687c4958043862d395}{Cooley}{C\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0c6378c1515277ab1bd250db7aed3a97}{Deshpande}{D\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=56bd4c4d696440c06da511962f474c19}{Tan}{T\bibinitperiod}{P.-N.}{P\bibinithyphendelim N\bibinitperiod}{}{}{}{}}%
       }
-      \name{author}{2}{}{%
-        {{uniquename=0,hash=73171c0d25982c1233eaf11598276e9e}{Srikant}{S\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=eaa70eb424dc5a3d2f3d773b8ee22ebe}{Agrawal}{A\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=84475b9ee1c45ed025fdcd5deb43d156}{Srivastava}{S\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=ccbec655c34c79687c4958043862d395}{Cooley}{C\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0c6378c1515277ab1bd250db7aed3a97}{Deshpande}{D\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=56bd4c4d696440c06da511962f474c19}{Tan}{T\bibinitperiod}{P.-N.}{P\bibinithyphendelim N\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{5e147f0e5f6ad74b3002f01cac036778}
-      \strng{fullhash}{5e147f0e5f6ad74b3002f01cac036778}
+      \strng{namehash}{b97275f52e6fac8ec80e181144560bef}
+      \strng{fullhash}{049790b1c1a20cd918da57a59b0af7cd}
       \field{sortinit}{S}
-      \field{labeltitle}{Mining sequential patterns: Generalizations and performance improvements}
-      \field{journaltitle}{Proceedings of the 5th International Conference on Extending Database Technology: Advances in Database Technology}
-      \field{title}{Mining sequential patterns: Generalizations and performance improvements}
-      \field{volume}{1057}
-      \field{year}{1996}
-      \field{pages}{3\bibrangedash 17}
+      \field{labeltitle}{Web usage mining: Discovery and applications of usage patterns from Web data}
+      \field{journaltitle}{ACM SIGKDD}
+      \field{number}{1}
+      \field{title}{Web usage mining: Discovery and applications of usage patterns from Web data}
+      \field{volume}{2}
+      \field{year}{2000}
+      \field{pages}{12\bibrangedash 23}
     \endentry
     \entry{wang_han}{article}{}
       \name{labelname}{2}{}{%
@@ -379,27 +436,6 @@
       \field{title}{BIDE: Efficient mining of frequent closed sequences}
       \field{year}{2004}
       \field{pages}{79\bibrangedash 90}
-    \endentry
-    \entry{lapin}{article}{}
-      \name{labelname}{3}{}{%
-        {{uniquename=0,hash=cf27413bc23396c7c00d356f5fa84c10}{Yang}{Y\bibinitperiod}{Z.}{Z\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=a2af46eff4389524fe951572da657010}{Wang}{W\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=b04cee827ddc9ddae996e163a4c6cf40}{Kitsuregawa}{K\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{3}{}{%
-        {{uniquename=0,hash=cf27413bc23396c7c00d356f5fa84c10}{Yang}{Y\bibinitperiod}{Z.}{Z\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=a2af46eff4389524fe951572da657010}{Wang}{W\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=b04cee827ddc9ddae996e163a4c6cf40}{Kitsuregawa}{K\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{09439b9ca87252a51b29a2bc02f003be}
-      \strng{fullhash}{c1368eb5f60cc4eecd2546dcc45f96cd}
-      \field{sortinit}{Y}
-      \field{labeltitle}{LAPIN: Effective sequential pattern mining algorithms by last position induction for dense databases}
-      \field{journaltitle}{Advances in Databases: Concepts, Systems and Applications}
-      \field{title}{LAPIN: Effective sequential pattern mining algorithms by last position induction for dense databases}
-      \field{volume}{4443}
-      \field{year}{2007}
-      \field{pages}{1020\bibrangedash 1023}
     \endentry
     \entry{spade}{article}{}
       \name{labelname}{1}{}{%

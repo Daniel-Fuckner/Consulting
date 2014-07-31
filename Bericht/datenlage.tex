@@ -1,1 +1,21 @@
 \section{Datenlage}\label{datenlage}
+%\begin{table}[H]
+ %   \begin{center}
+  %      \begin{tabular}{|c|p{10cm}|}
+   %         \hline $ touchpoint $  & Kontaktpunkt einer Beobachtung \\
+    %        \hline $ funnel $ & zeitliche Abfolge der Touchpoints einer Beobachtung\\ 
+     %       \hline $ campaign $ & Kategorie der Werbeform auf der obersten Ebene, gegebenfalls auch Ebenen darunter \\ 
+      %      \hline $ position \in \{1,2,\dots\}$  & Nummer des Touchpoints eines Funnels\\
+       %     \hline $ transaction \in \{0,1\}$  & $1$ steht für konvertiert und $0$ für nicht-konvertiert\\
+        %    \hline $ funnelLength \in \{1,2,\dots\} $  & Anzahl der Touchpoints eines Funnels\\
+         %   \hline
+        %\end{tabular} 
+    %\end{center}
+    %\caption{Definition der wichtigsten Begriffe}
+%\end{table}
+Die Daten wurden von der Refined Labs GmbH als SQL-Dump bereitgestellt, der eine Größe von circa $13$ Gigabyte hat. Die MySQL-Datenbank enthält die vier Tabellen \textit{project\_out}, \textit{redirects\_short}, \textit{searchFunnel} und \textit{stage2\_transactionHandling}. Mit Hilfe der vorhanden Informationen in \textit{searchFunnel} und \textit{stage2\_transactionHandling} konnten die Kontaktpunkte in \textit{redirects\_short} in konvertierte und nicht-konvertierte Funnels unterteilt werden. In \textit{projects\_out} sind die Kampagnen in Form einer Baumstruktur organisiert. In Absprache mit der Interhyp AG wurden $17$ Kategorien ausgewählt, die sich auf den ersten drei Ebenen dieser Baumstruktur befinden. Anhand von IDs wurde jedem Kontaktpunkt eine dieser Kategorien zugewiesen. Die $17$ Kampagnen und weitere Features, die aus den Daten erzeugt wurden, werden in Kapitel \ref{descriptiv} näher erläutert.\\
+Ein Kontaktpunkt ist entweder ein \textit{Click} oder ein \textit{View}. Man spricht von einem \textit{Click}, wenn der potentielle Kunde tatsächlich etwas angeklickt hat, wobei die genaue Definition von der Kampagne abhängt. Ein \textit{View} wird getrackt, wenn ein Banner oder ähnliches lediglich gesehen, aber nicht angeklickt wird. An dieser Stelle wirft die Datenerhebung allerdings ein Problem für die statistischen Analysen auf. Die \textit{Views} werden für alle konvertierten Funnels gespeichert, für die nicht-konvertierten Funnels allerdings nur, wenn diese bei einem anderen Kunden der Refined Labs GmbH konvertieren. Dass heißt, es ist eine systematische Veränderung der Daten gegeben. Deshalb besteht keine Möglichkeit die \textit{Views} in statistische Analysen, die konvertierte und nicht-konvertierte Funnels vergleichen, einzubeziehen. Die \textit{Views} werden lediglich in Kapitel \ref{descriptiv} in einigen Plots betrachtet, die nur konvertierte Funnels enthalten, und von den weiteren Analysen ausgeschlossen.\\
+Nach der Vorverarbeitung der Daten liegen ??? konvertierte und ??? nicht-konvertierte Funnels vor, die nur \textit{Clicks} enthalten. Eine nähere Beschreibung der erstellten Features erfolgt in Kapitel \ref{descriptiv}.
+
+
+
