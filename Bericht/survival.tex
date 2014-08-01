@@ -13,23 +13,21 @@ Das Modell schätzt die Hazardrate $\lambda_{ip}$ (\ref{haz}), das heißt die Wa
 \begin{align}
 	\lambda_{ip} = P(y_{ip}=1|funnelLength_i \geq p, x_{ip}) \label{haz}
 \end{align}
-Die Hazardrate wird mittels eines Logit-Modells (\ref{logit1}-\ref{logit2}) mit der Zielvariable $y_{ip}$ an jeder Position $p$ seperat geschätzt. Die Annahmen des Modells sind, dass die $y_{ip}|x_{ip}$ unabhängig Bernoulli-verteilt sind mit der Hazardrate $\lambda_{ip}$ als Parameter und der Erwartungswert wird anhand der Responsefunktion $h$ mit dem Prädiktor $\eta_{ip}$ verknüpft.
+Die Hazardrate wird mittels eines Logit-Modells (\ref{logit1}-\ref{logit2}) mit der Zielvariable $y_{ip}$ an jeder Position $p$ seperat geschätzt. Die Annahmen des Modells sind, dass die $y_{ip}|x_{ip}$ unabhängig Bernoulli-verteilt sind mit der Hazardrate $\lambda_{ip}$ als Parameter und der Erwartungswert wird anhand der Responsefunktion $h$ mit der Prädiktorfunktion $f_{ip}$ verknüpft.
 \begin{align}
 	y_{ip}|x_{ip} &\stackrel{ind}{\sim} Bin(1, \lambda_{ip}) \label{logit1} \\
-	E(y_{ip}|x_{ip}) = P(y_{ip} = 1|x_{ip}) = \lambda_{ip} &= h(\eta_{ip}) = \frac{\exp(\eta_{ip})}{1+\exp(\eta_{ip})} \\
-	\eta_{ip} &= x_{ip}'\theta_p \\
-	i &= 1,...,N_p \label{logit2}
+	E(y_{ip}|x_{ip}) = P(y_{ip} = 1|x_{ip}) = \lambda_{ip} &= h(f_{ip}) = \frac{\exp(f_{ip})}{1+\exp(f_{ip})}\label{logit2}
 \end{align}
 Aus diesen Annahmen lässt sich die Likelihood (\ref{lik}) und die Log-Likelihood (\ref{loglik}) des Modells ableiten.
 \begin{align}
 	L(\lambda_{ip}) &= \prod_{i=1}^{N_p} \lambda_{ip}^{y_{ip}} (1-\lambda_{ip})^{1-y_{ip}} \label{lik} \\
 	l(\lambda_{ip}) &= \ln(L(\lambda_{ip})) = \sum_{i=1}^{N_p} (y_{ip} \ln(\lambda_{ip}) + (1-y_{ip}) \ln(1-\lambda_{ip})) \notag \\
-	&= \sum_{i=1}^{N_p} (y_{ip} f(x_{ip}) - \ln(1+\exp(f(x_{ip})))) \text{ mit } f(x_{ip}) = x_{ip}'\theta_p \label{loglik}
+	&= \sum_{i=1}^{N_p} (y_{ip} f(x_{ip}) - \ln(1+\exp(f(x_{ip})))) \label{loglik}
 \end{align}
 Damit ergibt sich der binomielle Verlust aus der negativen Log-Likelihood (\ref{binVer}) und das Logit-Modell ist lösbar durch die Minimierung dieses Verlusts (\ref{loes}).
 \begin{align}
-	L(y,f) &= -yf + \ln(1+\exp(f)) \label{binVer} \\
-	\argmin_{\beta_p} \sum_{i=1}^{N_p} L(y_{ip},f(x_{ip})) &= \argmin_{\beta_p} \sum_{i=1}^{N_p} L(y_{ip},x_{ip}'\theta_p) \label{loes}
+	L(y,f) = -yf + \ln(1+\exp(f)) \label{binVer} \\
+	\argmin_{\beta_p} \sum_{i=1}^{N_p} L(y_{ip},f(x_{ip})) \label{loes}
 \end{align}
 Um ein gutes Prognose-Modell zu entwickeln, wird eine Ensemble-Methode angewendet, die im nächsten Abschnitt vorgestellt wird.
 
@@ -38,7 +36,7 @@ Um ein gutes Prognose-Modell zu entwickeln, wird eine Ensemble-Methode angewende
 \subsubsection*{Algorithmus}
 
 Stochastic Gradient Boosting ist eine Ensemble-Methoden, die durch mehrfache Anwendung des sogenannten Basis-Lerners ein Ensemble von Schätzern für eine Prognosefunktion liefert. Durch Aggregation der Schätzer erhält man die endgültige Prognosefunktion. Ein sehr beliebter Basis-Lerner sind Stümpfe, das heißt Bäume mit nur einem Split. Einige Vorteile von Bäumen sind, dass sie mit kategoriellen Features, Ausreißern und fehlenden Werten umgehen können. Außerdem wird der schwachen Prognoseleistung von Bäumen durch die Kombination mit Boosting entgegen gewirkt.\\
-Gesucht ist also eine Prognosefunktion, die den Erwartungswert einer Verlustfunktion minimiert. Als Verlustfunktion wird der binomielle Verlust (\ref{binVer}) verwendet, wobei der Prädiktor in diesem Fall nicht wie beim klassischen Logit-Modell $f(x_{ip})=x_{ip}'\theta_p$ ist, sondern sich wie folgt ergibt.
+Gesucht ist also eine Prognosefunktion, die den Erwartungswert einer Verlustfunktion minimiert. Als Verlustfunktion wird der binomielle Verlust (\ref{binVer}) verwendet, wobei sich die Prädiktorfunktion wie folgt ergibt.
 \begin{align}
 	f(x_{ip}) =& \text{offset}(\hat{\lambda}_{i,p-1}) + \notag \\
 						 &f_{weekday,p}(\text{weekday}_{ip}) + \notag \\
@@ -50,7 +48,7 @@ Gesucht ist also eine Prognosefunktion, die den Erwartungswert einer Verlustfunk
 						 &f_{timeSinceFirst,p}(\text{timeSinceFirst}_{ip}) \label{praediktor}
 \end{align}
 Der Prädiktor ist also eine additive Funktion von Treppenfunktionen der sieben verwendeten Features und einem offset. Hier sei nochmal darauf hingewiesen, dass Features wie \textit{hasClicked} oder \textit{clickCount} nicht verwendet werden können, da die Views aufgrund der Problematik der Datenerhebung nicht berücksichtigt werden. Die verwendeten Einflussgrößen sind also der Wochentag und die Stunde des jeweiligen Kontaktpunktes, die Art des aktuellen und der letzten zwei Kontakte, sowie die Dauer seit dem vorherigen Kontakt und die Gesamtdauer seit dem ersten bis zum jetzigen Kontakt. Die Funktionen $f_{.,p}$ können theoretisch für verschiedene Positionen komplett unterschiedliche Formen annehmen. Es sei ausdrücklich darauf hingewiesen, dass $f_{campaignLast,p}(\textit{campaign}_{i,p-1})$ und $f_{campaign,p-1}(\textit{campaign}_{i,p-1})$ zwei unterschiedliche Funktionen sind. Erstere gibt den Einfluss der Art des vorherigen Kontaktpunktes auf die Konvertierungswahrscheinlichkeit an der Position $p$ wieder und zweitere den Einfluss der Art des aktuellen Kontaktpunktes auf die Konvertierungswahrscheinlichkeit an der Position $p-1$. Unter der Annahme, dass der Einfluss der Features an den verschiedenen Positionen ähnlich ist, fließt zusätzlich noch die Vorhersage des Modells der vorherigen Position als offset mit ein. Dadurch konnten die Ergebnisse besonders an späteren Positionen, an denen weniger Daten vorhanden sind, deutlich verbessert werden. Ergebnisse ohne offset sind im elektronischen Anhang zu finden.\\
-Der offset fällt für Position Eins weg, da es noch keine Vorhersagen eines vorherigen Modells gibt. Außerdem sind für Position Eins die Features \textit{campaignLast}, \textit{campaignLast2}, \textit{timeSinceLast} und \textit{timeSinceFirst} offentsichtlich noch nicht vorhanden, so dass diese ebenfalls wegfallen. An Position Zwei ist \textit{campaignLast2} noch nicht vorhanden und \textit{timeSinceLast} und \textit{timeSinceFirst} sind hier identisch, so dass nur eine der beiden berücksichtigt wird. Ab Position Drei ergibt sich der Prädiktor dann exakt so wie in (\ref{praediktor}) dargestellt.\\
+Der offset fällt für Position eins weg, da es noch keine Vorhersagen eines vorherigen Modells gibt. Außerdem sind für Position eins die Features \textit{campaignLast}, \textit{campaignLast2}, \textit{timeSinceLast} und \textit{timeSinceFirst} offentsichtlich noch nicht vorhanden, so dass diese ebenfalls wegfallen. An Position zwei ist \textit{campaignLast2} noch nicht vorhanden und \textit{timeSinceLast} und \textit{timeSinceFirst} sind hier identisch, so dass nur eine der beiden berücksichtigt wird. Ab Position Drei ergibt sich der Prädiktor dann exakt so wie in (\ref{praediktor}) dargestellt.\\
 \floatname{algorithm}{Algorithmus}
 \begin{algorithm}
 \caption{Gradient Boosting}\label{alg}
@@ -69,8 +67,7 @@ Der offset fällt für Position Eins weg, da es noch keine Vorhersagen eines vor
 \ENDFOR
 \end{algorithmic}
 \end{algorithm}
-WIE GENAU SIEHT $\theta_{mp}$ AUS???????\\
-Algorithmus \ref{alg} enthält Pseudo-Code, der das Vorgehen beim Stochastic Gradient Boosting erläutern soll. Dieser muss für jedes $p=1,...,25$ durchgeführt werden. Zunächst muss ein Startwert des Prädiktors $f_{0p}$ festgelegt werden. Daraufhin werden folgende Schritte für $m=1$ bis \textit{n.trees} iteriert. Für jede Beobachtung $i$ werden die Pseudo-Residuen $r_{imp}$ berechnet, die die Richtung des negativen Gradienten angeben. Die Pseudo-Residuen entsprechen also der Richtung des steilsten Abstiegs der Verlustfunktion. An die Pseudo-Residuen wird ein Basis-Lerner $h(x_{ip},\theta_{mp})$, in diesem Fall ein Entscheidungsbaum, so angepasst, dass er den negativen Gradienten so gut wie möglich approximiert. Bildlich gesprochen wird das Modell also in die Richtung der größten Verringerung des Verlusts verschoben. Da als Basis-Lerner Stümpfe verwendet werden, wird die Verbesserung des Modells in einem Boosting-Schritt durch nur eines der sieben Features erklärt. Per Line-Search wird daraufhin die optimale Schrittweite $\beta_{mp}$ berechnet und das Modell wird geupdatet mit $f_{mp}(x_{ip}) = f_{m-1,p}(x_{ip}) + \beta_{mp} h(x_{ip},\theta_{mp})$. Nach \textit{n.trees} Iterationen endet der Algorithmus.\\
+Algorithmus \ref{alg} enthält Pseudo-Code, der das Vorgehen beim Gradient Boosting erläutern soll. Dieser muss für jedes $p=1,...,25$ durchgeführt werden. Zunächst muss ein Startwert des Prädiktors $f_{0p}$ festgelegt werden. Daraufhin werden folgende Schritte für $m=1$ bis \textit{n.trees} iteriert. Für jede Beobachtung $i$ werden die Pseudo-Residuen $r_{imp}$ berechnet, die die Richtung des negativen Gradienten angeben. Die Pseudo-Residuen entsprechen also der Richtung des steilsten Abstiegs der Verlustfunktion. An die Pseudo-Residuen wird ein Basis-Lerner $h(x_{ip},\theta_{mp})$, in diesem Fall ein Entscheidungsbaum, so angepasst, dass er den negativen Gradienten so gut wie möglich approximiert. Bildlich gesprochen wird das Modell also in die Richtung der größten Verringerung des Verlusts verschoben. Da als Basis-Lerner Stümpfe verwendet werden, wird die Verbesserung des Modells in einem Boosting-Schritt durch nur eines der sieben Features erklärt. Per Line-Search wird daraufhin die optimale Schrittweite $\beta_{mp}$ berechnet und das Modell wird geupdatet mit $f_{mp}(x_{ip}) = f_{m-1,p}(x_{ip}) + \beta_{mp} h(x_{ip},\theta_{mp})$. Nach \textit{n.trees} Iterationen endet der Algorithmus.\\
 Durch die Verringerung des Verlusts in jeder Iteration kann es vor allem bei einer hohen Anzahl von Iterationen zu Overfitting kommen. Deshalb wird mittels Kreuzvalidierung die optimale Anzahl an Iterationen ausgewählt. Das heißt $\hat{f}(x_{ip}) = f_{m\_opt,p}(x_{ip})$ wird als Ergebnis verwendet. Das Ensemble der Splits bildet für jedes der Feautures eine Treppenfunktion.
 
 \subsubsection*{Parameter des Modells}

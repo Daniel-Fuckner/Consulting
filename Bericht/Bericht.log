@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.4.9)  31 JUL 2014 18:10
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.4.9)  1 AUG 2014 16:17
 entering extended mode
 **Bericht.tex
-(C:\Users\Markus\Desktop\Bericht\Bericht.tex
+(C:\Users\Markus\Documents\Git\Consulting\Bericht\Bericht.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, arabic, armenian, assamese, basque, bengali
 , bokmal, bulgarian, catalan, coptic, croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, galic
@@ -10,7 +10,7 @@ ian, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, icelandic, 
 -x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, romanian, russian, sanskrit, serbian, slovak, sloven
 ian, spanish, swedish, swissgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usenglishmax, w
 elsh, loaded.
-(C:\Users\Markus\Desktop\Bericht\Bericht_Praeambel.tex
+(C:\Users\Markus\Documents\Git\Consulting\Bericht\Bericht_Praeambel.tex
 (C:\Users\Markus\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrartcl.cls
 Document Class: scrartcl 2012/07/29 v3.11b KOMA-Script document class (article)
 (C:\Users\Markus\AppData\Roaming\MiKTeX\2.9\tex\latex\koma-script\scrkbase.sty
@@ -795,11 +795,7 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
 
-(C:\Users\Markus\Desktop\Bericht\Bericht.aux
-
-LaTeX Warning: Label `campaignSucc' multiply defined.
-
-)
+(C:\Users\Markus\Documents\Git\Consulting\Bericht\Bericht.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
@@ -821,10 +817,11 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Warning: File 'Bericht.bbl' is wrong format version - expected 2.1.
 
 Package biblatex Info: ... file 'Bericht.bbl' found.
-(C:\Users\Markus\Desktop\Bericht\Bericht.bbl)
+(C:\Users\Markus\Documents\Git\Consulting\Bericht\Bericht.bbl)
 Package biblatex Info: Reference section=0 on input line 4.
 Package biblatex Info: Reference segment=0 on input line 4.
- (C:\Users\Markus\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+
+(C:\Users\Markus\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count287
 \scratchdimen=\dimen138
@@ -837,9 +834,10 @@ Package biblatex Info: Reference segment=0 on input line 4.
 \MPnumerator=\count291
 \makeMPintoPDFobject=\count292
 \everyMPtoPDFconversion=\toks32
-) (C:\Users\Markus\Desktop\Bericht\deckblatt.tex
+) (C:\Users\Markus\Documents\Git\Consulting\Bericht\deckblatt.tex
 LaTeX Font Info:    Try loading font information for U+msa on input line 30.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 30.
@@ -853,112 +851,113 @@ LaTeX Font Info:    Try loading font information for T1+cmss on input line 14.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
 File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 ) [1]
-(C:\Users\Markus\Desktop\Bericht\Bericht.toc)
+(C:\Users\Markus\Documents\Git\Consulting\Bericht\Bericht.toc)
 \tf@toc=\write4
- [2] (C:\Users\Markus\Desktop\Bericht\einleitung.tex)
-(C:\Users\Markus\Desktop\Bericht\datenlage.tex [1]) (C:\Users\Markus\Desktop\Bericht\deskriptiv.tex
-Overfull \hbox (22.24611pt too wide) in paragraph at lines 6--23
- [] 
- []
+ [2]
+(C:\Users\Markus\Documents\Git\Consulting\Bericht\einleitung.tex <customerJourney.png, id=19, 803.25093pt x 283.0575pt>
+File: customerJourney.png Graphic file (type png)
 
-[2] <clickCountSucc.pdf, id=28, 505.89pt x 505.89pt>
+<use customerJourney.png>
+Package pdftex.def Info: customerJourney.png used on input line 6.
+(pdftex.def)             Requested size: 401.62448pt x 141.5284pt.
+) (C:\Users\Markus\Documents\Git\Consulting\Bericht\datenlage.tex [1 <C:/Users/Markus/Documents/Git/Consulting/Bericht/c
+ustomerJourney.png>]) (C:\Users\Markus\Documents\Git\Consulting\Bericht\deskriptiv.tex [2]
+<clickCountSucc.pdf, id=29, 505.89pt x 505.89pt>
 File: clickCountSucc.pdf Graphic file (type pdf)
  <use clickCountSucc.pdf>
-Package pdftex.def Info: clickCountSucc.pdf used on input line 33.
+Package pdftex.def Info: clickCountSucc.pdf used on input line 32.
 (pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
  [3]
-<hasClickedSucc.pdf, id=36, 505.89pt x 505.89pt>
+<hasClickedSucc.pdf, id=37, 505.89pt x 505.89pt>
 File: hasClickedSucc.pdf Graphic file (type pdf)
  <use hasClickedSucc.pdf>
-Package pdftex.def Info: hasClickedSucc.pdf used on input line 42.
+Package pdftex.def Info: hasClickedSucc.pdf used on input line 41.
 (pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
- [4 <C:/Users/Markus/Desktop/Bericht/clickCountSucc.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
+ [4 <C:/Users/Markus/Documents/Git/Consulting/Bericht/clickCountSucc.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
 []\T1/cmr/m/n/12 Potentieller Kun-de gibt im Brow-ser di-rekt
  []
 
 
-Overfull \hbox (15.77666pt too wide) in paragraph at lines 51--72
+Overfull \hbox (15.77666pt too wide) in paragraph at lines 50--71
  [] 
  []
 
-[5 <C:/Users/Markus/Desktop/Bericht/hasClickedSucc.pdf>] <campaignSucc.pdf, id=54, 505.89pt x 505.89pt>
+[5 <C:/Users/Markus/Documents/Git/Consulting/Bericht/hasClickedSucc.pdf>]
+<campaignSucc.pdf, id=55, 505.89pt x 505.89pt>
 File: campaignSucc.pdf Graphic file (type pdf)
-
-<use campaignSucc.pdf>
-Package pdftex.def Info: campaignSucc.pdf used on input line 78.
+ <use campaignSucc.pdf>
+Package pdftex.def Info: campaignSucc.pdf used on input line 79.
 (pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
- [6] <weekday.pdf, id=58, 505.89pt x 505.89pt>
+ [6] <weekday.pdf, id=59, 505.89pt x 505.89pt>
 File: weekday.pdf Graphic file (type pdf)
- <use weekday.pdf>
-Package pdftex.def Info: weekday.pdf used on input line 90.
+
+<use weekday.pdf>
+Package pdftex.def Info: weekday.pdf used on input line 94.
 (pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
- [7 <C:/Users/Markus/Desktop/Bericht/campaignSucc.pdf>] <hour.pdf, id=68, 505.89pt x 505.89pt>
+ [7 <C:/Users/Markus/Documents/Git/Consulting/Bericht/campaignSucc.pdf>]
+<hour.pdf, id=69, 505.89pt x 505.89pt>
 File: hour.pdf Graphic file (type pdf)
  <use hour.pdf>
-Package pdftex.def Info: hour.pdf used on input line 99.
+Package pdftex.def Info: hour.pdf used on input line 105.
 (pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
- [8 <C:/Users/Markus/Desktop/Bericht/weekday.pdf>] <campaign.pdf, id=78, 505.89pt x 505.89pt>
+ [8 <C:/Users/Markus/Documents/Git/Consulting/Bericht/weekday.pdf>] <campaign.pdf, id=79, 505.89pt x 505.89pt>
 File: campaign.pdf Graphic file (type pdf)
  <use campaign.pdf>
-Package pdftex.def Info: campaign.pdf used on input line 112.
+Package pdftex.def Info: campaign.pdf used on input line 116.
 (pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
- [9 <C:/Users/Markus/Desktop/Bericht/hour.pdf>]
-<funnelLength_First.pdf, id=88, 505.89pt x 505.89pt>
+ [9 <C:/Users/Markus/Documents/Git/Consulting/Bericht/hour.pdf>] <funnelLength_First.pdf, id=89, 505.89pt x 505.89pt>
 File: funnelLength_First.pdf Graphic file (type pdf)
  <use funnelLength_First.pdf>
-Package pdftex.def Info: funnelLength_First.pdf used on input line 126.
+Package pdftex.def Info: funnelLength_First.pdf used on input line 127.
 (pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
- [10 <C:/Users/Markus/Desktop/Bericht/campaign.pdf>] <timeSinceFirst_Last.pdf, id=99, 505.89pt x 505.89pt>
+ [10 <C:/Users/Markus/Documents/Git/Consulting/Bericht/campaign.pdf>] <timeSinceFirst_Last.pdf, id=100, 505.89pt x 505.8
+9pt>
 File: timeSinceFirst_Last.pdf Graphic file (type pdf)
- <use timeSinceFirst_Last.pdf>
-Package pdftex.def Info: timeSinceFirst_Last.pdf used on input line 144.
+
+<use timeSinceFirst_Last.pdf>
+Package pdftex.def Info: timeSinceFirst_Last.pdf used on input line 138.
 (pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
- [11 <C:/Users/Markus/Desktop/Bericht/funnelLength_First.pdf>] <timeSinceLast.pdf, id=109, 505.89pt x 505.89pt>
+ [11 <C:/Users/Markus/Documents/Git/Consulting/Bericht/funnelLength_First.pdf>]
+<timeSinceLast.pdf, id=110, 505.89pt x 505.89pt>
 File: timeSinceLast.pdf Graphic file (type pdf)
  <use timeSinceLast.pdf>
-Package pdftex.def Info: timeSinceLast.pdf used on input line 157.
+Package pdftex.def Info: timeSinceLast.pdf used on input line 149.
 (pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
-
-[12 <C:/Users/Markus/Desktop/Bericht/timeSinceFirst_Last.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 164--167
-
- []
-
-<freq.pdf, id=119, 505.89pt x 505.89pt>
+ [12 <C:/Users/Markus/Documents/Git/Consulting/Bericht/timeSinceFirst_Last.pdf>] <freq.pdf, id=120, 505.89pt x 505.89pt>
 File: freq.pdf Graphic file (type pdf)
  <use freq.pdf>
-Package pdftex.def Info: freq.pdf used on input line 172.
+Package pdftex.def Info: freq.pdf used on input line 160.
 (pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
- [13 <C:/Users/Markus/Desktop/Bericht/timeSinceLast.pdf>])
-(C:\Users\Markus\Desktop\Bericht\spm.tex [14 <C:/Users/Markus/Desktop/Bericht/freq.pdf>] [15] [16] [17] [18]
-Underfull \hbox (badness 10000) in paragraph at lines 102--131
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--163
 
  []
 
-[19]) (C:\Users\Markus\Desktop\Bericht\survival.tex
+[13 <C:/Users/Markus/Documents/Git/Consulting/Bericht/timeSinceLast.pdf>])
+(C:\Users\Markus\Documents\Git\Consulting\Bericht\survival.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
  []
 
-[20] [21] [22]
-Overfull \hbox (3.03453pt too wide) in paragraph at lines 51--75
-\T1/cmr/m/n/12 Residuen $\OML/cmm/m/it/12 r[]$ \T1/cmr/m/n/12 be-rech-net, die die Rich-tung des ne-ga-ti-ven Gra-di-en-
-ten an-ge-ben. Die Pseudo-
+[14 <C:/Users/Markus/Documents/Git/Consulting/Bericht/freq.pdf>] [15] [16] [17] [18] [19])
+(C:\Users\Markus\Documents\Git\Consulting\Bericht\spm.tex [20] [21] [22] [23]
+Underfull \hbox (badness 10000) in paragraph at lines 102--131
+
  []
 
-[23] [24] [25] [26]) (C:\Users\Markus\Desktop\Bericht\visual.tex
+[24] [25]) (C:\Users\Markus\Documents\Git\Consulting\Bericht\visual.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
-[27]) (C:\Users\Markus\Desktop\Bericht\ergebnisse.tex <bestIter.pdf, id=188, 505.89pt x 505.89pt>
+[26]) (C:\Users\Markus\Documents\Git\Consulting\Bericht\ergebnisse.tex <bestIter.pdf, id=186, 505.89pt x 505.89pt>
 File: bestIter.pdf Graphic file (type pdf)
- <use bestIter.pdf>
+
+<use bestIter.pdf>
 Package pdftex.def Info: bestIter.pdf used on input line 7.
 (pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
-
-<variableImportance.pdf, id=189, 505.89pt x 505.89pt>
+ [27] <variableImportance.pdf, id=190, 505.89pt x 505.89pt>
 File: variableImportance.pdf Graphic file (type pdf)
  <use variableImportance.pdf>
 Package pdftex.def Info: variableImportance.pdf used on input line 12.
@@ -973,16 +972,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--13
 
  []
 
-[28 <C:/Users/Markus/Desktop/Bericht/bestIter.pdf>] [29] <marg_eff_campaign.pdf, id=202, 505.89pt x 505.89pt>
+[28 <C:/Users/Markus/Documents/Git/Consulting/Bericht/bestIter.pdf>]
+<marg_eff_campaign.pdf, id=200, 505.89pt x 505.89pt>
 File: marg_eff_campaign.pdf Graphic file (type pdf)
-
-<use marg_eff_campaign.pdf>
+ <use marg_eff_campaign.pdf>
 Package pdftex.def Info: marg_eff_campaign.pdf used on input line 22.
 (pdftex.def)             Requested size: 379.41655pt x 379.41655pt.
- [30 <C:/Users/Markus/Desktop/Bericht/variableImportance.pdf>] [31]
-<marg_eff_campaignLast.pdf, id=215, 505.89pt x 505.89pt>
+ [29 <C:/Users/Markus/Documents/Git/Consulting/Bericht/variableImportance.pdf>] [30] <marg_eff_campaignLast.pdf, id=213,
+ 505.89pt x 505.89pt>
 File: marg_eff_campaignLast.pdf Graphic file (type pdf)
- <use marg_eff_campaignLast.pdf>
+
+<use marg_eff_campaignLast.pdf>
 Package pdftex.def Info: marg_eff_campaignLast.pdf used on input line 26.
 (pdftex.def)             Requested size: 379.41655pt x 379.41655pt.
 
@@ -990,14 +990,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--27
 
  []
 
-[32 <C:/Users/Markus/Desktop/Bericht/marg_eff_campaign.pdf>] <marg_eff_time.pdf, id=225, 505.89pt x 505.89pt>
+[31 <C:/Users/Markus/Documents/Git/Consulting/Bericht/marg_eff_campaign.pdf>]
+<marg_eff_time.pdf, id=223, 505.89pt x 505.89pt>
 File: marg_eff_time.pdf Graphic file (type pdf)
-
-<use marg_eff_time.pdf>
+ <use marg_eff_time.pdf>
 Package pdftex.def Info: marg_eff_time.pdf used on input line 31.
 (pdftex.def)             Requested size: 379.41655pt x 379.41655pt.
- [33 <C:/Users/Markus/Desktop/Bericht/marg_eff_campaignLast.pdf>]
-<roc.png, id=235, 481.8pt x 481.8pt>
+ [32 <C:/Users/Markus/Documents/Git/Consulting/Bericht/marg_eff_campaignLast.pdf>] <roc.png, id=233, 481.8pt x 481.8pt>
 File: roc.png Graphic file (type png)
  <use roc.png>
 Package pdftex.def Info: roc.png used on input line 38.
@@ -1007,13 +1006,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--39
 
  []
 
-[34 <C:/Users/Markus/Desktop/Bericht/marg_eff_time.pdf>] [35] <auc.pdf, id=249, 505.89pt x 505.89pt>
+[33 <C:/Users/Markus/Documents/Git/Consulting/Bericht/marg_eff_time.pdf>] [34] <auc.pdf, id=247, 505.89pt x 505.89pt>
 File: auc.pdf Graphic file (type pdf)
- <use auc.pdf>
+
+<use auc.pdf>
 Package pdftex.def Info: auc.pdf used on input line 42.
 (pdftex.def)             Requested size: 379.41655pt x 379.41655pt.
-
-[36 <C:/Users/Markus/Desktop/Bericht/roc.png (PNG copy)>] <spm_all.pdf, id=253, 722.7pt x 722.7pt>
+ [35 <C:/Users/Markus/Documents/Git/Consulting/Bericht/roc.png (PNG copy)>]
+<spm_all.pdf, id=251, 722.7pt x 722.7pt>
 File: spm_all.pdf Graphic file (type pdf)
  <use spm_all.pdf>
 Package pdftex.def Info: spm_all.pdf used on input line 50.
@@ -1023,9 +1023,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--51
 
  []
 
-[37 <C:/Users/Markus/Desktop/Bericht/auc.pdf>] <spm_min15.pdf, id=262, 722.7pt x 722.7pt>
+[36 <C:/Users/Markus/Documents/Git/Consulting/Bericht/auc.pdf>] <spm_min15.pdf, id=260, 722.7pt x 722.7pt>
 File: spm_min15.pdf Graphic file (type pdf)
- <use spm_min15.pdf>
+
+<use spm_min15.pdf>
 Package pdftex.def Info: spm_min15.pdf used on input line 54.
 (pdftex.def)             Requested size: 433.62334pt x 433.62334pt.
 
@@ -1033,28 +1034,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--55
 
  []
 
-[38 <C:/Users/Markus/Desktop/Bericht/spm_all.pdf>]) (C:\Users\Markus\Desktop\Bericht\zusammenfassung.tex [39 <C:/Users/M
-arkus/Desktop/Bericht/spm_min15.pdf>]) (C:\Users\Markus\Desktop\Bericht\elektronischer_anhang.tex
+[37 <C:/Users/Markus/Documents/Git/Consulting/Bericht/spm_all.pdf>])
+(C:\Users\Markus\Documents\Git\Consulting\Bericht\zusammenfassung.tex [38 <C:/Users/Markus/Documents/Git/Consulting/Beri
+cht/spm_min15.pdf>]) (C:\Users\Markus\Documents\Git\Consulting\Bericht\elektronischer_anhang.tex
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 7.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)) [40] (C:\Users\Markus\Desktop\Bericht\Bericht.lot)
+)) [39]
+(C:\Users\Markus\Documents\Git\Consulting\Bericht\Bericht.lot)
 \tf@lot=\write5
 
-(C:\Users\Markus\Desktop\Bericht\Bericht.lof)
+(C:\Users\Markus\Documents\Git\Consulting\Bericht\Bericht.lof
+Overfull \hbox (2.36328pt too wide) in paragraph at lines 25--25
+ [][] []\T1/cmr/m/n/12 Frequenz der Kon-takt-punk-te in kon-ver-tier-ten und nicht-konvertierten Fun- 
+ []
+
+)
 \tf@lof=\write6
- [41] [42] [43] (C:\Users\Markus\Desktop\Bericht\Bericht.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
+ [40] [41] [42] (C:\Users\Markus\Documents\Git\Consulting\Bericht\Bericht.aux)
 Package logreq Info: Writing requests to 'Bericht.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 10519 strings out of 493921
- 167308 string characters out of 3144874
- 596373 words of memory out of 3000000
- 13560 multiletter control sequences out of 15000+200000
+ 10524 strings out of 493921
+ 168076 string characters out of 3144874
+ 602351 words of memory out of 3000000
+ 13564 multiletter control sequences out of 15000+200000
  21260 words of font info for 51 fonts, out of 3000000 for 9000
  845 hyphenation exceptions out of 8191
  58i,16n,49p,1972b,1403s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1076,9 +1081,9 @@ ic/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
 x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/eurosym/feymr10.pfb><C:/Program Files (x86)/MiKTeX 2.
 9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Bericht.pdf (46 pages, 548091 bytes).
+Output written on Bericht.pdf (45 pages, 632145 bytes).
 PDF statistics:
- 843 PDF objects out of 1000 (max. 8388607)
+ 839 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
