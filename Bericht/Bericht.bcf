@@ -1977,6 +1977,11 @@
     <bcf:citekey order="18">spade</bcf:citekey>
     <bcf:citekey order="19">arulesSequences</bcf:citekey>
     <bcf:citekey order="20">spade</bcf:citekey>
+    <bcf:citekey order="21">network_data</bcf:citekey>
+    <bcf:citekey order="22">rgexf</bcf:citekey>
+    <bcf:citekey order="23">gephi_bastian</bcf:citekey>
+    <bcf:citekey order="24">forceatlas2</bcf:citekey>
+    <bcf:citekey order="25">yifanhu</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" type="entry" label="nty">
   <bcf:sorting>

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.4.9)  1 AUG 2014 16:17
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.4.9)  6 AUG 2014 18:06
 entering extended mode
 **Bericht.tex
 (C:\Users\Markus\Documents\Git\Consulting\Bericht\Bericht.tex
@@ -861,103 +861,110 @@ File: customerJourney.png Graphic file (type png)
 Package pdftex.def Info: customerJourney.png used on input line 6.
 (pdftex.def)             Requested size: 401.62448pt x 141.5284pt.
 ) (C:\Users\Markus\Documents\Git\Consulting\Bericht\datenlage.tex [1 <C:/Users/Markus/Documents/Git/Consulting/Bericht/c
-ustomerJourney.png>]) (C:\Users\Markus\Documents\Git\Consulting\Bericht\deskriptiv.tex [2]
-<clickCountSucc.pdf, id=29, 505.89pt x 505.89pt>
+ustomerJourney.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 3--20
+
+ []
+
+[2]) (C:\Users\Markus\Documents\Git\Consulting\Bericht\deskriptiv.tex [3]
+<clickCountSucc.pdf, id=33, 505.89pt x 505.89pt>
 File: clickCountSucc.pdf Graphic file (type pdf)
  <use clickCountSucc.pdf>
-Package pdftex.def Info: clickCountSucc.pdf used on input line 32.
+Package pdftex.def Info: clickCountSucc.pdf used on input line 29.
 (pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
- [3]
-<hasClickedSucc.pdf, id=37, 505.89pt x 505.89pt>
+ [4]
+<hasClickedSucc.pdf, id=41, 505.89pt x 505.89pt>
 File: hasClickedSucc.pdf Graphic file (type pdf)
  <use hasClickedSucc.pdf>
-Package pdftex.def Info: hasClickedSucc.pdf used on input line 41.
+Package pdftex.def Info: hasClickedSucc.pdf used on input line 38.
 (pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
- [4 <C:/Users/Markus/Documents/Git/Consulting/Bericht/clickCountSucc.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+ [5 <C:/Users/Markus/Documents/Git/Consulting/Bericht/clickCountSucc.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 []\T1/cmr/m/n/12 Potentieller Kun-de gibt im Brow-ser di-rekt
  []
 
 
-Overfull \hbox (15.77666pt too wide) in paragraph at lines 50--71
+Overfull \hbox (15.77666pt too wide) in paragraph at lines 47--68
  [] 
  []
 
-[5 <C:/Users/Markus/Documents/Git/Consulting/Bericht/hasClickedSucc.pdf>]
-<campaignSucc.pdf, id=55, 505.89pt x 505.89pt>
+[6 <C:/Users/Markus/Documents/Git/Consulting/Bericht/hasClickedSucc.pdf>]
+<campaignSucc.pdf, id=58, 505.89pt x 505.89pt>
 File: campaignSucc.pdf Graphic file (type pdf)
  <use campaignSucc.pdf>
-Package pdftex.def Info: campaignSucc.pdf used on input line 79.
+Package pdftex.def Info: campaignSucc.pdf used on input line 76.
 (pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
- [6] <weekday.pdf, id=59, 505.89pt x 505.89pt>
+ [7] <weekday.pdf, id=62, 505.89pt x 505.89pt>
 File: weekday.pdf Graphic file (type pdf)
 
 <use weekday.pdf>
-Package pdftex.def Info: weekday.pdf used on input line 94.
+Package pdftex.def Info: weekday.pdf used on input line 91.
 (pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
- [7 <C:/Users/Markus/Documents/Git/Consulting/Bericht/campaignSucc.pdf>]
-<hour.pdf, id=69, 505.89pt x 505.89pt>
+ [8 <C:/Users/Markus/Documents/Git/Consulting/Bericht/campaignSucc.pdf>]
+<hour.pdf, id=72, 505.89pt x 505.89pt>
 File: hour.pdf Graphic file (type pdf)
  <use hour.pdf>
-Package pdftex.def Info: hour.pdf used on input line 105.
+Package pdftex.def Info: hour.pdf used on input line 102.
 (pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
- [8 <C:/Users/Markus/Documents/Git/Consulting/Bericht/weekday.pdf>] <campaign.pdf, id=79, 505.89pt x 505.89pt>
+ [9 <C:/Users/Markus/Documents/Git/Consulting/Bericht/weekday.pdf>] <campaign.pdf, id=82, 505.89pt x 505.89pt>
 File: campaign.pdf Graphic file (type pdf)
  <use campaign.pdf>
-Package pdftex.def Info: campaign.pdf used on input line 116.
+Package pdftex.def Info: campaign.pdf used on input line 113.
 (pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
- [9 <C:/Users/Markus/Documents/Git/Consulting/Bericht/hour.pdf>] <funnelLength_First.pdf, id=89, 505.89pt x 505.89pt>
+ [10 <C:/Users/Markus/Documents/Git/Consulting/Bericht/hour.pdf>] <funnelLength_First.pdf, id=93, 505.89pt x 505.89pt>
 File: funnelLength_First.pdf Graphic file (type pdf)
  <use funnelLength_First.pdf>
-Package pdftex.def Info: funnelLength_First.pdf used on input line 127.
+Package pdftex.def Info: funnelLength_First.pdf used on input line 124.
 (pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
- [10 <C:/Users/Markus/Documents/Git/Consulting/Bericht/campaign.pdf>] <timeSinceFirst_Last.pdf, id=100, 505.89pt x 505.8
+ [11 <C:/Users/Markus/Documents/Git/Consulting/Bericht/campaign.pdf>] <timeSinceFirst_Last.pdf, id=103, 505.89pt x 505.8
 9pt>
 File: timeSinceFirst_Last.pdf Graphic file (type pdf)
 
 <use timeSinceFirst_Last.pdf>
-Package pdftex.def Info: timeSinceFirst_Last.pdf used on input line 138.
+Package pdftex.def Info: timeSinceFirst_Last.pdf used on input line 135.
 (pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
- [11 <C:/Users/Markus/Documents/Git/Consulting/Bericht/funnelLength_First.pdf>]
-<timeSinceLast.pdf, id=110, 505.89pt x 505.89pt>
+ [12 <C:/Users/Markus/Documents/Git/Consulting/Bericht/funnelLength_First.pdf>]
+<timeSinceLast.pdf, id=113, 505.89pt x 505.89pt>
 File: timeSinceLast.pdf Graphic file (type pdf)
  <use timeSinceLast.pdf>
-Package pdftex.def Info: timeSinceLast.pdf used on input line 149.
+Package pdftex.def Info: timeSinceLast.pdf used on input line 146.
 (pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
- [12 <C:/Users/Markus/Documents/Git/Consulting/Bericht/timeSinceFirst_Last.pdf>] <freq.pdf, id=120, 505.89pt x 505.89pt>
+ [13 <C:/Users/Markus/Documents/Git/Consulting/Bericht/timeSinceFirst_Last.pdf>] <freq.pdf, id=123, 505.89pt x 505.89pt>
 File: freq.pdf Graphic file (type pdf)
  <use freq.pdf>
-Package pdftex.def Info: freq.pdf used on input line 160.
+Package pdftex.def Info: freq.pdf used on input line 157.
 (pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--163
+Underfull \hbox (badness 10000) in paragraph at lines 152--160
 
  []
 
-[13 <C:/Users/Markus/Documents/Git/Consulting/Bericht/timeSinceLast.pdf>])
+[14 <C:/Users/Markus/Documents/Git/Consulting/Bericht/timeSinceLast.pdf>])
 (C:\Users\Markus\Documents\Git\Consulting\Bericht\survival.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
  []
 
-[14 <C:/Users/Markus/Documents/Git/Consulting/Bericht/freq.pdf>] [15] [16] [17] [18] [19])
-(C:\Users\Markus\Documents\Git\Consulting\Bericht\spm.tex [20] [21] [22] [23]
+[15 <C:/Users/Markus/Documents/Git/Consulting/Bericht/freq.pdf>] [16] [17] [18] [19] [20])
+(C:\Users\Markus\Documents\Git\Consulting\Bericht\spm.tex [21] [22] [23] [24] [25]
 Underfull \hbox (badness 10000) in paragraph at lines 102--131
 
  []
 
-[24] [25]) (C:\Users\Markus\Documents\Git\Consulting\Bericht\visual.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--5
+[26]) (C:\Users\Markus\Documents\Git\Consulting\Bericht\visual.tex <graphbegin.pdf, id=186, 594.3356pt x 600.95898pt>
+File: graphbegin.pdf Graphic file (type pdf)
 
- []
-
-[26]) (C:\Users\Markus\Documents\Git\Consulting\Bericht\ergebnisse.tex <bestIter.pdf, id=186, 505.89pt x 505.89pt>
+<use graphbegin.pdf>
+Package pdftex.def Info: graphbegin.pdf used on input line 11.
+(pdftex.def)             Requested size: 356.6041pt x 360.57817pt.
+ [27] [28]) (C:\Users\Markus\Documents\Git\Consulting\Bericht\ergebnisse.tex [29 <C:/Users/Markus/Documents/Git/Consulti
+ng/Bericht/graphbegin.pdf>] <bestIter.pdf, id=203, 505.89pt x 505.89pt>
 File: bestIter.pdf Graphic file (type pdf)
-
-<use bestIter.pdf>
+ <use bestIter.pdf>
 Package pdftex.def Info: bestIter.pdf used on input line 7.
 (pdftex.def)             Requested size: 252.94437pt x 252.94437pt.
- [27] <variableImportance.pdf, id=190, 505.89pt x 505.89pt>
+
+<variableImportance.pdf, id=204, 505.89pt x 505.89pt>
 File: variableImportance.pdf Graphic file (type pdf)
  <use variableImportance.pdf>
 Package pdftex.def Info: variableImportance.pdf used on input line 12.
@@ -972,13 +979,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--13
 
  []
 
-[28 <C:/Users/Markus/Documents/Git/Consulting/Bericht/bestIter.pdf>]
-<marg_eff_campaign.pdf, id=200, 505.89pt x 505.89pt>
+[30 <C:/Users/Markus/Documents/Git/Consulting/Bericht/bestIter.pdf>]
+<marg_eff_campaign.pdf, id=213, 505.89pt x 505.89pt>
 File: marg_eff_campaign.pdf Graphic file (type pdf)
  <use marg_eff_campaign.pdf>
 Package pdftex.def Info: marg_eff_campaign.pdf used on input line 22.
 (pdftex.def)             Requested size: 379.41655pt x 379.41655pt.
- [29 <C:/Users/Markus/Documents/Git/Consulting/Bericht/variableImportance.pdf>] [30] <marg_eff_campaignLast.pdf, id=213,
+ [31 <C:/Users/Markus/Documents/Git/Consulting/Bericht/variableImportance.pdf>] [32] <marg_eff_campaignLast.pdf, id=226,
  505.89pt x 505.89pt>
 File: marg_eff_campaignLast.pdf Graphic file (type pdf)
 
@@ -990,13 +997,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--27
 
  []
 
-[31 <C:/Users/Markus/Documents/Git/Consulting/Bericht/marg_eff_campaign.pdf>]
-<marg_eff_time.pdf, id=223, 505.89pt x 505.89pt>
+[33 <C:/Users/Markus/Documents/Git/Consulting/Bericht/marg_eff_campaign.pdf>]
+<marg_eff_time.pdf, id=236, 505.89pt x 505.89pt>
 File: marg_eff_time.pdf Graphic file (type pdf)
  <use marg_eff_time.pdf>
 Package pdftex.def Info: marg_eff_time.pdf used on input line 31.
 (pdftex.def)             Requested size: 379.41655pt x 379.41655pt.
- [32 <C:/Users/Markus/Documents/Git/Consulting/Bericht/marg_eff_campaignLast.pdf>] <roc.png, id=233, 481.8pt x 481.8pt>
+ [34 <C:/Users/Markus/Documents/Git/Consulting/Bericht/marg_eff_campaignLast.pdf>] <roc.png, id=247, 481.8pt x 481.8pt>
 File: roc.png Graphic file (type png)
  <use roc.png>
 Package pdftex.def Info: roc.png used on input line 38.
@@ -1006,14 +1013,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--39
 
  []
 
-[33 <C:/Users/Markus/Documents/Git/Consulting/Bericht/marg_eff_time.pdf>] [34] <auc.pdf, id=247, 505.89pt x 505.89pt>
+[35 <C:/Users/Markus/Documents/Git/Consulting/Bericht/marg_eff_time.pdf>] <auc.pdf, id=257, 505.89pt x 505.89pt>
 File: auc.pdf Graphic file (type pdf)
 
 <use auc.pdf>
 Package pdftex.def Info: auc.pdf used on input line 42.
 (pdftex.def)             Requested size: 379.41655pt x 379.41655pt.
- [35 <C:/Users/Markus/Documents/Git/Consulting/Bericht/roc.png (PNG copy)>]
-<spm_all.pdf, id=251, 722.7pt x 722.7pt>
+ [36 <C:/Users/Markus/Documents/Git/Consulting/Bericht/roc.png (PNG copy)>]
+<spm_all.pdf, id=261, 722.7pt x 722.7pt>
 File: spm_all.pdf Graphic file (type pdf)
  <use spm_all.pdf>
 Package pdftex.def Info: spm_all.pdf used on input line 50.
@@ -1023,7 +1030,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--51
 
  []
 
-[36 <C:/Users/Markus/Documents/Git/Consulting/Bericht/auc.pdf>] <spm_min15.pdf, id=260, 722.7pt x 722.7pt>
+[37 <C:/Users/Markus/Documents/Git/Consulting/Bericht/auc.pdf>] [38] <spm_min15.pdf, id=273, 722.7pt x 722.7pt>
 File: spm_min15.pdf Graphic file (type pdf)
 
 <use spm_min15.pdf>
@@ -1034,15 +1041,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--55
 
  []
 
-[37 <C:/Users/Markus/Documents/Git/Consulting/Bericht/spm_all.pdf>])
-(C:\Users\Markus\Documents\Git\Consulting\Bericht\zusammenfassung.tex [38 <C:/Users/Markus/Documents/Git/Consulting/Beri
-cht/spm_min15.pdf>]) (C:\Users\Markus\Documents\Git\Consulting\Bericht\elektronischer_anhang.tex
+[39 <C:/Users/Markus/Documents/Git/Consulting/Bericht/spm_all.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+
+ []
+
+[40 <C:/Users/Markus/Documents/Git/Consulting/Bericht/spm_min15.pdf>] <out_labels.pdf, id=293, 115.0949pt x 95.3954pt>
+File: out_labels.pdf Graphic file (type pdf)
+
+<use out_labels.pdf>
+Package pdftex.def Info: out_labels.pdf used on input line 68.
+(pdftex.def)             Requested size: 287.73647pt x 238.48788pt.
+ <out_filter_2_succ.png, id=294, 743.77875pt x 579.16376pt>
+File: out_filter_2_succ.png Graphic file (type png)
+ <use out_filter_2_succ.png>
+Package pdftex.def Info: out_filter_2_succ.png used on input line 73.
+(pdftex.def)             Requested size: 297.50623pt x 231.66139pt.
+ [41 <C:/Users/Markus/Documents/Git/Consulting/Bericht/out_labels.pdf>] <out_filter_50_fail.png, id=313, 729.72626pt x 5
+69.12625pt>
+File: out_filter_50_fail.png Graphic file (type png)
+
+<use out_filter_50_fail.png>
+Package pdftex.def Info: out_filter_50_fail.png used on input line 78.
+(pdftex.def)             Requested size: 291.88533pt x 227.64647pt.
+ [42 <C:/Users/Markus/Documents/Git/Consulting/Bericht/out_filter_2_succ.png>]
+<in_labels.pdf, id=318, 260.6253pt x 230.0577pt>
+File: in_labels.pdf Graphic file (type pdf)
+ <use in_labels.pdf>
+Package pdftex.def Info: in_labels.pdf used on input line 85.
+(pdftex.def)             Requested size: 260.62465pt x 230.05711pt.
+ [43 <C:/Users/Markus/Documents/Git/Consulting/Bericht/out_filter_50_fail.png>] <in_filter_10_succ.png, id=323, 745.7862
+5pt x 586.19pt>
+File: in_filter_10_succ.png Graphic file (type png)
+ <use in_filter_10_succ.png>
+Package pdftex.def Info: in_filter_10_succ.png used on input line 89.
+(pdftex.def)             Requested size: 298.30922pt x 234.47185pt.
+ [44 <C:/Users/Markus/Documents/Git/Consulting/Bericht/in_labels.pdf>] <in_filter_10_fail.png, id=341, 753.81625pt x 590
+.205pt>
+File: in_filter_10_fail.png Graphic file (type png)
+
+<use in_filter_10_fail.png>
+Package pdftex.def Info: in_filter_10_fail.png used on input line 93.
+(pdftex.def)             Requested size: 301.52116pt x 236.0778pt.
+) (C:\Users\Markus\Documents\Git\Consulting\Bericht\zusammenfassung.tex [45 <C:/Users/Markus/Documents/Git/Consulting/Be
+richt/in_filter_10_succ.png>])
+(C:\Users\Markus\Documents\Git\Consulting\Bericht\elektronischer_anhang.tex
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 7.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)) [39]
-(C:\Users\Markus\Documents\Git\Consulting\Bericht\Bericht.lot)
+)) [46 <C:/Users/Markus/Documents/Git/Consulting/Bericht/in_filter_10_fail.png>] (C:\Users\Markus\Documents\Git\Consulti
+ng\Bericht\Bericht.lot)
 \tf@lot=\write5
 
 (C:\Users\Markus\Documents\Git\Consulting\Bericht\Bericht.lof
@@ -1050,19 +1099,19 @@ Overfull \hbox (2.36328pt too wide) in paragraph at lines 25--25
  [][] []\T1/cmr/m/n/12 Frequenz der Kon-takt-punk-te in kon-ver-tier-ten und nicht-konvertierten Fun- 
  []
 
-)
+[47])
 \tf@lof=\write6
- [40] [41] [42] (C:\Users\Markus\Documents\Git\Consulting\Bericht\Bericht.aux)
+ [48] [49] [50] (C:\Users\Markus\Documents\Git\Consulting\Bericht\Bericht.aux)
 Package logreq Info: Writing requests to 'Bericht.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 10524 strings out of 493921
- 168076 string characters out of 3144874
- 602351 words of memory out of 3000000
- 13564 multiletter control sequences out of 15000+200000
+ 10574 strings out of 493921
+ 169107 string characters out of 3144874
+ 596484 words of memory out of 3000000
+ 13607 multiletter control sequences out of 15000+200000
  21260 words of font info for 51 fonts, out of 3000000 for 9000
  845 hyphenation exceptions out of 8191
- 58i,16n,49p,1972b,1403s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 58i,16n,49p,1608b,1517s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Markus\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1200.pk> <C:\Users\Markus\AppData\Lo
 cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk> <C:\Users\Markus\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
 \jknappen\ec\dpi600\ecrm0800.pk> <C:\Users\Markus\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1440.p
@@ -1081,9 +1130,9 @@ ic/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
 x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/eurosym/feymr10.pfb><C:/Program Files (x86)/MiKTeX 2.
 9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Bericht.pdf (45 pages, 632145 bytes).
+Output written on Bericht.pdf (53 pages, 1912940 bytes).
 PDF statistics:
- 839 PDF objects out of 1000 (max. 8388607)
+ 911 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
 

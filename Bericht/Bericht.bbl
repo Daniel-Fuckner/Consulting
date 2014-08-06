@@ -77,6 +77,26 @@
       \verb http://CRAN.R-project.org/package=foreach
       \endverb
     \endentry
+    \entry{gephi_bastian}{article}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=a72a1a9be358959d50d6ce84b454978d}{Bastian}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=7fdaac10fefc813d59c8d93c071eef3f}{Heymann}{H\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=85a1f48cb74c1ac8cde2c9d65bade534}{Jacomy}{J\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=a72a1a9be358959d50d6ce84b454978d}{Bastian}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=7fdaac10fefc813d59c8d93c071eef3f}{Heymann}{H\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=85a1f48cb74c1ac8cde2c9d65bade534}{Jacomy}{J\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{91721c026ff5d94f05e899e21bf4bb72}
+      \strng{fullhash}{dffc90fb6f961f7ca0ca1c01f03db3ea}
+      \field{sortinit}{B}
+      \field{labeltitle}{Gephi: An Open Source Software for Exploring and Manipulating Networks}
+      \field{journaltitle}{Proceedings of the Third International ICWSM Conference}
+      \field{title}{Gephi: An Open Source Software for Exploring and Manipulating Networks}
+      \field{year}{2009}
+      \field{pages}{361\bibrangedash 362}
+    \endentry
     \entry{arulesSequences}{manual}{}
       \name{labelname}{3}{}{%
         {{uniquename=0,hash=88d1394b8eebbc965cdcabe79640584b}{Buchta}{B\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
@@ -232,6 +252,22 @@
       \field{year}{2005}
       \field{pages}{377\bibrangedash 397}
     \endentry
+    \entry{yifanhu}{manual}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=855f3b81b4485b5f0dcd527f5803bb66}{Hu}{H\bibinitperiod}{Yifan}{Y\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=855f3b81b4485b5f0dcd527f5803bb66}{Hu}{H\bibinitperiod}{Yifan}{Y\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{855f3b81b4485b5f0dcd527f5803bb66}
+      \strng{fullhash}{855f3b81b4485b5f0dcd527f5803bb66}
+      \field{sortinit}{H}
+      \field{labeltitle}{Efficient and High Quality Force-Directed Graph Drawing}
+      \field{title}{Efficient and High Quality Force-Directed Graph Drawing}
+      \verb{url}
+      \verb http://yifanhu.net/PUB/graph_draw_small.pdf
+      \endverb
+    \endentry
     \entry{spm_taxonomy4}{article}{}
       \name{labelname}{2}{}{%
         {{uniquename=0,hash=2b6480bd8c1952619a6fbf89593d0736}{Iváncsy}{I\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
@@ -251,6 +287,50 @@
       \field{volume}{3}
       \field{year}{2006}
       \field{pages}{77\bibrangedash 90}
+    \endentry
+    \entry{forceatlas2}{manual}{}
+      \name{labelname}{4}{}{%
+        {{uniquename=0,hash=85a1f48cb74c1ac8cde2c9d65bade534}{Jacomy}{J\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=7fdaac10fefc813d59c8d93c071eef3f}{Heymann}{H\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=cdebf5d7408a2d3df8ea1b30a02b0ff3}{Venturini}{V\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a72a1a9be358959d50d6ce84b454978d}{Bastian}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=85a1f48cb74c1ac8cde2c9d65bade534}{Jacomy}{J\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=7fdaac10fefc813d59c8d93c071eef3f}{Heymann}{H\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=cdebf5d7408a2d3df8ea1b30a02b0ff3}{Venturini}{V\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=a72a1a9be358959d50d6ce84b454978d}{Bastian}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{f69294bf0414a0ecfa9cac1b527d773c}
+      \strng{fullhash}{13d8f58efe4ac9c72902f74c54d0079d}
+      \field{sortinit}{J}
+      \field{labeltitle}{ForceAtlas2, A Graph Layout Algorithm for Handy Network Visualization}
+      \field{title}{ForceAtlas2, A Graph Layout Algorithm for Handy Network Visualization}
+      \field{year}{2011}
+      \verb{url}
+      \verb http://webatlas.fr/tempshare/ForceAtlas2_Paper.pdf
+      \endverb
+    \endentry
+    \entry{network_data}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=082d095107d3982de3711a494f04d523}{Kolaczyk}{K\bibinitperiod}{Eric\bibnamedelima D.}{E\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=082d095107d3982de3711a494f04d523}{Kolaczyk}{K\bibinitperiod}{Eric\bibnamedelima D.}{E\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{082d095107d3982de3711a494f04d523}
+      \strng{fullhash}{082d095107d3982de3711a494f04d523}
+      \field{sortinit}{K}
+      \field{labeltitle}{Statistical Analysis of Network Data}
+      \field{subtitle}{Methods and Models}
+      \field{title}{Statistical Analysis of Network Data}
+      \field{year}{2009}
     \endentry
     \entry{lu_ezeife}{article}{}
       \name{labelname}{2}{}{%
@@ -436,6 +516,28 @@
       \field{title}{BIDE: Efficient mining of frequent closed sequences}
       \field{year}{2004}
       \field{pages}{79\bibrangedash 90}
+    \endentry
+    \entry{rgexf}{manual}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=8d156f757c1b18a862a01b80ba28988a}{Yon}{Y\bibinitperiod}{George\bibnamedelima Vega}{G\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=585d0384c8320e60f2b241e66aecf8c7}{Lacoa}{L\bibinitperiod}{Jorge\bibnamedelima Fábrega}{J\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e64e147ad8da06362e351f15fc741b0c}{Kunst}{K\bibinitperiod}{Joshua\bibnamedelima B.}{J\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=8d156f757c1b18a862a01b80ba28988a}{Yon}{Y\bibinitperiod}{George\bibnamedelima Vega}{G\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=585d0384c8320e60f2b241e66aecf8c7}{Lacoa}{L\bibinitperiod}{Jorge\bibnamedelima Fábrega}{J\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e64e147ad8da06362e351f15fc741b0c}{Kunst}{K\bibinitperiod}{Joshua\bibnamedelima B.}{J\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ea0de402a8fae1ffdea27e4364bb5070}
+      \strng{fullhash}{3caba2eb1786b86d850f18993be35b79}
+      \field{sortinit}{Y}
+      \field{labeltitle}{rgexf: An R package to build GEXF graph files}
+      \field{note}{R package version 0.14.3.11}
+      \field{title}{rgexf: An R package to build GEXF graph files}
+      \field{year}{2014}
+      \verb{url}
+      \verb http://CRAN.R-project.org/package=rgexf
+      \endverb
     \endentry
     \entry{spade}{article}{}
       \name{labelname}{1}{}{%
