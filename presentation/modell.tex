@@ -8,7 +8,7 @@
 
 \begin{frame}
 	\begin{itemize}
-		\item Zeit bis zu einem Ereignis $\Rightarrow$ Konvertierung oder Nich-Konvertierung bzw. Rechtszensierung
+		\item Zeit bis zu einem Ereignis $\Rightarrow$ Konvertierung oder Nicht-Konvertierung bzw. Rechtszensierung
 		\item Positionen bilden Zeitachse des Modells $\Rightarrow$ Zeitdiskretes Modell
 		\item Stochastic Gradient Boosting mit Stümpfen als Basis-Lerner
 	\end{itemize}
@@ -77,7 +77,7 @@
 		\begin{algorithmic}
 		\STATE Setze Startwert für $f_{0p}(x_{ip})$
 		\FOR{$m=1:n.trees$}
-			\STATE Setzte $\lambda_{ip}(x_{ip}) = \frac{\exp(f_{m-1,p}(x_{ip}))}{1+\exp(f_{m-1,p}(x_{ip}))}$
+			\STATE Setze $\lambda_{ip}(x_{ip}) = \frac{\exp(f_{m-1,p}(x_{ip}))}{1+\exp(f_{m-1,p}(x_{ip}))}$
 			\FOR{$i=1:N_p$} 
 				\STATE $r_{imp} = - \frac{\partial L(y_{ip},f_{m-1,p}(x_{ip}))}{\partial f_{m-1,p}(x_{ip})} = y_{ip} - \lambda_{ip}(x_{ip})$
 			\ENDFOR
@@ -109,24 +109,13 @@
 			\end{align*}
 		\item Relative Wichtigkeit der Features:
 			\begin{align*}
-				\hat{I}_{jp}^2(m) &= \hat{i}_{mp} 1_{jmp}\\
-				\hat{I}_{jp}^2 &= \frac{1}{M} \sum_{m=1}^{n.trees} \hat{I}_{jp}^2(m)\\
-				\hat{I}_{jp} &= \sqrt{\hat{I}_{jp}^2}
+				\hat{I}_{jp} &= \sqrt{\frac{1}{M} \sum_{m=1}^{n.trees} \hat{i}_{mp} 1_{jmp}}
 			\end{align*}
-	\end{itemize}
-\end{frame}
-
-\begin{frame}\frametitle{Output des Modells}
-	\begin{itemize}
 		\item Marginale Effekte der Features:
 			\begin{align*}
 				\bar{f}_{jp}(x_{jp}) = \frac{1}{N} \sum_{i=1}^{N_p} \hat{f}(x_{jp},x_{i,\backslash j,p})
 			\end{align*}
-		\item ROC (Receiver Operating Characteristics)-Kurve
-		\item AUC (Area Under the Curve):
-			\begin{align*}
-				AUC = \int_0^1 \! ROC(t) \, \mathrm{d}t.
-			\end{align*}
+		\item ROC-Kurve und AUC
 	\end{itemize}
 \end{frame}
 
@@ -135,8 +124,8 @@
 \begin{frame}
 	\begin{itemize}
 		\item Menge von Items $I = \{a, b, c, d, e\}$ $\Rightarrow$ Kampagnen
-		\item Datenbank: [ID 1, <abedcab>]; [ID 2, <edcaa>]
-		\item 3-Sequenz $s = b\rightarrow b\rightarrow \rightarrow e$
+		\item Datenbank: $[ID 1, <abcdbaae>]$; $[ID 2, <edcaa>]$
+		\item 4-Sequenz $s = b\rightarrow b\rightarrow a\rightarrow e$
 		\item Support einer Sequenz: Anteil der IDs, die $s$ unterstützen
 		\item SPADE-Algorithmus findet häufige Sequenzen, deren Support größer als ein festgelegter minimaler Support ist
 		\item Seperate Anwendung auf konvertierte und nicht-konvertierte Funnels

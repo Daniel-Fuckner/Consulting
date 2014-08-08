@@ -55,7 +55,7 @@ Der offset fällt für Position eins weg, da es noch keine Vorhersagen eines vor
 \begin{algorithmic}
 \STATE Setze Startwert für $f_{0p}(x_{ip})$
 \FOR{$m=1:n.trees$}
-	\STATE Setzte $\lambda_{ip}(x_{ip}) = \frac{\exp(f_{m-1,p}(x_{ip}))}{1+\exp(f_{m-1,p}(x_{ip}))}$
+	\STATE Setze $\lambda_{ip}(x_{ip}) = \frac{\exp(f_{m-1,p}(x_{ip}))}{1+\exp(f_{m-1,p}(x_{ip}))}$
 	\FOR{$i=1:N_p$} 
 		\STATE $r_{imp} = - \frac{\partial L(y_{ip},f_{m-1,p}(x_{ip}))}{\partial f_{m-1,p}(x_{ip})} = y_{ip} - \lambda_{ip}(x_{ip})$
 	\ENDFOR
