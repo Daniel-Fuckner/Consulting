@@ -2,58 +2,58 @@
 \defcounter {refsection}{0}\relax 
 \select@language {ngerman}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Entstehung eines Funnels (Quelle: Interhyp AG)}}{1}
+\contentsline {figure}{\numberline {1}{\ignorespaces Entstehung eines Funnels}}{1}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2}{\ignorespaces H\IeC {\"a}ufigkeit der Clicks im Mittel f\IeC {\"u}r jede Position}}{5}
+\contentsline {figure}{\numberline {2}{\ignorespaces H\IeC {\"a}ufigkeit der Clicks im Mittel}}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3}{\ignorespaces Anteil der Funnels mit mindestems einem Click f\IeC {\"u}r jede Position}}{6}
+\contentsline {figure}{\numberline {3}{\ignorespaces Anteil Funnels mit mindestens einem Click}}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4}{\ignorespaces Kampagnen der konvertierten Funnels mit und ohne Views}}{8}
+\contentsline {figure}{\numberline {4}{\ignorespaces Kampagnen der konvertierten Funnels}}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5}{\ignorespaces Wochentage der Kontaktpunkte}}{9}
+\contentsline {figure}{\numberline {5}{\ignorespaces Wochentage der Kontaktpunkte}}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6}{\ignorespaces Uhrzeit der Kontaktpunkte}}{10}
+\contentsline {figure}{\numberline {6}{\ignorespaces Uhrzeit der Kontaktpunkte}}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7}{\ignorespaces Kampagnen der konvertierten und nicht-konvertierten Funnels}}{11}
+\contentsline {figure}{\numberline {7}{\ignorespaces Kampagnen der konvertierten und nicht-konvertierten Funnels}}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8}{\ignorespaces L\IeC {\"a}nge der Funnels in konvertierten und nicht-konvertierten Funnels}}{12}
+\contentsline {figure}{\numberline {8}{\ignorespaces L\IeC {\"a}nge der Funnels}}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9}{\ignorespaces Beobachtungsdauer in Tagen der konvertierten und nicht-konvertierten Funnels}}{13}
+\contentsline {figure}{\numberline {9}{\ignorespaces Beobachtungsdauer in Tagen}}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {10}{\ignorespaces Dauer zwischen zwei Kontaktpunkten in den konvertierten und nicht-konvertierten Funnels}}{14}
+\contentsline {figure}{\numberline {10}{\ignorespaces Dauer zwischen zwei Kontaktpunkten}}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {11}{\ignorespaces Frequenz der Kontaktpunkte in konvertierten und nicht-konvertierten Funnels}}{15}
+\contentsline {figure}{\numberline {11}{\ignorespaces Frequenz der Kontaktpunkte}}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {12}{\ignorespaces Anordnung der Knoten und Kanten nach dem Einlesen}}{29}
+\contentsline {figure}{\numberline {12}{\ignorespaces Anordnung der Knoten nach dem Einlesen}}{29}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {13}{\ignorespaces Optimale Iterationsanzahl des Stochastic Gradient Boosting}}{30}
+\contentsline {figure}{\numberline {13}{\ignorespaces Optimale Iterationsanzahl}}{30}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {14}{\ignorespaces Wichtigkeit der Variablen}}{31}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {15}{\ignorespaces Marginaler Effekt des Features \textit {Campaign} an den Positionen $1$, $2$, $3$ und $4$}}{33}
+\contentsline {figure}{\numberline {15}{\ignorespaces Marginaler Effekt von \textit {Campaign}}}{33}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {16}{\ignorespaces Marginaler Effekt des Features \textit {CampaignLast} an den Positionen $4$, $6$, $7$ und $8$}}{34}
+\contentsline {figure}{\numberline {16}{\ignorespaces Marginaler Effekt von \textit {CampaignLast}}}{34}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {17}{\ignorespaces Marginaler Effekt des Features \textit {TimeSinceFirst} an den Positionen $9$, $10$, $13$ und $14$ (oben) und des Features \textit {TimeSinceLast} an den Positionen $6$, $7$, $8$, $10$ und $12$ (unten)}}{35}
+\contentsline {figure}{\numberline {17}{\ignorespaces Marginaler Effekt von \textit {TimeSinceFirst} und \textit {TimeSinceLast}}}{35}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {18}{\ignorespaces ROC-Kurve f\IeC {\"u}r die Positionen $1$, $3$, $15$ und $22$}}{36}
+\contentsline {figure}{\numberline {18}{\ignorespaces ROC-Kurve}}{36}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {19}{\ignorespaces AUC f\IeC {\"u}r alle Positionen}}{37}
+\contentsline {figure}{\numberline {19}{\ignorespaces AUC-Wert}}{37}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {20}{\ignorespaces H\IeC {\"a}ufige Sequenzen in den konvertierten und nicht-konvertierten Funnels}}{39}
+\contentsline {figure}{\numberline {20}{\ignorespaces H\IeC {\"a}ufige Sequenzen}}{38}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {21}{\ignorespaces H\IeC {\"a}ufige Sequenzen in den konvertierten und nicht-konvertierten Funnels mit mindestens $15$ Kontakten}}{40}
+\contentsline {figure}{\numberline {21}{\ignorespaces H\IeC {\"a}ufige Sequenzen in Funnels mit mindestens $15$ Kontaktpunkten}}{39}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {22}{\ignorespaces Auschnitt des Netzwerkes an Position $2$ mit relativen Ausg\IeC {\"a}ngen}}{41}
+\contentsline {figure}{\numberline {22}{\ignorespaces Relative Ausg\IeC {\"a}nge}}{41}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {23}{\ignorespaces Auschnitt des Netzwerkes an Position $2$ mit relativen Ausg\IeC {\"a}ngen, Filter $0.02$ und Fokus auf den konvertierten Funnels}}{42}
+\contentsline {figure}{\numberline {23}{\ignorespaces Relative Ausg\IeC {\"a}nge mit Filter $0.02$}}{42}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {24}{\ignorespaces Auschnitt des Netzwerkes an Position $2$ mit relativen Ausg\IeC {\"a}ngen, Filter $0.5$ und Fokus auf den nicht-konvertierten Funnels}}{43}
+\contentsline {figure}{\numberline {24}{\ignorespaces Relative Ausg\IeC {\"a}nge mit Filter $0.5$}}{43}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {25}{\ignorespaces Auschnitt des Netzwerkes an Position $2$ mit relativen Eing\IeC {\"a}ngen}}{44}
+\contentsline {figure}{\numberline {25}{\ignorespaces Relative Eing\IeC {\"a}nge}}{44}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {26}{\ignorespaces Auschnitt des Netzwerkes an Position $2$ mit relativen Eing\IeC {\"a}ngen, Filter $0.1$ und Fokus auf den konvertierten Funnels}}{45}
+\contentsline {figure}{\numberline {26}{\ignorespaces Relative Eing\IeC {\"a}nge mit Filter $0.1$ und Fokus auf Konvertierten}}{45}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {27}{\ignorespaces Auschnitt des Netzwerkes an Position $2$ mit relativen Eing\IeC {\"a}ngen, Filter $0.1$ und Fokus auf den nicht-konvertierten Funnels}}{46}
+\contentsline {figure}{\numberline {27}{\ignorespaces Relative Eing\IeC {\"a}nge mit Filter $0.1$ und Fokus auf Nicht-Konvertierten}}{46}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {28}{\ignorespaces Verzeichnisstruktur des Projekts}}{46}
+\contentsline {figure}{\numberline {28}{\ignorespaces Verzeichnisstruktur des Projekts}}{47}

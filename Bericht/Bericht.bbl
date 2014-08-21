@@ -119,6 +119,32 @@
       \verb http://CRAN.R-project.org/package=arulesSequences
       \endverb
     \endentry
+    \entry{data.table}{manual}{}
+      \name{labelname}{5}{}{%
+        {{uniquename=0,hash=832372462cce7aa0a967a45542bedf59}{Dowle}{D\bibinitperiod}{M}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=74b6ba0995aba93372911e67066adb34}{Short}{S\bibinitperiod}{T}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=7e1fca0c9cd34af47016bd84452085b0}{Lianoglou}{L\bibinitperiod}{S}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=fa5287ad65b74acd6a81a87b92d572d9}{R\bibnamedelima Saporta}{R\bibinitperiod\bibinitdelim S\bibinitperiod}{A\bibnamedelima Srinivasan}{A\bibinitperiod\bibinitdelim S\bibinitperiod}{with\bibnamedelimb contributions\bibnamedelima from}{w\bibinitperiod\bibinitdelim c\bibinitperiod\bibinitdelim f\bibinitperiod}{}{}}%
+        {{uniquename=0,hash=f47a79757eb0147705e0bfe16b46589e}{Antonyan}{A\bibinitperiod}{E}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{5}{}{%
+        {{uniquename=0,hash=832372462cce7aa0a967a45542bedf59}{Dowle}{D\bibinitperiod}{M}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=74b6ba0995aba93372911e67066adb34}{Short}{S\bibinitperiod}{T}{T\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=7e1fca0c9cd34af47016bd84452085b0}{Lianoglou}{L\bibinitperiod}{S}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=fa5287ad65b74acd6a81a87b92d572d9}{R\bibnamedelima Saporta}{R\bibinitperiod\bibinitdelim S\bibinitperiod}{A\bibnamedelima Srinivasan}{A\bibinitperiod\bibinitdelim S\bibinitperiod}{with\bibnamedelimb contributions\bibnamedelima from}{w\bibinitperiod\bibinitdelim c\bibinitperiod\bibinitdelim f\bibinitperiod}{}{}}%
+        {{uniquename=0,hash=f47a79757eb0147705e0bfe16b46589e}{Antonyan}{A\bibinitperiod}{E}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{e4e9419ae9d8b0e5e24489cb928a909a}
+      \strng{fullhash}{4089d14ecd223fa80aa4fbafe9eb113a}
+      \field{sortinit}{D}
+      \field{labeltitle}{data.table: Extension of data.frame}
+      \field{note}{R package version 1.9.2}
+      \field{title}{data.table: Extension of data.frame}
+      \field{year}{2014}
+      \verb{url}
+      \verb http://CRAN.R-project.org/package=data.table
+      \endverb
+    \endentry
     \entry{fsminer}{article}{}
       \name{labelname}{3}{}{%
         {{uniquename=0,hash=9ad5f9eb543238c3fce232bdcef97026}{El-Sayed}{E\bibinithyphendelim S\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
@@ -516,6 +542,48 @@
       \field{title}{BIDE: Efficient mining of frequent closed sequences}
       \field{year}{2004}
       \field{pages}{79\bibrangedash 90}
+    \endentry
+    \entry{ggplot2}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=1d0f6977ce2d043e298a59a1cd75b7ef}{Wickham}{W\bibinitperiod}{Hadley}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=1d0f6977ce2d043e298a59a1cd75b7ef}{Wickham}{W\bibinitperiod}{Hadley}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Springer New York}%
+      }
+      \strng{namehash}{1d0f6977ce2d043e298a59a1cd75b7ef}
+      \strng{fullhash}{1d0f6977ce2d043e298a59a1cd75b7ef}
+      \field{sortinit}{W}
+      \field{labeltitle}{ggplot2: elegant graphics for data analysis}
+      \field{isbn}{978-0-387-98140-6}
+      \field{title}{ggplot2: elegant graphics for data analysis}
+      \field{year}{2009}
+      \verb{url}
+      \verb http://had.co.nz/ggplot2/book
+      \endverb
+    \endentry
+    \entry{plyr}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=1d0f6977ce2d043e298a59a1cd75b7ef}{Wickham}{W\bibinitperiod}{Hadley}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=1d0f6977ce2d043e298a59a1cd75b7ef}{Wickham}{W\bibinitperiod}{Hadley}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{1d0f6977ce2d043e298a59a1cd75b7ef}
+      \strng{fullhash}{1d0f6977ce2d043e298a59a1cd75b7ef}
+      \field{sortinit}{W}
+      \field{labeltitle}{The Split-Apply-Combine Strategy for Data Analysis}
+      \field{journaltitle}{Journal of Statistical Software}
+      \field{number}{1}
+      \field{title}{The Split-Apply-Combine Strategy for Data Analysis}
+      \field{volume}{40}
+      \field{year}{2011}
+      \field{pages}{1\bibrangedash 29}
+      \verb{url}
+      \verb http://www.jstatsoft.org/v40/i01/
+      \endverb
     \endentry
     \entry{rgexf}{manual}{}
       \name{labelname}{3}{}{%

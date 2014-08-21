@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.4.9)  8 AUG 2014 12:36
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.4.9)  10 AUG 2014 17:35
 entering extended mode
 **folien.tex
 (C:\Users\Markus\Documents\Git\Consulting\presentation\folien.tex
@@ -1297,22 +1297,20 @@ Overfull \vbox (2.59004pt too high) detected at line 166
 
 ] [23
 
-] [24
-
 ]
-<graphbegin.pdf, id=478, 594.3356pt x 600.95898pt>
+<graphbegin.pdf, id=464, 594.3356pt x 600.95898pt>
 File: graphbegin.pdf Graphic file (type pdf)
  <use graphbegin.pdf>
-Package pdftex.def Info: graphbegin.pdf used on input line 156.
+Package pdftex.def Info: graphbegin.pdf used on input line 167.
 (pdftex.def)             Requested size: 118.865pt x 120.18967pt.
- [25
+ [24
 
  <C:/Users/Markus/Documents/Git/Consulting/presentation/graphbegin.pdf>]) (C:\Users\Markus\Documents\Git\Consulting\pres
 entation\ergebnisse.tex
-(C:\Users\Markus\Documents\Git\Consulting\presentation\folien.toc) [26
+(C:\Users\Markus\Documents\Git\Consulting\presentation\folien.toc) [25
 
 ]
-<variableImportance.pdf, id=521, 505.89pt x 505.89pt>
+<variableImportance.pdf, id=507, 505.89pt x 505.89pt>
 File: variableImportance.pdf Graphic file (type pdf)
  <use variableImportance.pdf>
 Package pdftex.def Info: variableImportance.pdf used on input line 15.
@@ -1321,10 +1319,10 @@ Package pdftex.def Info: variableImportance.pdf used on input line 15.
 Overfull \vbox (2.59004pt too high) detected at line 15
  []
 
-[27
+[26
 
  <C:/Users/Markus/Documents/Git/Consulting/presentation/variableImportance.pdf>]
-<marg_eff_campaign.pdf, id=541, 505.89pt x 505.89pt>
+<marg_eff_campaign.pdf, id=527, 505.89pt x 505.89pt>
 File: marg_eff_campaign.pdf Graphic file (type pdf)
  <use marg_eff_campaign.pdf>
 Package pdftex.def Info: marg_eff_campaign.pdf used on input line 19.
@@ -1333,10 +1331,10 @@ Package pdftex.def Info: marg_eff_campaign.pdf used on input line 19.
 Overfull \vbox (2.59004pt too high) detected at line 19
  []
 
-[28
+[27
 
  <C:/Users/Markus/Documents/Git/Consulting/presentation/marg_eff_campaign.pdf>]
-<marg_eff_time.pdf, id=562, 505.89pt x 505.89pt>
+<marg_eff_time.pdf, id=548, 505.89pt x 505.89pt>
 File: marg_eff_time.pdf Graphic file (type pdf)
  <use marg_eff_time.pdf>
 Package pdftex.def Info: marg_eff_time.pdf used on input line 27.
@@ -1345,9 +1343,9 @@ Package pdftex.def Info: marg_eff_time.pdf used on input line 27.
 Overfull \vbox (2.59004pt too high) detected at line 27
  []
 
-[29
+[28
 
- <C:/Users/Markus/Documents/Git/Consulting/presentation/marg_eff_time.pdf>] <auc.pdf, id=583, 505.89pt x 505.89pt>
+ <C:/Users/Markus/Documents/Git/Consulting/presentation/marg_eff_time.pdf>] <auc.pdf, id=569, 505.89pt x 505.89pt>
 File: auc.pdf Graphic file (type pdf)
 
 <use auc.pdf>
@@ -1357,93 +1355,94 @@ Package pdftex.def Info: auc.pdf used on input line 35.
 Overfull \vbox (2.59004pt too high) detected at line 35
  []
 
-[30
+[29
 
- <C:/Users/Markus/Documents/Git/Consulting/presentation/auc.pdf>] <spm_min15.pdf, id=603, 722.7pt x 722.7pt>
+ <C:/Users/Markus/Documents/Git/Consulting/presentation/auc.pdf>] <spm_min15.pdf, id=589, 722.7pt x 722.7pt>
 File: spm_min15.pdf Graphic file (type pdf)
 
 <use spm_min15.pdf>
-Package pdftex.def Info: spm_min15.pdf used on input line 53.
-(pdftex.def)             Requested size: 195.1316pt x 195.1316pt.
+Package pdftex.def Info: spm_min15.pdf used on input line 54.
+(pdftex.def)             Requested size: 216.81166pt x 216.81166pt.
 
-Overfull \vbox (0.42535pt too high) detected at line 53
+Overfull \hbox (17.64238pt too wide) in paragraph at lines 54--54
+[][]  
+ []
+
+[30
+
+ <C:/Users/Markus/Documents/Git/Consulting/presentation/spm_min15.pdf>]
+<netzwerk_length_10.pdf, id=609, 579.52625pt x 141.00891pt>
+File: netzwerk_length_10.pdf Graphic file (type pdf)
+ <use netzwerk_length_10.pdf>
+Package pdftex.def Info: netzwerk_length_10.pdf used on input line 60.
+(pdftex.def)             Requested size: 318.74042pt x 77.55513pt.
+
+Overfull \hbox (11.45055pt too wide) in paragraph at lines 60--60
+ [][] 
  []
 
 [31
 
- <C:/Users/Markus/Documents/Git/Consulting/presentation/spm_min15.pdf>]
-<netzwerk_length_10.pdf, id=624, 579.52625pt x 141.00891pt>
-File: netzwerk_length_10.pdf Graphic file (type pdf)
- <use netzwerk_length_10.pdf>
-Package pdftex.def Info: netzwerk_length_10.pdf used on input line 59.
-(pdftex.def)             Requested size: 318.74042pt x 77.55513pt.
-
-Overfull \hbox (11.45055pt too wide) in paragraph at lines 59--59
- [][] 
- []
-
-[32
-
  <C:/Users/Markus/Documents/Git/Consulting/presentation/netzwerk_length_10.pdf>]
-<out_labels.pdf, id=644, 115.0949pt x 95.3954pt>
+<out_labels.pdf, id=630, 115.0949pt x 95.3954pt>
 File: out_labels.pdf Graphic file (type pdf)
  <use out_labels.pdf>
-Package pdftex.def Info: out_labels.pdf used on input line 64.
+Package pdftex.def Info: out_labels.pdf used on input line 65.
 (pdftex.def)             Requested size: 201.41553pt x 166.94151pt.
- [33
+ [32
 
- <C:/Users/Markus/Documents/Git/Consulting/presentation/out_labels.pdf>] <out_filter_2_succ.png, id=673, 743.77875pt x 5
+ <C:/Users/Markus/Documents/Git/Consulting/presentation/out_labels.pdf>] <out_filter_2_succ.png, id=659, 743.77875pt x 5
 79.16376pt>
 File: out_filter_2_succ.png Graphic file (type png)
  <use out_filter_2_succ.png>
-Package pdftex.def Info: out_filter_2_succ.png used on input line 68.
+Package pdftex.def Info: out_filter_2_succ.png used on input line 69.
 (pdftex.def)             Requested size: 223.13535pt x 173.75046pt.
 
-[34
+[33
 
  <C:/Users/Markus/Documents/Git/Consulting/presentation/out_filter_2_succ.png>]
-<out_filter_50_fail.png, id=691, 729.72626pt x 569.12625pt>
+<out_filter_50_fail.png, id=677, 729.72626pt x 569.12625pt>
 File: out_filter_50_fail.png Graphic file (type png)
  <use out_filter_50_fail.png>
-Package pdftex.def Info: out_filter_50_fail.png used on input line 72.
+Package pdftex.def Info: out_filter_50_fail.png used on input line 73.
 (pdftex.def)             Requested size: 218.91957pt x 170.73918pt.
- [35
+ [34
 
- <C:/Users/Markus/Documents/Git/Consulting/presentation/out_filter_50_fail.png>] <in_labels.pdf, id=707, 260.6253pt x 23
+ <C:/Users/Markus/Documents/Git/Consulting/presentation/out_filter_50_fail.png>] <in_labels.pdf, id=693, 260.6253pt x 23
 0.0577pt>
 File: in_labels.pdf Graphic file (type pdf)
 
 <use in_labels.pdf>
-Package pdftex.def Info: in_labels.pdf used on input line 76.
+Package pdftex.def Info: in_labels.pdf used on input line 77.
 (pdftex.def)             Requested size: 195.46848pt x 172.54283pt.
- [36
+ [35
 
  <C:/Users/Markus/Documents/Git/Consulting/presentation/in_labels.pdf>]
-<in_filter_10_succ.png, id=736, 745.78625pt x 586.19pt>
+<in_filter_10_succ.png, id=722, 745.78625pt x 586.19pt>
 File: in_filter_10_succ.png Graphic file (type png)
  <use in_filter_10_succ.png>
-Package pdftex.def Info: in_filter_10_succ.png used on input line 80.
+Package pdftex.def Info: in_filter_10_succ.png used on input line 81.
 (pdftex.def)             Requested size: 223.7376pt x 175.85835pt.
- [37
+ [36
 
- <C:/Users/Markus/Documents/Git/Consulting/presentation/in_filter_10_succ.png>] <in_filter_10_fail.png, id=753, 753.8162
+ <C:/Users/Markus/Documents/Git/Consulting/presentation/in_filter_10_succ.png>] <in_filter_10_fail.png, id=738, 753.8162
 5pt x 590.205pt>
 File: in_filter_10_fail.png Graphic file (type png)
 
 <use in_filter_10_fail.png>
-Package pdftex.def Info: in_filter_10_fail.png used on input line 84.
+Package pdftex.def Info: in_filter_10_fail.png used on input line 85.
 (pdftex.def)             Requested size: 226.14662pt x 177.06287pt.
- [38
+ [37
 
  <C:/Users/Markus/Documents/Git/Consulting/presentation/in_filter_10_fail.png>])
 (C:\Users\Markus\Documents\Git\Consulting\presentation\zusammenfassung.tex
-(C:\Users\Markus\Documents\Git\Consulting\presentation\folien.toc) [39
+(C:\Users\Markus\Documents\Git\Consulting\presentation\folien.toc) [38
+
+] [39
 
 ] [40
 
-] [41
-
- <C:/Users/Markus/AppData/Roaming/MiKTeX/2.9/tex/latex/beamer/base/art/beamericonarticle.pdf>]) [42
+ <C:/Users/Markus/AppData/Roaming/MiKTeX/2.9/tex/latex/beamer/base/art/beamericonarticle.pdf>]) [41
 
 ]
 \tf@nav=\write6
@@ -1456,7 +1455,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 70.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 70.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 70.
 Package rerunfilecheck Info: File `folien.out' has not changed.
-(rerunfilecheck)             Checksum: BC4FF114C59649F9E5AF8D659EC4C34D;930.
+(rerunfilecheck)             Checksum: E842842BD16E163FCCE372442587AF0D;930.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1465,10 +1464,10 @@ LaTeX Font Warning: Size substitutions with differences
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 70.
  ) 
 Here is how much of TeX's memory you used:
- 16929 strings out of 493921
- 317882 string characters out of 3144874
+ 16925 strings out of 493921
+ 317845 string characters out of 3144874
  389688 words of memory out of 3000000
- 19635 multiletter control sequences out of 15000+200000
+ 19633 multiletter control sequences out of 15000+200000
  16708 words of font info for 62 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  49i,19n,62p,426b,707s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1482,9 +1481,9 @@ eX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files (x86)/MiKTe
 si10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Program Files (x86)/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on folien.pdf (42 pages, 1909856 bytes).
+Output written on folien.pdf (41 pages, 1905929 bytes).
 PDF statistics:
- 899 PDF objects out of 1000 (max. 8388607)
- 99 named destinations out of 1000 (max. 500000)
+ 885 PDF objects out of 1000 (max. 8388607)
+ 97 named destinations out of 1000 (max. 500000)
  301 words of extra memory for PDF output out of 10000 (max. 10000000)
 

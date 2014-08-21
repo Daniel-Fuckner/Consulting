@@ -6,10 +6,10 @@
 \beamer@subsectionintoc {2}{2}{Vergleich von konvertierten und nicht-konvertierten Funnels}{11}{0}{2}
 \beamer@sectionintoc {3}{Methoden}{15}{0}{3}
 \beamer@subsectionintoc {3}{1}{Zeitdiskretes Survival-Modell}{16}{0}{3}
-\beamer@subsectionintoc {3}{2}{Sequential Pattern Mining}{23}{0}{3}
-\beamer@subsectionintoc {3}{3}{Visualisierung anhand eines Netzwerkes}{24}{0}{3}
-\beamer@sectionintoc {4}{Ergebnisse}{26}{0}{4}
-\beamer@subsectionintoc {4}{1}{Zeitdiskretes Survival-Modell}{27}{0}{4}
-\beamer@subsectionintoc {4}{2}{Sequential Pattern Mining}{31}{0}{4}
-\beamer@subsectionintoc {4}{3}{Visualisierung anhand eines Netzwerkes}{32}{0}{4}
-\beamer@sectionintoc {5}{Zusammenfassung}{39}{0}{5}
+\beamer@subsectionintoc {3}{2}{Sequential Pattern Mining}{22}{0}{3}
+\beamer@subsectionintoc {3}{3}{Visualisierung anhand eines Netzwerkes}{23}{0}{3}
+\beamer@sectionintoc {4}{Ergebnisse}{25}{0}{4}
+\beamer@subsectionintoc {4}{1}{Zeitdiskretes Survival-Modell}{26}{0}{4}
+\beamer@subsectionintoc {4}{2}{Sequential Pattern Mining}{30}{0}{4}
+\beamer@subsectionintoc {4}{3}{Visualisierung anhand eines Netzwerkes}{31}{0}{4}
+\beamer@sectionintoc {5}{Zusammenfassung}{38}{0}{5}

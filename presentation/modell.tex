@@ -10,12 +10,7 @@
 	\begin{itemize}
 		\item Zeit bis zu einem Ereignis $\Rightarrow$ Konvertierung oder Nicht-Konvertierung bzw. Rechtszensierung
 		\item Positionen bilden Zeitachse des Modells $\Rightarrow$ Zeitdiskretes Modell
-		\item Stochastic Gradient Boosting mit Stümpfen als Basis-Lerner
-	\end{itemize}
-\end{frame}
-
-\begin{frame}
-	\begin{itemize}
+		%\item Stochastic Gradient Boosting mit Stümpfen als Basis-Lerner
 		\item Zielvariable:	
 			\begin{align*}
 				y_{ip} =& \begin{cases} 1 & \text{Beobachtung } i \text{ konvertiert an Position } p\\
@@ -23,6 +18,18 @@
 								 \end{cases}\\
 								&p=1,...,25 \text{, } i=1,...,N_p 
 			\end{align*}	
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\begin{itemize}
+		%\item Zielvariable:	
+			%\begin{align*}
+				%y_{ip} =& \begin{cases} 1 & \text{Beobachtung } i \text{ konvertiert an Position } p\\
+					%										 0 & \text{sonst} 
+						%		 \end{cases}\\
+							%	&p=1,...,25 \text{, } i=1,...,N_p 
+			%\end{align*}	
 		\item Hazardrate: 
 			\begin{align*}
 				\lambda_{ip} = P(y_{ip}=1|funnelLength_i \geq p, x_{ip})
@@ -30,34 +37,38 @@
 		\item Logit-Modell: 
 			\begin{align*}
 				y_{ip}|x_{ip} &\stackrel{ind}{\sim} Bin(1, \lambda_{ip})  \\
-				E(y_{ip}|x_{ip}) = P(y_{ip} = 1|x_{ip}) = \lambda_{ip} &= h(f_{ip}) = \frac{\exp(f_{ip})}{1+\exp(f_{ip})}
+				E(y_{ip}|x_{ip}) = P(y_{ip} = 1|x_{ip}) = \lambda_{ip} &= h(f_p(x_{ip})) = \frac{\exp(f_p(x_{ip}))}{1+\exp(f_p(x_{ip}))}
+			\end{align*}
+		\item Binomieller Verlust: 
+			\begin{align*}
+				L(y_{ip},f_p(x_{ip})) = -\sum_{i=1}^{N_p} (y_{ip} f_p(x_{ip}) + \ln(1+\exp(f_p(x_{ip}))))
 			\end{align*}
 	\end{itemize}
 \end{frame}
 
-\begin{frame}
-	\begin{itemize}
-		\item Likelihood: 
-			\begin{align*}
-				L(\lambda_{ip}) &= \prod_{i=1}^{N_p} \lambda_{ip}^{y_{ip}} (1-\lambda_{ip})^{1-y_{ip}}
-			\end{align*}
-		\item Log-Likelihood: 
-			\begin{align*}
-				l(\lambda_{ip}) &= \ln(L(\lambda_{ip})) = \sum_{i=1}^{N_p} (y_{ip} \ln(\lambda_{ip}) + (1-y_{ip}) \ln(1-\lambda_{ip}))\\
-				&= \sum_{i=1}^{N_p} (y_{ip} f(x_{ip}) - \ln(1+\exp(f(x_{ip}))))
-			\end{align*}
-		\item Binomieller Verlust: 
-			\begin{align*}
-				L(y,f) = -yf + \ln(1+\exp(f))
-			\end{align*}
-	\end{itemize}
-\end{frame}
+%\begin{frame}
+	%\begin{itemize}
+		%\item Likelihood: 
+			%\begin{align*}
+				%L(\lambda_{ip}) &= \prod_{i=1}^{N_p} \lambda_{ip}^{y_{ip}} (1-\lambda_{ip})^{1-y_{ip}}
+			%\end{align*}
+		%\item Log-Likelihood: 
+			%\begin{align*}
+				%l(\lambda_{ip}) &= \ln(L(\lambda_{ip})) = \sum_{i=1}^{N_p} (y_{ip} \ln(\lambda_{ip}) + (1-y_{ip}) \ln(1-\lambda_{ip}))\\
+				%&= \sum_{i=1}^{N_p} (y_{ip} f(x_{ip}) - \ln(1+\exp(f(x_{ip}))))
+			%\end{align*}
+		%\item Binomieller Verlust: 
+			%\begin{align*}
+				%L(y,f) = -yf + \ln(1+\exp(f))
+			%\end{align*}
+	%\end{itemize}
+%\end{frame}
 
 \begin{frame}
 	\begin{itemize}
 		\item Prädiktorfunktion:
 			\begin{align*}
-			f(x_{ip}) =&f_{weekday,p}(\text{weekday}_{ip}) +\\
+			f_p(x_{ip}) =&f_{weekday,p}(\text{weekday}_{ip}) +\\
 								 &f_{hour,p}(\text{hour}_{ip}) +\\
 								 &f_{campaign,p}(\text{campaign}_{ip}) +\\
 								 &f_{campaignLast,p}(\text{campaign}_{i,p-1}) +\\
@@ -103,7 +114,7 @@
 
 \begin{frame}\frametitle{Output des Modells}
 	\begin{itemize}
-		\item $\hat{f}(x_{ip})$ für jede Beobachtung $i$ und jede Position $p$
+		\item $\hat{f}_p(x_{ip})$ für jede Beobachtung $i$ und jede Position $p$
 			\begin{align*}
 				\hat{\lambda}_{ip} = \frac{\exp(\hat{f}(x_{ip}))}{1+\exp(\hat{f}(x_{ip}))}
 			\end{align*}

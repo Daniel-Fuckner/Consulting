@@ -14,11 +14,11 @@ NormalPos.top=26
 NormalPos.right=1419
 NormalPos.bottom=372
 Class=LaTeXView
-Document=modell.tex
+Document=ergebnisse.tex
 
 [Frame0_View0,0]
-TopLine=73
-Cursor=3261
+TopLine=36
+Cursor=1560
 
 [Frame1]
 Flags=0
@@ -32,11 +32,11 @@ NormalPos.top=26
 NormalPos.right=1419
 NormalPos.bottom=372
 Class=LaTeXView
-Document=zusammenfassung.tex
+Document=modell.tex
 
 [Frame1_View0,0]
 TopLine=0
-Cursor=654
+Cursor=169
 
 [Frame2]
 Flags=0
@@ -50,11 +50,11 @@ NormalPos.top=26
 NormalPos.right=1419
 NormalPos.bottom=372
 Class=LaTeXView
-Document=ergebnisse.tex
+Document=zusammenfassung.tex
 
 [Frame2_View0,0]
-TopLine=45
-Cursor=1767
+TopLine=0
+Cursor=654
 
 [Frame3]
 Flags=0
@@ -71,7 +71,7 @@ Class=LaTeXView
 Document=deskriptiv.tex
 
 [Frame3_View0,0]
-TopLine=145
+TopLine=142
 Cursor=5378
 
 [Frame4]
@@ -89,7 +89,7 @@ Class=LaTeXView
 Document=folien.tex
 
 [Frame4_View0,0]
-TopLine=50
+TopLine=47
 Cursor=668
 
 [SessionInfo]
