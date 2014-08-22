@@ -24,9 +24,9 @@ Aus diesen Annahmen lassen sich Likelihood (\ref{lik}) und Log-Likelihood (\ref{
 	l(\lambda_{ip}) &= \ln(L(\lambda_{ip})) = \sum_{i=1}^{N_p} (y_{ip} \ln(\lambda_{ip}) + (1-y_{ip}) \ln(1-\lambda_{ip})) \notag \\
 	&= \sum_{i=1}^{N_p} (y_{ip} f_p(x_{ip}) - \ln(1+\exp(f_p(x_{ip})))) \label{loglik}
 \end{align}
-Damit ergibt sich der binomielle Verlust aus der negativen Log-Likelihood (\ref{binVer}) und das Logit-Modell ist lösbar durch die Minimierung dieses Verlusts.
+Damit ergibt sich der binomielle Verlust (\ref{binVer}) aus der negativen Log-Likelihood und das Logit-Modell ist lösbar durch die Minimierung dieses Verlusts.
 \begin{align}
-	L(y_{ip},f_p(x_{ip})) = -\sum_{i=1}^{N_p} (y_{ip} f_p(x_{ip}) + \ln(1+\exp(f_p(x_{ip}))))
+	L(y_{ip},f_p(x_{ip})) = -\sum_{i=1}^{N_p} (y_{ip} f_p(x_{ip}) + \ln(1+\exp(f_p(x_{ip}))))\label{binVer}
 \end{align}
 Um ein gutes Prognose-Modell zu entwickeln, wird eine Ensemble-Methode angewendet, die im nächsten Abschnitt vorgestellt wird.
 

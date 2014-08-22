@@ -2,13 +2,13 @@
 \defcounter {refsection}{0}\relax 
 \select@language {ngerman}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {1}{\ignorespaces Beispiel f\IeC {\"u}r einen Auszug aus der Datenbank}}{3}
+\contentsline {table}{\numberline {1}{\ignorespaces Beispiel f\IeC {\"u}r einen Auszug aus der Datenbank}}{2}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2}{\ignorespaces Beschreibung der Kampagnen}}{4}
+\contentsline {table}{\numberline {2}{\ignorespaces Beschreibung der Kampagnen}}{3}
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {3}{\ignorespaces Variablenbeschreibung}}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4}{\ignorespaces Beispiel f\IeC {\"u}r eine Input-Datenbank f\IeC {\"u}r den SPADE-Algorithmus}}{23}
+\contentsline {table}{\numberline {4}{\ignorespaces Beispiel f\IeC {\"u}r eine Input-Datenbank f\IeC {\"u}r den SPADE-Algorithmus}}{22}
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {5}{\ignorespaces ID-Listen der Items}}{23}
 \defcounter {refsection}{0}\relax 
@@ -17,3 +17,5 @@
 \contentsline {table}{\numberline {7}{\ignorespaces Verkn\IeC {\"u}pfung von ID-Listen}}{25}
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {8}{\ignorespaces Transformation in horizontale Datenbank}}{26}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {9}{\ignorespaces \IeC {\"U}bersicht der Gephi Dateien}}{46}

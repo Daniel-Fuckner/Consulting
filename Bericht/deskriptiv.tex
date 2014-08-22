@@ -1,6 +1,6 @@
 \section{Deskriptive  Analyse}\label{descriptiv}
 
-Tabelle \ref{varbeschreibung} enthält eine Übersicht mit den erzeugten Variablen. Diese werden in diesem Kapitel näher betrachtet. Als Position wird im folgenden die Nummer eines Kontaktpunktes innerhalb eines Funnels bezeichnet. Das heißt für jeden Funnel nimmt der erste Kontakt die Position $1$ an. Alle folgenden Abbildungen dieses Berichts wurden mit dem R-Paket \textit{ggplot2} \cite{ggplot2} erzeugt.
+Tabelle \ref{varbeschreibung} enthält eine Übersicht mit den erzeugten Variablen. Diese werden in diesem Kapitel näher betrachtet. Als Position wird im folgenden die Nummer eines Kontaktpunktes innerhalb eines Funnels bezeichnet. Das heißt für jeden Funnel nimmt der erste Kontakt die Position $1$ an. Die Abbildungen wurden mit dem \textit{R}-Paket \textit{ggplot2} \cite{ggplot2} erzeugt.
 \begin{table}[H]
     \begin{center}
 \begin{tabular}{|c|p{10cm}|}
@@ -23,19 +23,20 @@ Tabelle \ref{varbeschreibung} enthält eine Übersicht mit den erzeugten Variabl
 \subsection{Views in den konvertierten Funnels}\label{plotsViews}
 
 \subsubsection*{clickCount}
-Aufgrund der in Kapitel \ref{datenlage} beschriebenen Problematik bei der Datenerhebung der \textit{Views} können die Variablen \textit{clickCount} und \textit{hasClicked} nur in den konvertierten Funnels betrachtet werden. In Abbildung \ref{clickCount} ist der \textit{clickCount} dargestellt. Auf der $x$-Achse ist die Position aufgetragen und auf der $y$-Achse der \textit{clickCount}, das heißt die Häufigkeit der \textit{Clicks} gemittelt über alle konvertierten Funnels für jede Position. Die rote Diagonale wäre erreicht, wenn die konvertierten Funnels nur aus \textit{Clicks} bestehen würden. Es ist zu erkennen, dass die Linie mit der Position ansteigt. An Position $100$ ist die mittlere Anzahl der Clicks 13.7, das heißt im Mittel bestehen die ersten $100$ Kontakte eines Funnels aus $14$ \textit{Clicks} und $86$ \textit{Views}. Die Anzahl der \textit{Views} übersteigt die Anzahl der \textit{Clicks} also deutlich.\\
+Aufgrund der in Kapitel \ref{datenlage} beschriebenen Problematik bei der Datenerhebung der \textit{Views} können die Variablen \textit{clickCount} und \textit{hasClicked} nur in den konvertierten Funnels betrachtet werden.
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.3]{clickCountSucc.pdf}
+    \includegraphics[scale=0.5]{clickCountSucc.pdf}
     \caption[Häufigkeit der Clicks im Mittel]{Häufigkeit der Clicks im Mittel für jede Position}
     \label{clickCount}
 \end{figure}
+\noindent In Abbildung \ref{clickCount} ist der \textit{clickCount} dargestellt. Auf der $x$-Achse ist die Position aufgetragen und auf der $y$-Achse der \textit{clickCount}, das heißt die Häufigkeit der \textit{Clicks} gemittelt über alle konvertierten Funnels für jede Position. Die rote Diagonale wäre erreicht, wenn die konvertierten Funnels nur aus \textit{Clicks} bestehen würden. Es ist zu erkennen, dass die Linie mit der Position ansteigt. An Position $100$ ist die mittlere Anzahl der Clicks 13.7, das heißt im Mittel bestehen die ersten $100$ Kontakte eines Funnels aus $14$ \textit{Clicks} und $86$ \textit{Views}. Die Anzahl der \textit{Views} übersteigt die Anzahl der \textit{Clicks} also deutlich.\\
 
 \subsubsection*{hasClicked}
 Die Variable \textit{hasClicked} (siehe Abbildung \ref{hasClicked}) gibt für jede Position den Anteil der Funnels an, die bis dorthin mindestens einen \textit{Click} enthalten. Dieser Wert nimmt zwischen Position $1$ und Position $7$ ab. Dies ist dadurch zu erklären, dass es viele Funnels gibt, die \textit{Clicks} enthalten und deren Länge kleiner als $6$ ist. Sobald diese Funnels beendet sind, werden sie an der nächsten Position selbstverständlich nicht mehr berücksichtigt. Ab Position $7$ steigt die Kurve dann bis zur $1$ an. Ein Wert von $1$ bedeutet, dass alle Funnels bereits einen \textit{Click} hatten.
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.3]{hasClickedSucc.pdf}
+    \includegraphics[scale=0.5]{hasClickedSucc.pdf}
     \caption[Anteil Funnels mit mindestens einem Click]{Anteil der Funnels mit mindestems einem Click für jede Position}
     \label{hasClicked}
 \end{figure}
@@ -46,7 +47,7 @@ Es ist zu erkennen, dass die Kampagne \textit{Display} bei den Funnels mit \text
 Werden die \textit{Views} nicht berücksichtigt so verteilen sich die Kampagnen besser. \textit{Display} macht jetzt weniger als $10 \%$ aus und \textit{Direct} ist mit über $35 \%$ die am häufigsten auftretende Kampagne. Außerdem haben auch \textit{SEO}, \textit{SEM - Generisch}, \textit{SEM - Brand}, \textit{Kooperationen - Immoscout24} und \textit{Affiliate - Partnerprogramm} einen Anteil von über $5 \%$. Die restlichen Kampagnen, besonders \textit{Social Media}, machen nur einen kleinen Teil der Daten aus.
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.5]{campaignSucc.pdf}
+    \includegraphics[scale=0.6]{campaignSucc.pdf}
     \caption[Kampagnen der konvertierten Funnels]{Kampagnen der konvertierten Funnels mit und ohne Views}
     \label{campaignSucc}
 \end{figure}
@@ -60,20 +61,20 @@ Die Variable \textit{Weekday} gibt an, an welchem Wochentag ein Konaktpunkt aufg
 Es ist zu erkennen, dass die Häufigkeit der Kontaktpunkte von Montag bis Samstag sinkt. Dieser Trend ist in den konvertierten Funnels etwas stärker. Dort sinkt die relative Häufigkeit von $ 0.17 $ am Montag auf $ 0.09 $ am Samstag. Bei den nicht-konvertierten Funnels sinkt die relative Häufigkeit von $ 0.15 $ am Montag auf $ 0.11 $ am Samstag. Außerdem ist der Sonntag bei den nicht-konvertierten mit Abstand der stärkste Tag, während in den konvertierten Funnels der Montag etwas stärker ist als der Sonntag.
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.5]{weekday.pdf}
+    \includegraphics[scale=0.6]{weekday.pdf}
     \caption{Wochentage der Kontaktpunkte}
     \label{weekday}
 \end{figure}
 
 \subsubsection*{hour}
 Analog zu der Abbildung mit den Wochentagen, enthält Abbildung \ref{hour} Informationen zu der Uhrzeit der Kontaktpunkte in konvertierten und nicht-konvertierten Funnels. Hierfür wurden die Minutenangaben der Uhrzeit jeweils abgeschnitten, so dass \textit{hour} nur die Werte $0,1,...,23$ annehmen kann.\\
-Die Verteilungen in konvertierten und nicht-konvertierten Funnels sind sich sehr ähnlich, so dass keine deutlichen Unterschiede erkennbar sind. Insgesamt kann man zusammenfassen, dass in der Nacht zwischen zwei und sechs Uhr sehr wenige Kontaktpunkte stattfinden. Ab sechs Uhr steigt die relative Häufigkeit der Kontaktpunkte bis circa elf Uhr an und dann bleibt sie konstant bis circa $21$ Uhr. Daraufhin fällt die relative Häufigkeit wieder ab. Dies ist lediglich darauf zurück zu führen, dass nachts weniger Menschen online sind.
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.5]{hour.pdf}
+    \includegraphics[scale=0.6]{hour.pdf}
     \caption{Uhrzeit der Kontaktpunkte}
     \label{hour}
 \end{figure}
+\noindent Die Verteilungen in konvertierten und nicht-konvertierten Funnels sind sich sehr ähnlich, so dass keine deutlichen Unterschiede erkennbar sind. Insgesamt kann man zusammenfassen, dass in der Nacht zwischen zwei und sechs Uhr sehr wenige Kontaktpunkte stattfinden. Ab sechs Uhr steigt die relative Häufigkeit der Kontaktpunkte bis circa elf Uhr an und dann bleibt sie konstant bis circa $21$ Uhr. Daraufhin fällt die relative Häufigkeit wieder ab. Dies ist lediglich darauf zurück zu führen, dass nachts weniger Menschen online sind.
 
 \subsubsection*{campaign}
 Wie bereits in Kapitel \ref{plotsViews} werden die verschiedenen Kampagnen betrachtet. Allerdings werden an dieser Stelle die konvertierten und nicht-konvertierten Funnels miteinander verglichen, wobei die \textit{Views} nicht berücksichtigt werden (siehe Abbildung \ref{campaign}). Das heißt, die Verteilung der konvertierten Funnels ohne \textit{Views} aus Kapitel \ref{plotsViews} entspricht der Verteilung der konvertierten Funnels in diesem Abschnitt. Eine nähere Beschreibung der unterschiedlichen Kampagnen ist in Abbildung \ref{beschreibungCampaign} zu finden.\\
@@ -81,7 +82,7 @@ Die Verteilung in den konvertierten Funnels wurde bereits in Kapitel \ref{plotsV
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.5]{campaign.pdf}
+	\includegraphics[scale=0.6]{campaign.pdf}
 	\caption{Kampagnen der konvertierten und nicht-konvertierten Funnels}
 	\label{campaign}
 \end{figure}
@@ -92,7 +93,7 @@ Von den nicht-konvertierten Funnels haben $75 \%$ nur einen Kontaktpunkt. Von do
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.5]{funnelLength_First.pdf}
+    \includegraphics[scale=0.6]{funnelLength_First.pdf}
     \caption[Länge der Funnels]{Länge der Funnels in konvertierten und nicht-konvertierten Funnels}
     \label{funnelLength}
 \end{figure}
@@ -103,7 +104,7 @@ Hier gestaltet sich ein ähnliches Bild wie in Abbildung \ref{funnelLength}. All
 Auffällig sind außerdem die Hückel, die im Rhythmus von sieben Tagen auftreten. Dies ist darauf zurückzuführen, dass Sonntag und Montag die zwei Tage mit den häufigsten Kontakten sind und beispielsweise Bannerschaltungen am Wochenende besonders häufig eingesetzt werden. Bei den konvertierten Funnels liegt der Mittelwert der Beobachtungsdauer bei $21.1$ Tagen und bei den nicht-konvertierten Funnels bei $5.3$ Tagen. 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.5]{timeSinceFirst_Last.pdf}
+    \includegraphics[scale=0.6]{timeSinceFirst_Last.pdf}
     \caption[Beobachtungsdauer in Tagen]{Beobachtungsdauer in Tagen der konvertierten und nicht-konvertierten Funnels}
     \label{timeSinceFirst}
 \end{figure}
@@ -114,7 +115,7 @@ Die relative Häufigkeit der Abstände, die kürzer als ein Tag sind ist bei den
 Da hier nur die Verteilungen jeweils innerhalb der konvertierten und nicht-konvertierten Funnels verglichen werden, ist \textit{timeSinceLast} keine geeignetes Maß zum Vergleich der Frequenzen der Kontaktpunkte. Dafür wurde die Variable \textit{freq} erzeugt, die im nächsten Abschnitt beschrieben wird.
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.5]{timeSinceLast.pdf}
+    \includegraphics[scale=0.6]{timeSinceLast.pdf}
     \caption[Dauer zwischen zwei Kontaktpunkten]{Dauer zwischen zwei Kontaktpunkten in den konvertierten und nicht-konvertierten Funnels}
     \label{timeSinceLast}
 \end{figure}
@@ -125,7 +126,7 @@ Für die Funnel Länge zwei liegt der Median der Frequenzen bei 1.22 in den konv
 Insgesamt ist zu erkennen, dass die Frequenzen in den nicht-konvertierten Funnels höher zu sein scheint. Das heißt in denjenigen Funnels die zu keiner Konvertierung führen liegen die Kontaktpunkte näher beieinander, während sie in den konvertierten Funnels mehr über die Zeit verteilt sind.\\
 \begin{figure}[H]
 		\centering
-	\includegraphics[scale=0.5]{freq.pdf}
+	\includegraphics[scale=0.6]{freq.pdf}
 	\caption[Frequenz der Kontaktpunkte]{Frequenz der Kontaktpunkte in konvertierten und nicht-konvertierten Funnels}
 	\label{freq}
 \end{figure}

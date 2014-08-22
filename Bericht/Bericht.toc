@@ -6,7 +6,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2}Datenlage}{2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Deskriptive Analyse}{5}
+\contentsline {section}{\numberline {3}Deskriptive Analyse}{4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1}Views in den konvertierten Funnels}{5}
 \defcounter {refsection}{0}\relax 
@@ -28,18 +28,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6}Visualisierung der Daten anhand eines Netzwerkes}{27}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Ergebnisse}{30}
+\contentsline {section}{\numberline {7}Ergebnisse}{29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1}Zeitdiskretes Survival-Modell}{30}
+\contentsline {subsection}{\numberline {7.1}Zeitdiskretes Survival-Modell}{29}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.2}Sequential Pattern Mining}{37}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3}Netzwerk}{40}
+\contentsline {subsection}{\numberline {7.3}Netzwerk}{39}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Zusammenfassung}{46}
+\contentsline {section}{\numberline {8}Zusammenfassung}{43}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9}Elektronischer Anhang}{47}
+\contentsline {section}{\numberline {9}Elektronischer Anhang}{44}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.1}Verzeichnisstruktur}{47}
+\contentsline {subsection}{\numberline {9.1}Verzeichnisstruktur}{44}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2}Tutorial zu Gephi}{49}
+\contentsline {subsection}{\numberline {9.2}Tutorial zu Gephi}{46}

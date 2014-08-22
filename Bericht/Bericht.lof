@@ -4,7 +4,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {1}{\ignorespaces Entstehung eines Funnels}}{1}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2}{\ignorespaces H\IeC {\"a}ufigkeit der Clicks im Mittel}}{6}
+\contentsline {figure}{\numberline {2}{\ignorespaces H\IeC {\"a}ufigkeit der Clicks im Mittel}}{5}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3}{\ignorespaces Anteil Funnels mit mindestens einem Click}}{6}
 \defcounter {refsection}{0}\relax 
@@ -30,30 +30,36 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {14}{\ignorespaces Wichtigkeit der Variablen}}{31}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {15}{\ignorespaces Marginaler Effekt von \textit {Campaign}}}{33}
+\contentsline {figure}{\numberline {15}{\ignorespaces Marginaler Effekt von \textit {Campaign}}}{32}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {16}{\ignorespaces Marginaler Effekt von \textit {CampaignLast}}}{34}
+\contentsline {figure}{\numberline {16}{\ignorespaces Marginaler Effekt von \textit {CampaignLast}}}{33}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {17}{\ignorespaces Marginaler Effekt von \textit {TimeSinceFirst} und \textit {TimeSinceLast}}}{35}
+\contentsline {figure}{\numberline {17}{\ignorespaces Marginaler Effekt von \textit {TimeSinceFirst} und \textit {TimeSinceLast}}}{34}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {18}{\ignorespaces ROC-Kurve}}{36}
+\contentsline {figure}{\numberline {18}{\ignorespaces ROC-Kurve}}{35}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {19}{\ignorespaces AUC-Wert}}{37}
+\contentsline {figure}{\numberline {19}{\ignorespaces AUC-Wert}}{36}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {20}{\ignorespaces H\IeC {\"a}ufige Sequenzen}}{38}
+\contentsline {figure}{\numberline {20}{\ignorespaces H\IeC {\"a}ufige Sequenzen}}{37}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {21}{\ignorespaces H\IeC {\"a}ufige Sequenzen in Funnels mit mindestens $15$ Kontaktpunkten}}{39}
+\contentsline {figure}{\numberline {21}{\ignorespaces H\IeC {\"a}ufige Sequenzen in Funnels mit mindestens $15$ Kontaktpunkten}}{38}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {22}{\ignorespaces Relative Ausg\IeC {\"a}nge}}{41}
+\contentsline {figure}{\numberline {22}{\ignorespaces Relative Ausg\IeC {\"a}nge}}{40}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {23}{\ignorespaces Relative Ausg\IeC {\"a}nge mit Filter $0.02$}}{42}
+\contentsline {figure}{\numberline {23}{\ignorespaces Relative Ausg\IeC {\"a}nge mit Filter $0.02$}}{40}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {24}{\ignorespaces Relative Ausg\IeC {\"a}nge mit Filter $0.5$}}{43}
+\contentsline {figure}{\numberline {24}{\ignorespaces Relative Ausg\IeC {\"a}nge mit Filter $0.5$}}{41}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {25}{\ignorespaces Relative Eing\IeC {\"a}nge}}{44}
+\contentsline {figure}{\numberline {25}{\ignorespaces Relative Eing\IeC {\"a}nge}}{42}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {26}{\ignorespaces Relative Eing\IeC {\"a}nge mit Filter $0.1$ und Fokus auf Konvertierten}}{45}
+\contentsline {figure}{\numberline {26}{\ignorespaces Relative Eing\IeC {\"a}nge mit Filter $0.1$ und Fokus auf Konvertierten}}{42}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {27}{\ignorespaces Relative Eing\IeC {\"a}nge mit Filter $0.1$ und Fokus auf Nicht-Konvertierten}}{46}
+\contentsline {figure}{\numberline {27}{\ignorespaces Relative Eing\IeC {\"a}nge mit Filter $0.1$ und Fokus auf Nicht-Konvertierten}}{43}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {28}{\ignorespaces Verzeichnisstruktur des Projekts}}{47}
+\contentsline {figure}{\numberline {28}{\ignorespaces Verzeichnisstruktur des Projekts}}{45}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {29}{\ignorespaces Workspace in Gephi}}{47}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {30}{\ignorespaces N\IeC {\"a}here Betrachtung einer Position in Gephi}}{48}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {31}{\ignorespaces Export in Gephi}}{49}

@@ -16,7 +16,6 @@ Das Problem des Sequential Pattern Mining besteht darin, in einer Datenbank $D$ 
 
 \subsection{SPADE}
 Im Folgenden wird der SPADE Algorithmus \cite{spade} vorgestellt, der in dem $R$-Paket \textit{arulesSequences} \cite{arulesSequences} implementiert ist. Dieser sucht häufige Sequenzen von Itemsets, das heißt er kann auch mit Daten umgehen, die mehrere Items pro Zeitpunkt enthalten. Da ein Benutzer nur eine Webseite zum exakt selben Zeitpunkt besuchen kann, ist diese Eigenschaft in diesem Fall nicht relevant.\\
-Die Daten werden für den Algorithmus vertikal bezüglich der IDs angeordnet, so dass diese sich in der ersten Spalte der Datenbank befinden. Die zweite Spalte enthält die Zeit des Kontaktes, die dritte Spalte die Anzahl der Items zu diesem Zeitpunkt und die vierte Spalte die eigentlichen Items. Bei den gegebenen Daten sind die Zeitpunkte die Positionen und damit pro ID von eins bis zur Anzahl der Positionen für die ID durchnummeriert. Die Anzahl der Items in der dritten Spalte ist immer gleich eins und die vierte Spalte enthält pro Zeile nur ein Item (siehe Tabelle \ref{input}).\\
 \begin{table}[H]
 \centering
 \begin{tabular}{c|c|c|c}
@@ -34,6 +33,7 @@ ID & Position  & Anzahl Items & Items \\ \hline
 \end{tabular}
 \caption{Beispiel für eine Input-Datenbank für den SPADE-Algorithmus}\label{input}
 \end{table}
+\noindent Die Daten werden für den Algorithmus vertikal bezüglich der IDs angeordnet, so dass diese sich in der ersten Spalte der Datenbank befinden. Die zweite Spalte enthält die Zeit des Kontaktes, die dritte Spalte die Anzahl der Items zu diesem Zeitpunkt und die vierte Spalte die eigentlichen Items. Bei den gegebenen Daten sind die Zeitpunkte die Positionen und damit pro ID von eins bis zur Anzahl der Positionen für die ID durchnummeriert. Die Anzahl der Items in der dritten Spalte ist immer gleich eins und die vierte Spalte enthält pro Zeile nur ein Item (siehe Tabelle \ref{input}).\\
 
 \subsubsection*{Berechnung des Supports}
 In diesem Abschnitt wird beschrieben, wie der Support einer Sequenz berechnet wird. Tabelle \ref{idlist} enthält die ID-Listen der Items aus den Daten aus Tabelle \ref{input}. Item $A$ beispielsweise, tritt für ID $1$ an Position $1$ und $3$ und für ID $4$ an Position $1$ auf.\\
@@ -48,7 +48,7 @@ ID & Position  & ID & Position  & ID & Position  & ID & Position  \\ \hline
 \end{tabular}
 \caption{ID-Listen der Items}\label{idlist}
 \end{table}
-Jede Sequenz ist eine zeitabhängige Verknüpfung von Items und der Support der Sequenz kann mittels einer zeitabhängigen Verknüpfung der ID-Listen jedes Items in der Sequenz berechnet werden. In Tabelle \ref{tempjoin} ist diese Vorgehen beispielhaft für die Sequenz $A\rightarrow D\rightarrow B$ dargestellt. Den Support ergibt sich dann, indem die Anzahl der einzigartigen IDs, die die Sequenz enthalten, durch die Anzahl aller IDs in den Daten geteilt wird.\\
+\noindent Jede Sequenz ist eine zeitabhängige Verknüpfung von Items und der Support der Sequenz kann mittels einer zeitabhängigen Verknüpfung der ID-Listen jedes Items in der Sequenz berechnet werden. In Tabelle \ref{tempjoin} ist diese Vorgehen beispielhaft für die Sequenz $A\rightarrow D\rightarrow B$ dargestellt. Den Support ergibt sich dann, indem die Anzahl der einzigartigen IDs, die die Sequenz enthalten, durch die Anzahl aller IDs in den Daten geteilt wird.\\
 \begin{table}[H]
 \centering
 \begin{tabular}{c|c||c|c|c||c|c|c|c}
@@ -60,7 +60,7 @@ ID & Pos(A) 	    		  & ID & Pos(A) & Pos(D) 		 & ID & Pos(A) & Pos(D) & Pos(B) \
 \end{tabular}
 \caption{Temporale Verknüpfung}\label{tempjoin}
 \end{table}
-Werden für jedes Item einer Sequenz die Zeitpunkte zusammengefasst, wie in Tabelle \ref{tempjoin} dargestellt, so wird sehr viel Speicherplatz verbraucht. Um diesem Problem entgegen zu wirken, wird das Korollar ausgenutzt, das besagt, dass eine Sequenz der Länge $k$ immer aus der Kombination ihrer lexikographisch ersten zwei Subsequenzen der Länge $(k-1)$ gebildet werden kann. Damit werden für jede Sequenz die ID-Spalte und nur eine Spalte für die Zeitpunkte benötigt.\\
+\noindent Werden für jedes Item einer Sequenz die Zeitpunkte zusammengefasst, wie in Tabelle \ref{tempjoin} dargestellt, so wird sehr viel Speicherplatz verbraucht. Um diesem Problem entgegen zu wirken, wird das Korollar ausgenutzt, das besagt, dass eine Sequenz der Länge $k$ immer aus der Kombination ihrer lexikographisch ersten zwei Subsequenzen der Länge $(k-1)$ gebildet werden kann. Damit werden für jede Sequenz die ID-Spalte und nur eine Spalte für die Zeitpunkte benötigt.\\
 Dies führt zu einer Speicherreduktion da die zwei ersten Sequenzen der Länge $(k-1)$, $X_1$ und $X_2$, einer Sequenz $X$ einen Prefix der Länge $(k-2)$ teilen. Damit sind auch die Zeitpunkte im Prefix gleich und $X_1$ und $X_2$ unterscheiden sich lediglich bezüglich des letzten Items.\\
 In dem Beispiel mit $X=(A\rightarrow D\rightarrow B)$ entsteht $X$ durch den temporalen join von $X_1=(A\rightarrow D)$ und $X_2=(A\rightarrow B)$. $X_1$ entsteht durch das Wegfallen des letzten Items von $X$ und $X_2$ durch das Wegfallen des vorletzten Items. Im Falle längerer Sequenzen wird dieses Vorgehen rekursiv durchgeführt bis die einzelnen Items übrig bleiben. Sei $X$ eine Subsequenz von $Y$, so gilt, dass die Mächtigkeit der ID-Liste von $Y$ kleiner oder gleich der Mächtigkeit der ID-Liste von $X$ sein muss. Das führt zu schnellen Joins und schnellen Berechnungen des Supports.
 
@@ -96,7 +96,7 @@ ID  & Position & ID  & Position & ID & Position & ID & Position \\ \hline
 \end{tabular}
 \caption{Verknüpfung von ID-Listen}\label{join}
 \end{table}
-Tabelle \ref{join} enthält ein Beispiel zur Verknüpfung von den ID-Listen von $P\rightarrow B$ und $P\rightarrow C$. Um die ID-Liste von $P\rightarrow B\rightarrow C$ zu ermitteln muss überprüft werden, ob es zeitliche Beziehungen gibt. Das heißt, für jedes $(ID_i,Position_i)$-Paar aus der ID-Liste von $P\rightarrow B$ wird überprüft, ob es in der ID-Liste von $P\rightarrow C$ ein $(ID_j,Position_j)$-Paar gibt mit $Position_j > Position_i$ und $ID_i = ID_j$. Wenn dies der Fall ist, so enthält $ID_i$ die Sequenz $P\rightarrow B\rightarrow C$ und das Paar $(ID_i, Position_k)$ wird dessen ID-Liste hinzugefügt. Die ID-Liste von $P\rightarrow C\rightarrow B$ wird analog ermittelt.\\
+\noindent Tabelle \ref{join} enthält ein Beispiel zur Verknüpfung von den ID-Listen von $P\rightarrow B$ und $P\rightarrow C$. Um die ID-Liste von $P\rightarrow B\rightarrow C$ zu ermitteln muss überprüft werden, ob es zeitliche Beziehungen gibt. Das heißt, für jedes $(ID_i,Position_i)$-Paar aus der ID-Liste von $P\rightarrow B$ wird überprüft, ob es in der ID-Liste von $P\rightarrow C$ ein $(ID_j,Position_j)$-Paar gibt mit $Position_j > Position_i$ und $ID_i = ID_j$. Wenn dies der Fall ist, so enthält $ID_i$ die Sequenz $P\rightarrow B\rightarrow C$ und das Paar $(ID_i, Position_k)$ wird dessen ID-Liste hinzugefügt. Die ID-Liste von $P\rightarrow C\rightarrow B$ wird analog ermittelt.\\
 Da nur Sequenzen innerhalb einer Klasse, die den selben Prefix besitzen, verknüpft werden, muss nur die Position des letzten Items berücksichtigt werden.
 
 \subsubsection*{Der Algorithmus}
@@ -127,7 +127,7 @@ ID & (Item, Position)-Paare \\ \hline
 \end{tabular}
 \caption{Transformation in horizontale Datenbank}\label{hor}
 \end{table}
-Daraufhin wird die Menge $\epsilon$ aller Äquivalenzklassen $[X]_{\theta_1}$ gebildet. Das heißt alle 2-Sequenzen, die das selbe erste Item haben, werden zu einer Klasse zusammengefasst.\\
+\noindent Daraufhin wird die Menge $\epsilon$ aller Äquivalenzklassen $[X]_{\theta_1}$ gebildet. Das heißt alle 2-Sequenzen, die das selbe erste Item haben, werden zu einer Klasse zusammengefasst.\\
 Im letzten Schritt werden dann für alle Klassen $[X]$ aus $\epsilon$ die häufigen Sequenzen ermittelt. Dies geschieht durch die Verknüpfung der ID-Listen von allen Elementen aus $[X]$ und der Überprüfung, ob diese den minimalen Support erfüllen. Die als häufig ermittelten Sequenzen liefern die ID-Listen zur Verknüpfung auf der nächsten Ebene. Dieser Prozess wird fortgesetzt bis alle häufigen Sequenzen ermittelt wurden. Dieser Suchvorgang kann mittels BFS oder DFS bewerkstelligt werden.\\
 
 \subsubsection*{Pruning}
